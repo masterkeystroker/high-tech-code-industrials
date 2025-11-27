@@ -1,0 +1,75 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+    <BorderGapMaskConverter x:Key="BorderGapMaskConverter"/>
+    <!-- Resource dictionary entries should be defined here. -->
+    <Style x:Key="CretaGroupBox_thin" TargetType="{x:Type GroupBox}">
+        <Setter Property="BorderBrush" Value="#D5DFE5"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type GroupBox}">
+                    <Grid SnapsToDevicePixels="true">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="6"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="6"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="6"/>
+                        </Grid.RowDefinitions>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="ValidationStates">
+                                <VisualState x:Name="Valid"/>
+                                <VisualState x:Name="InvalidFocused"/>
+                                <VisualState x:Name="InvalidUnfocused"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Border x:Name="bg" Grid.ColumnSpan="4" CornerRadius="4" Grid.Row="1" Grid.RowSpan="3" Background="{x:Null}" Opacity="1" Visibility="Visible" BorderThickness="2" Margin="0,8,0,0">
+                            <Border.BorderBrush>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF252525" Offset="1"/>
+                                    <GradientStop Color="#FF414141"/>
+                                </LinearGradientBrush>
+                            </Border.BorderBrush>
+                            <Border.Effect>
+                                <DropShadowEffect Direction="0" BlurRadius="10" ShadowDepth="0" Opacity="1"/>
+                            </Border.Effect>
+                        </Border>
+                        <Border Grid.ColumnSpan="4" Grid.Column="0" CornerRadius="4" Grid.Row="1" Grid.RowSpan="3" BorderThickness="1" Background="{x:Null}" Visibility="Collapsed" Margin="0">
+                            <Border.BorderBrush>
+                                <SolidColorBrush Color="{DynamicResource CretaPrint_BorderWindow}"/>
+                            </Border.BorderBrush>
+                        </Border>
+						<TextBlock Grid.Column="1" Height="Auto" Margin="0,-4,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding Header, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type GroupBox}}}" VerticalAlignment="Top" FontSize="12" FontWeight="Bold">
+							<TextBlock.Foreground>
+								<SolidColorBrush Color="orange"/>
+							</TextBlock.Foreground>
+						</TextBlock>
+                        <Border x:Name="Header" Grid.Column="1" Padding="3,1,3,0" Grid.Row="0" Grid.RowSpan="2" Visibility="Hidden">
+                            <ContentPresenter ContentSource="Header" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}">
+                                <ContentPresenter.Resources>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="FontSize" Value="11"/>
+                                        <Setter Property="FontWeight" Value="Bold"/>
+                                        <Setter Property="Foreground" Value="orange"/>
+                                    </Style>
+                                </ContentPresenter.Resources>
+                                <ContentPresenter.Effect>
+                                    <DropShadowEffect ShadowDepth="1" BlurRadius="10"/>
+                                </ContentPresenter.Effect>
+                            </ContentPresenter>
+                        </Border>
+                        <ContentPresenter Grid.ColumnSpan="2" Grid.Column="1" Margin="{TemplateBinding Padding}" Grid.Row="2" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

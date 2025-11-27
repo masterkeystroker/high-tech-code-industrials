@@ -1,0 +1,47 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:local="clr-namespace:CretaBase"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<ControlTemplate x:Key="CretaCheckBoxC4" TargetType="{x:Type CheckBox}">
+		<StackPanel Orientation="Horizontal" Cursor="Hand" Background="transparent">
+			<Canvas Width="37.475" Height="37.475" Background="White" Margin="5,0,0,0">
+				<Canvas.LayoutTransform>
+                	<ScaleTransform ScaleX="0.7" ScaleY="0.7" />
+                </Canvas.LayoutTransform>
+				<Canvas>
+					<Canvas>
+						<Path StrokeThickness="1.0" Stroke="#ff6f6e6e" StrokeMiterLimit="1.0" Data="F1 M 36.975,36.975 L 0.500,36.975 L 0.500,0.500 L 36.975,0.500 L 36.975,36.975 Z"/>
+						<Path Fill="#ff49a00b" x:Name="OK" Data="F1 M 15.477,27.870 L 5.192,17.587 L 8.461,14.320 L 15.477,21.335 L 29.014,7.797 L 32.282,11.064 L 15.477,27.870 M 15.477,27.870"/>
+			  		</Canvas>
+			  </Canvas>
+			</Canvas>
+			<TextBlock Text="{TemplateBinding Content}" FontFamily="Arial" Margin="5,5,0,5" VerticalAlignment="Center" Foreground="{DynamicResource CretaprintC4_GrisClaro_Trazos_br}" FontSize="14"/>
+		</StackPanel>
+		<ControlTemplate.Triggers>
+			<Trigger Property="IsMouseOver" Value="true"/>
+			<Trigger Property="IsMouseOver" Value="false"/>
+			<Trigger Property="IsChecked" Value="false">
+				<Setter Property="Visibility" TargetName="OK" Value="Collapsed"/>
+			</Trigger>
+			<Trigger Property="IsEnabled" Value="false">
+				<Setter Property="Opacity" Value="0.25"/>
+			</Trigger>	
+		</ControlTemplate.Triggers>
+	</ControlTemplate>
+	<ControlTemplate x:Key="CretaCheckBoxFavoriteC4" TargetType="{x:Type CheckBox}">
+		<StackPanel Orientation="Horizontal" Cursor="Hand" Background="transparent">
+			<ContentControl x:Name="Star" Style="{StaticResource Icon_Favorite1}" Foreground="{DynamicResource CretaprintC4_Amarillo_br}" local:CretaProperties.Scale="0.60"/>
+		</StackPanel>
+		<ControlTemplate.Triggers>
+			<Trigger Property="IsMouseOver" Value="true"/>
+			<Trigger Property="IsMouseOver" Value="false"/>
+			<Trigger Property="IsChecked" Value="false">
+				<Setter Property="Foreground" TargetName="Star" Value="{DynamicResource CretaprintC4_GrisClaro_Trazos_br}"/>
+			</Trigger>
+			<Trigger Property="IsEnabled" Value="false">
+				<Setter Property="Opacity" Value="0.25"/>
+			</Trigger>	
+		</ControlTemplate.Triggers>
+	</ControlTemplate>
+	<!-- Resource dictionary entries should be defined here. -->
+</ResourceDictionary>

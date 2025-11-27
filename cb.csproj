@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0989B54C-ABA9-4DEB-B8E0-27ADFE3A6E52}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CretaBase</RootNamespace>
+    <AssemblyName>CretaBase</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.20525.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BitMiracle.LibTiff.NET">
+      <HintPath>..\..\LibreriasComunes\BitMiracle.LibTiff.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="libTiffCreta">
+      <HintPath>..\..\LibreriasComunes\libTiffCreta.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFLocalizeExtension">
+      <HintPath>..\..\LibreriasComunes\WPF\WPFLocalizeExtension.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CretaControls\CretaTextBoxArrowsUpDown.xaml.cs">
+      <DependentUpon>CretaTextBoxArrowsUpDown.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CretaControls\CretaMessageBox.cs" />
+    <Compile Include="CretaControls\CretaMessageBoxCtrl.xaml.cs">
+      <DependentUpon>CretaMessageBoxCtrl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CretaControls\CretaTextBoxNumeric.xaml.cs">
+      <DependentUpon>CretaTextBoxNumeric.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CretaControls\CretaTextBoxUtils.cs" />
+    <Compile Include="CretaConverters\BooleanToVisibilityConverter.cs" />
+    <Compile Include="CretaConverters\EnumToBoolConverter.cs" />
+    <Compile Include="CretaConverters\ImagePathConverter.cs" />
+    <Compile Include="CretaConverters\InverseBooleanConverter.cs" />
+    <Compile Include="CretaUtils\AlignableWrapPanel.cs" />
+    <Compile Include="CretaUtils\CretaEncrypt.cs" />
+    <Compile Include="CretaUtils\CretaImageUtils.cs" />
+    <Compile Include="CretaUtils\CretaProperties.cs" />
+    <Compile Include="CretaUtils\CretaSerialization.cs" />
+    <Compile Include="CretaUtils\CretaUtils.cs" />
+    <Compile Include="CretaUtils\ObservableCollectionEx.cs" />
+    <Compile Include="CretaUtils\SortedObservableCollection.cs" />
+    <Compile Include="Langs\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Managers\LocalizationMgr.cs" />
+    <Compile Include="Managers\PopUpMgr.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Base_MVVM\RelayCommand.cs" />
+    <Compile Include="Base_MVVM\ViewModelBase.cs" />
+    <EmbeddedResource Include="Langs\Strings.cs-CZ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.de-DE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.id-ID.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.it-IT.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.ko-KR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.pl-PL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.pt-PT.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.tr-TR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\kview_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="CretaControls\CretaTextBoxArrowsUpDown.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaControls\CretaMessageBoxCtrl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaControls\CretaTextBoxNumeric.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStyles\CretaButton1Translucent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStyles\CretaButton1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaButtonAlrmConfirm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaButtonOnlyImg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStyles\CretaButtonPrintHead.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaButtonSelected.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaButtonTab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaButtonThin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaButtonTxtBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaCheckBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaCheckBoxFavorite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaColors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaComboBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaDataGrid.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStyles\CretaFocusVisualStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaGroupBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaGroupBox_thin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaProgress.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaProgress2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaRadioButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaRectangleBackground.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaSeparator.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStyles\CretaSlider.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStyles\CretaText.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\apply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Close2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Add.png" />
+    <Resource Include="Images\agregar-imagen.png" />
+    <Resource Include="Images\alert.png" />
+    <Resource Include="Images\Ayuda.png" />
+    <Resource Include="Images\Barra_1.png" />
+    <Resource Include="Images\Barra_2.png" />
+    <Resource Include="Images\Barra_3.png" />
+    <Resource Include="Images\Barra_4.png" />
+    <Resource Include="Images\Barra_5.png" />
+    <Resource Include="Images\Barra_6.png" />
+    <Resource Include="Images\Barra_7.png" />
+    <Resource Include="Images\Barra_8.png" />
+    <Resource Include="Images\barra_capped.png" />
+    <Resource Include="Images\Barra_Extraccion.png" />
+    <Resource Include="Images\barra_limpieza.png" />
+    <Resource Include="Images\barra_mantenim.png" />
+    <Resource Include="Images\barra_pintado.png" />
+    <Resource Include="Images\Barra_temperatura.png" />
+    <Resource Include="Images\Bin %28empty%29.png" />
+    <Resource Include="Images\borrar-imagen.png" />
+    <Resource Include="Images\borrar-ripeado.png" />
+    <Resource Include="Images\borrar2 48pix.png" />
+    <Resource Include="Images\bullet_ball_glass_blue.png" />
+    <Resource Include="Images\bullet_ball_glass_green.png" />
+    <Resource Include="Images\bullet_ball_glass_red.png" />
+    <Resource Include="Images\bullet_ball_glass_yellow.png" />
+    <Resource Include="Images\Bullet_creta.png" />
+    <Resource Include="Images\Bullet_creta_off.png" />
+    <Resource Include="Images\centrado1.jpg" />
+    <Resource Include="Images\centrar_controles.png" />
+    <Resource Include="Images\check.png" />
+    <Resource Include="Images\check2.png" />
+    <Resource Include="Images\check_creta.png" />
+    <Resource Include="Images\check_ok.png" />
+    <Resource Include="Images\Close.png" />
+    <Resource Include="Images\configure.png" />
+    <Resource Include="Images\crear-modificada.png" />
+    <Resource Include="Images\crear-nuevo-modeloTAS.png" />
+    <Resource Include="Images\delete.png" />
+    <Resource Include="Images\delete2.png" />
+    <Resource Include="Images\disparo.png" />
+    <Resource Include="Images\down.png" />
+    <Resource Include="Images\editar.png" />
+    <Resource Include="Images\edit_add.png" />
+    <Resource Include="Images\edit_remove.png" />
+    <Resource Include="Images\eliminar-tas.png" />
+    <Resource Include="Images\estadisticas.png" />
+    <Resource Include="Images\extraer-tiffs.png" />
+    <Resource Include="Images\favorito_off.png" />
+    <Resource Include="Images\favorito_on.png" />
+    <Resource Include="Images\find.png" />
+    <Resource Include="Images\Flag_ArabLeague.png" />
+    <Resource Include="Images\Flag_Cataluña.png" />
+    <Resource Include="Images\Flag_China.png" />
+    <Resource Include="Images\Flag_corea.png" />
+    <Resource Include="Images\Flag_France.png" />
+    <Resource Include="Images\Flag_Germany.png" />
+    <Resource Include="Images\Flag_Indonezia.png" />
+    <Resource Include="Images\Flag_Italy.png" />
+    <Resource Include="Images\Flag_Poland.png" />
+    <Resource Include="Images\Flag_Portugal.png" />
+    <Resource Include="Images\Flag_rep-checa.png" />
+    <Resource Include="Images\Flag_Romania.png" />
+    <Resource Include="Images\Flag_rusia.png" />
+    <Resource Include="Images\Flag_Spain.png" />
+    <Resource Include="Images\Flag_Thailand.png" />
+    <Resource Include="Images\Flag_Turkey.png" />
+    <Resource Include="Images\Flag_uk.png" />
+    <Resource Include="Images\Flag_Valenciano.png" />
+    <Resource Include="Images\folder_print.png" />
+    <Resource Include="Images\FondoDegradado.jpg" />
+    <Resource Include="Images\General_tools.png" />
+    <Resource Include="Images\gohome.png" />
+    <Resource Include="Images\habilitar.png" />
+    <Resource Include="Images\imprimir-linea1.png" />
+    <Resource Include="Images\imprimir-linea2.png" />
+    <Resource Include="Images\inicio tinta.png" />
+    <Resource Include="Images\intensidad.bmp" />
+    <Resource Include="Images\intensidad.png" />
+    <Resource Include="Images\kuser.png" />
+    <Resource Include="Images\kview.png" />
+    <Resource Include="Images\lock.png" />
+    <Resource Include="Images\lock_unlock.png" />
+    <Resource Include="Images\Logo.png" />
+    <Resource Include="Images\LogoWhite.png" />
+    <Resource Include="Images\Marcha.png" />
+    <Resource Include="Images\media_play_green.png" />
+    <Resource Include="Images\media_stop_red.png" />
+    <Resource Include="Images\MenuMarcha_ByPass.png" />
+    <Resource Include="Images\MenuMarcha_Lab.png" />
+    <Resource Include="Images\MenuMarcha_Start.png" />
+    <Resource Include="Images\MenuMarcha_Stop.png" />
+    <Resource Include="Images\MenuMode_ByPass_On.png" />
+    <Resource Include="Images\MenuMode_Normal.png" />
+    <Resource Include="Images\MenuMode_Stopped.png" />
+    <Resource Include="Images\menu_limpieza.png" />
+    <Resource Include="Images\mini-modelo.png" />
+    <Resource Include="Images\mini-modelos.png" />
+    <Resource Include="Images\mini-modifcada.png" />
+    <Resource Include="Images\mini-tases.png" />
+    <Resource Include="Images\modelos.png" />
+    <Resource Include="Images\model_add.png" />
+    <Resource Include="Images\model_borrar.png" />
+    <Resource Include="Images\model_cancel.png" />
+    <Resource Include="Images\model_copia.png" />
+    <Resource Include="Images\model_edit.png" />
+    <Resource Include="Images\model_remove.png" />
+    <Resource Include="Images\model_ripear_todo.png" />
+    <Resource Include="Images\model_save.png" />
+    <Resource Include="Images\model_update.png" />
+    <Resource Include="Images\modos manual.png" />
+    <Resource Include="Images\modos_todos.png" />
+    <Resource Include="Images\modo_cretavision.png" />
+    <Resource Include="Images\modo_cuadricula.png" />
+    <Resource Include="Images\modo_cualquiera.png" />
+    <Resource Include="Images\modo_incremental copia.png" />
+    <Resource Include="Images\modo_incremental.png" />
+    <Resource Include="Images\modo_normal.png" />
+    <Resource Include="Images\modo_random copia.png" />
+    <Resource Include="Images\my_documents.png" />
+    <Resource Include="Images\navigate_cross.png" />
+    <Resource Include="Images\navigate_dcha.png" />
+    <Resource Include="Images\navigate_diagonal.png" />
+    <Resource Include="Images\navigate_diagonal2.png" />
+    <Resource Include="Images\navigate_down.png" />
+    <Resource Include="Images\navigate_down2.png" />
+    <Resource Include="Images\navigate_izda.png" />
+    <Resource Include="Images\navigate_minus.png" />
+    <Resource Include="Images\navigate_plus.png" />
+    <Resource Include="Images\navigate_up.png" />
+    <Resource Include="Images\navigate_up2.png" />
+    <Resource Include="Images\no-ripear.png" />
+    <Resource Include="Images\nuevo-tas.png" />
+    <Resource Include="Images\pantene_colores 100pix.png" />
+    <Resource Include="Images\papelera.png" />
+    <Resource Include="Images\parciales.png" />
+    <Resource Include="Images\paro.png" />
+    <Resource Include="Images\password.png" />
+    <Resource Include="Images\pause2.png" />
+    <Resource Include="Images\potion_yellow.png" />
+    <Resource Include="Images\procesar.png" />
+    <Resource Include="Images\Ptrims.png" />
+    <Resource Include="Images\quick_restart.png" />
+    <Resource Include="Images\recirculacion_naranja.png" />
+    <Resource Include="Images\recirculacion_rojo.png" />
+    <Resource Include="Images\recirculacion_verde.png" />
+    <Resource Include="Images\refresh.png" />
+    <Resource Include="Images\render 2.png" />
+    <Resource Include="Images\render.png" />
+    <Resource Include="Images\Render_Stop.png" />
+    <Resource Include="Images\Restart.png" />
+    <Resource Include="Images\ripear-TASmodel.png" />
+    <Resource Include="Images\ripear-uno.png" />
+    <Resource Include="Images\saturación-intensidad.jpg" />
+    <Resource Include="Images\Save.png" />
+    <Resource Include="Images\shutdown.png" />
+    <Resource Include="Images\shutdown2.png" />
+    <Resource Include="Images\silencio.png" />
+    <Resource Include="Images\tanque_agitacion.png" />
+    <Resource Include="Images\TAS.jpg" />
+    <Resource Include="Images\tas.png" />
+    <Resource Include="Images\TASmodel_Rip.png" />
+    <Resource Include="Images\TAS_CreateMod.png" />
+    <Resource Include="Images\TAS_ExtractTiff.png" />
+    <Resource Include="Images\TAS_Intensity.png" />
+    <Resource Include="Images\TAS_NewModel.png" />
+    <Resource Include="Images\TAS_prod_Add.png" />
+    <Resource Include="Images\TAS_prod_delete.png" />
+    <Resource Include="Images\TAS_sample_add.png" />
+    <Resource Include="Images\TAS_sample_copy.png" />
+    <Resource Include="Images\TAS_sample_delete.png" />
+    <Resource Include="Images\TAS_sample_edit.png" />
+    <Resource Include="Images\TAS_sample_intensity.png" />
+    <Resource Include="Images\TAS_sample_tone.png" />
+    <Resource Include="Images\TAS_Tone.png" />
+    <Resource Include="Images\TEST.png" />
+    <Resource Include="Images\Tile.png" />
+    <Resource Include="Images\tono-saturación-brillo.jpg" />
+    <Resource Include="Images\tono.png" />
+    <Resource Include="Images\up.png" />
+    <Resource Include="Images\usbpendrive_unmount.png" />
+    <Resource Include="Images\Usb_open.png" />
+    <Resource Include="Images\Usb_save.png" />
+    <Resource Include="Images\User_Add.png" />
+    <Resource Include="Images\User_Cancel.png" />
+    <Resource Include="Images\User_Delete.png" />
+    <Resource Include="Images\User_Edit.png" />
+    <Resource Include="Images\User_Save.png" />
+    <Resource Include="Images\xedit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\QR_Creta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TAS_sample_validate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\kview_create.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\autotune.png" />
+    <Resource Include="Images\referenciar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\void.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\check_ok_simulation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\sandclock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\send_mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Arrow_down.png" />
+    <Resource Include="Images\Arrow_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\alert_sm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\FIE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bullet_ball_glass_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\FondoDegradado_wide.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\FondoDegradado_wide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\image_wizard_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\image_wizard_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\image_wizard_4.png" />
+    <Resource Include="Images\image_wizard_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\image_wizard_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\image_wizard_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\image_wizard_2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1974 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="G_OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="M_FILE" xml:space="preserve">
+		<value>File</value>
+	</data>
+	<data name="M_FILE_START" xml:space="preserve">
+		<value>Avvio</value>
+	</data>
+	<data name="M_FILE_SLAVES" xml:space="preserve">
+		<value>Controllo PC Slave</value>
+	</data>
+	<data name="M_EDIT" xml:space="preserve">
+		<value>Applicazioni</value>
+	</data>
+	<data name="M_ALARMS" xml:space="preserve">
+		<value>Allarmi</value>
+	</data>
+	<data name="M_USERS" xml:space="preserve">
+		<value>Utenti</value>
+	</data>
+	<data name="M_HELP" xml:space="preserve">
+		<value>Aiuto</value>
+	</data>
+	<data name="M_FILE_MODELS" xml:space="preserve">
+		<value>Modelli</value>
+	</data>
+	<data name="M_FILE_PRODUCTION" xml:space="preserve">
+		<value>Storico Produzione</value>
+	</data>
+	<data name="M_FILE_PREVIEW" xml:space="preserve">
+		<value>Creare Anteprima</value>
+	</data>
+	<data name="M_FILE_CONTINUOUS" xml:space="preserve">
+		<value>Stampa continua linea 1</value>
+	</data>
+	<data name="M_FILE_SAVE" xml:space="preserve">
+		<value>Salva configurazioni server di stampa.</value>
+	</data>
+	<data name="M_FILE_RESTART" xml:space="preserve">
+		<value>Riavvia comunicazione con gli Slave</value>
+	</data>
+	<data name="M_FILE_CONSOLE" xml:space="preserve">
+		<value>Console</value>
+	</data>
+	<data name="M_FILE_BACKUP" xml:space="preserve">
+		<value>Backup delle configurazioni</value>
+	</data>
+	<data name="M_FILE_STATUS" xml:space="preserve">
+		<value>Stato server di stampa</value>
+	</data>
+	<data name="M_FILE_CLEANUP" xml:space="preserve">
+		<value>Pulizia dello schermo</value>
+	</data>
+	<data name="M_FILE_MAXIMISE" xml:space="preserve">
+		<value>Ingrandire</value>
+	</data>
+	<data name="M_FILE_MINIMISE" xml:space="preserve">
+		<value>Minimizza</value>
+	</data>
+	<data name="M_FILE_CLOSE" xml:space="preserve">
+		<value>Chiudere</value>
+	</data>
+	<data name="M_FILE_CONTINUOUS2" xml:space="preserve">
+		<value>Stampa continua linea 2</value>
+	</data>
+	<data name="M_EDIT_HEADS" xml:space="preserve">
+		<value>Testine di stampa ON/OFF</value>
+	</data>
+	<data name="M_EDIT_CANCEL1" xml:space="preserve">
+		<value>Linea stampa 1 ON/OFF</value>
+	</data>
+	<data name="M_EDIT_CANCEL2" xml:space="preserve">
+		<value>Linea stampa 2 ON/OFF</value>
+	</data>
+	<data name="M_EDIT_ADJUST" xml:space="preserve">
+		<value>Regola la posizione pezzo.</value>
+	</data>
+	<data name="M_EDIT_ALIGNMENT" xml:space="preserve">
+		<value>Allineamento</value>
+	</data>
+	<data name="M_EDIT_DESCRIPTION" xml:space="preserve">
+		<value>Descrizione Macchina</value>
+	</data>
+	<data name="M_EDIT_QUALITIES" xml:space="preserve">
+		<value>Qualità</value>
+	</data>
+	<data name="M_EDIT_PHOTOCELL" xml:space="preserve">
+		<value>Fotocellula di Entrata</value>
+	</data>
+	<data name="M_EDIT_MOTORBAR" xml:space="preserve">
+		<value>Regolazione Motori Barre</value>
+	</data>
+	<data name="M_EDIT_BELTSTART" xml:space="preserve">
+		<value>Avvio manuale nastro</value>
+	</data>
+	<data name="M_EDIT_BELTSTOP" xml:space="preserve">
+		<value>Stop manuale nastro</value>
+	</data>
+	<data name="G_BAR" xml:space="preserve">
+		<value>Barra</value>
+	</data>
+	<data name="G_BARS" xml:space="preserve">
+		<value>Barre</value>
+	</data>
+	<data name="G_BAR1" xml:space="preserve">
+		<value>Barra 1</value>
+	</data>
+	<data name="G_BAR2" xml:space="preserve">
+		<value>Barra 2</value>
+	</data>
+	<data name="G_BAR3" xml:space="preserve">
+		<value>Barra 3</value>
+	</data>
+	<data name="G_BAR4" xml:space="preserve">
+		<value>Barra 4</value>
+	</data>
+	<data name="G_BAR5" xml:space="preserve">
+		<value>Barra 5</value>
+	</data>
+	<data name="G_BAR6" xml:space="preserve">
+		<value>Barra 6</value>
+	</data>
+	<data name="G_BAR7" xml:space="preserve">
+		<value>Barra 7</value>
+	</data>
+	<data name="G_BAR8" xml:space="preserve">
+		<value>Barra 8</value>
+	</data>
+	<data name="M_ALARMS_CHECK" xml:space="preserve">
+		<value>Allarmi attivi</value>
+	</data>
+	<data name="M_ALARMS_RESET" xml:space="preserve">
+		<value>Reset Allarmi</value>
+	</data>
+	<data name="M_ALARMS_REPORT" xml:space="preserve">
+		<value>Storico Allarmi</value>
+	</data>
+	<data name="M_ALARMS_ACTIONS" xml:space="preserve">
+		<value>Storico Azioni</value>
+	</data>
+	<data name="M_ALARMS_REGISTRY" xml:space="preserve">
+		<value>Storico Registro</value>
+	</data>
+	<data name="M_USERS_LOGIN" xml:space="preserve">
+		<value>Iniziare Sessione</value>
+	</data>
+	<data name="M_USERS_LOGOUT" xml:space="preserve">
+		<value>Chiudere Sessione</value>
+	</data>
+	<data name="M_USERS_LANGUAGES" xml:space="preserve">
+		<value>Lingue</value>
+	</data>
+	<data name="M_USERS_EDIT" xml:space="preserve">
+		<value>Modificare Account Utente</value>
+	</data>
+	<data name="M_HELP_INFO" xml:space="preserve">
+		<value>Informazioni</value>
+	</data>
+	<data name="M_HELP_HELP" xml:space="preserve">
+		<value>Aiuto</value>
+	</data>
+	<data name="M_HELP_REMOTE" xml:space="preserve">
+		<value>Connessione remota</value>
+	</data>
+	<data name="M_HELP_CHAT" xml:space="preserve">
+		<value>Iniziare la conversazione</value>
+	</data>
+	<data name="G_CLOSE" xml:space="preserve">
+		<value>Chiudere</value>
+	</data>
+	<data name="MAIN_MODEL_COLON" xml:space="preserve">
+		<value>Modelli</value>
+	</data>
+	<data name="G_LINE1" xml:space="preserve">
+		<value>Linea 1</value>
+	</data>
+	<data name="MAIN_LENGTH" xml:space="preserve">
+		<value>Lunghezza:</value>
+	</data>
+	<data name="MAIN_WIDTH" xml:space="preserve">
+		<value>Larghezza:</value>
+	</data>
+	<data name="MAIN_RESOLUTION" xml:space="preserve">
+		<value>Risoluzione:</value>
+	</data>
+	<data name="MAIN_QUALITY" xml:space="preserve">
+		<value>Qualità:</value>
+	</data>
+	<data name="MAIN_MODE_COLON" xml:space="preserve">
+		<value>Modalità:</value>
+	</data>
+	<data name="MAIN_START" xml:space="preserve">
+		<value>Avvio</value>
+	</data>
+	<data name="MAIN_STOP" xml:space="preserve">
+		<value>Stop</value>
+	</data>
+	<data name="MAIN_INSTANT_PRINT" xml:space="preserve">
+		<value>Stampa</value>
+	</data>
+	<data name="MAIN_PRINT_CHANNELS" xml:space="preserve">
+		<value>Stampa Parziali</value>
+	</data>
+	<data name="MAIN_GENERAL" xml:space="preserve">
+		<value>Generale</value>
+	</data>
+	<data name="MAIN_SPEED" xml:space="preserve">
+		<value>Velocità:</value>
+	</data>
+	<data name="MAIN_THICKNESS" xml:space="preserve">
+		<value>Spessore pezzo:</value>
+	</data>
+	<data name="MAIN_JETTING" xml:space="preserve">
+		<value>Intervallo Stampa</value>
+	</data>
+	<data name="MAIN_MANUAL" xml:space="preserve">
+		<value>MANUALE</value>
+	</data>
+	<data name="MAIN_STOPPED" xml:space="preserve">
+		<value>BLOCCATO</value>
+	</data>
+	<data name="MAIN_AUTOMATIC" xml:space="preserve">
+		<value>AUTOMATICO</value>
+	</data>
+	<data name="G_LINE2" xml:space="preserve">
+		<value>Linea 2</value>
+	</data>
+	<data name="MAIN_MODE" xml:space="preserve">
+		<value>Modalità:</value>
+	</data>
+	<data name="MAIN_MODEL" xml:space="preserve">
+		<value>Modello</value>
+	</data>
+	<data name="MAIN_TAS" xml:space="preserve">
+		<value>TAS</value>
+	</data>
+	<data name="MAIN_BAR_CLEAN" xml:space="preserve">
+		<value>Pulizia</value>
+	</data>
+	<data name="MAIN_INIT_INK" xml:space="preserve">
+		<value>Avviare Sistema Inchiostro</value>
+	</data>
+	<data name="MAIN_SILENCE" xml:space="preserve">
+		<value>TACITA</value>
+	</data>
+	<data name="MAIN_CLEANING" xml:space="preserve">
+		<value>Menu Pulizia</value>
+	</data>
+	<data name="MAIN_BAR_CAPPED" xml:space="preserve">
+		<value>Protezione</value>
+	</data>
+	<data name="MAIN_BAR_MAINTENANCE" xml:space="preserve">
+		<value>Manutenzione</value>
+	</data>
+	<data name="MAIN_BAR_PAINT" xml:space="preserve">
+		<value>Stampa</value>
+	</data>
+	<data name="MAIN_MARCHA_START" xml:space="preserve">
+		<value>AVVIO</value>
+	</data>
+	<data name="MAIN_MARCHA_LAB" xml:space="preserve">
+		<value>LABORATORIO</value>
+	</data>
+	<data name="MAIN_MARCHA_BYPASS" xml:space="preserve">
+		<value>BY-PASS</value>
+	</data>
+	<data name="MAIN_MARCHA_STOP" xml:space="preserve">
+		<value>STOP</value>
+	</data>
+	<data name="MAIN_LINEMODE_NORMAL" xml:space="preserve">
+		<value>Normale</value>
+	</data>
+	<data name="MAIN_LINEMODE_STOPPED" xml:space="preserve">
+		<value>Bloccato</value>
+	</data>
+	<data name="MAIN_LINEMODE" xml:space="preserve">
+		<value>Modalità in linea</value>
+	</data>
+	<data name="MAIN_SCREEN_CLEAN" xml:space="preserve">
+		<value>Premere sui due angoli per uscire</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE1" xml:space="preserve">
+		<value>Slave 1</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE2" xml:space="preserve">
+		<value>Slave 2</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE3" xml:space="preserve">
+		<value>Slave 3</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE4" xml:space="preserve">
+		<value>Slave 4</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE5" xml:space="preserve">
+		<value>Slave 5</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE6" xml:space="preserve">
+		<value>Slave 6</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE7" xml:space="preserve">
+		<value>Slave 7</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE8" xml:space="preserve">
+		<value>Slave 8</value>
+	</data>
+	<data name="M_FILE_SLAVES_RESTART" xml:space="preserve">
+		<value>Riavvio</value>
+	</data>
+	<data name="M_FILE_SLAVES_RESTARTALL" xml:space="preserve">
+		<value>Riavviare tutto</value>
+	</data>
+	<data name="M_FILE_SLAVES_SHUTDOWN" xml:space="preserve">
+		<value>Spegnere</value>
+	</data>
+	<data name="M_FILE_SLAVES_CONNECTED" xml:space="preserve">
+		<value>Connesso:</value>
+	</data>
+	<data name="M_FILE_SLAVES_TIME" xml:space="preserve">
+		<value>Tempo in accensione:</value>
+	</data>
+	<data name="M_FILE_SLAVES_FREESPACE" xml:space="preserve">
+		<value>Spazio libero</value>
+	</data>
+	<data name="M_ALARMS_NAME" xml:space="preserve">
+		<value>Nome Allarme</value>
+	</data>
+	<data name="M_ALARMS_MESSAGE" xml:space="preserve">
+		<value>Messaggio Allarme</value>
+	</data>
+	<data name="M_ALARMS_TIMESTART" xml:space="preserve">
+		<value>Ora Inizio</value>
+	</data>
+	<data name="M_ALARMS_TIMECONFIRMED" xml:space="preserve">
+		<value>Orario allarme confermato</value>
+	</data>
+	<data name="G_SAVE" xml:space="preserve">
+		<value>Salvare</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_INFO_HEAD" xml:space="preserve">
+		<value>Informazioni Testine di stampa selezionate</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_WAVEFORM" xml:space="preserve">
+		<value>Waveform in uso:</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_DIS_NOZZLES_BEG" xml:space="preserve">
+		<value>Iniettore Disabilitato all’inizio:</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_DIS_NOZZLES_END" xml:space="preserve">
+		<value>Iniettore Disabilitato alla fine:</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_SERIAL" xml:space="preserve">
+		<value>Numero di serie testina:</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_ENABLE" xml:space="preserve">
+		<value>Abilitare</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_PTRIMS" xml:space="preserve">
+		<value>PTrims</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_OFFSET" xml:space="preserve">
+		<value>Stampa offset selezionata</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_TYPE" xml:space="preserve">
+		<value>Tipo Testine</value>
+	</data>
+	<data name="G_CANCEL" xml:space="preserve">
+		<value>Annulla</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_TRIMS_LOCK" xml:space="preserve">
+		<value>Blocco</value>
+	</data>
+	<data name="G_PRINTHEAD" xml:space="preserve">
+		<value>Testina</value>
+	</data>
+	<data name="BAR_INKS" xml:space="preserve">
+		<value>Inchiostri</value>
+	</data>
+	<data name="BAR_DOWN_FAST" xml:space="preserve">
+		<value>Abbassare Veloce</value>
+	</data>
+	<data name="BAR_DOWN" xml:space="preserve">
+		<value>Abbassare</value>
+	</data>
+	<data name="BAR_UP" xml:space="preserve">
+		<value>Alzare</value>
+	</data>
+	<data name="BAR_UP_FAST" xml:space="preserve">
+		<value>Alzare Veloce</value>
+	</data>
+	<data name="BAR_FORWARD" xml:space="preserve">
+		<value>Avanti</value>
+	</data>
+	<data name="BAR_BACKWARD" xml:space="preserve">
+		<value>Indietro</value>
+	</data>
+	<data name="BAR_IN" xml:space="preserve">
+		<value>Dentro</value>
+	</data>
+	<data name="BAR_OUT" xml:space="preserve">
+		<value>Fuori</value>
+	</data>
+	<data name="BAR_TRAY" xml:space="preserve">
+		<value>Vassoio</value>
+	</data>
+	<data name="BAR_CLEANING_CARRIER" xml:space="preserve">
+		<value>Carrello di pulizia:</value>
+	</data>
+	<data name="BAR_CLEANING_VENTURI" xml:space="preserve">
+		<value>Pulizia Venturi:</value>
+	</data>
+	<data name="BAR_VENTURI_ON" xml:space="preserve">
+		<value>ASPIRAZIONE ON</value>
+	</data>
+	<data name="BAR_VENTURI_OFF" xml:space="preserve">
+		<value>ASPIRAZIONE OFF</value>
+	</data>
+	<data name="BAR_HEATER_ON" xml:space="preserve">
+		<value>RESISTENZA BARRA ON</value>
+	</data>
+	<data name="BAR_HEATER_OFF" xml:space="preserve">
+		<value>RESISTENZA BARRA OFF</value>
+	</data>
+	<data name="BAR_TANK_HEATER_ON" xml:space="preserve">
+		<value>RESISTENZA SERBATOIO ON</value>
+	</data>
+	<data name="BAR_TANK_HEATER_OFF" xml:space="preserve">
+		<value>RESISTENZA SERBATOIO OFF</value>
+	</data>
+	<data name="BAR_STIRRER_ON" xml:space="preserve">
+		<value>AGITATORE ON</value>
+	</data>
+	<data name="BAR_STIRRER_OFF" xml:space="preserve">
+		<value>AGITATORE OFF</value>
+	</data>
+	<data name="BAR_TEMP" xml:space="preserve">
+		<value>Temp. Anticondensazione</value>
+	</data>
+	<data name="BAR_INK_SYSTEM" xml:space="preserve">
+		<value>Sistema Inchiostro Collegato</value>
+	</data>
+	<data name="BAR_INK_TEMP_IN" xml:space="preserve">
+		<value>Temperatura Dentro</value>
+	</data>
+	<data name="BAR_INK_TEMP_OUT" xml:space="preserve">
+		<value>Temperatura Fuori</value>
+	</data>
+	<data name="BAR_VACUUM_SETPOINT" xml:space="preserve">
+		<value>Impostazione Vuoto</value>
+	</data>
+	<data name="BAR_VACUUM" xml:space="preserve">
+		<value>Vuoto</value>
+	</data>
+	<data name="BAR_DUTY_CICLE" xml:space="preserve">
+		<value>Ciclo di lavoro</value>
+	</data>
+	<data name="BAR_WEIR_BUMP" xml:space="preserve">
+		<value>Pompa carico Inchiostro</value>
+	</data>
+	<data name="BAR_DEAIR_PUMP" xml:space="preserve">
+		<value>Pompa overflow</value>
+	</data>
+	<data name="BAR_FIRMWARE_VER" xml:space="preserve">
+		<value>Versione di firmware:</value>
+	</data>
+	<data name="BAR_TANK_TEMP" xml:space="preserve">
+		<value>Temperatura Serbatoio:</value>
+	</data>
+	<data name="BAR_EXTRACTION" xml:space="preserve">
+		<value>Estrazione:</value>
+	</data>
+	<data name="BAR_USER_OFFSET" xml:space="preserve">
+		<value>Offset utente</value>
+	</data>
+	<data name="BAR_MOTOR_POS" xml:space="preserve">
+		<value>Posizione motore:</value>
+	</data>
+	<data name="BAR_MOTOR_ERROR" xml:space="preserve">
+		<value>Errore motore:</value>
+	</data>
+	<data name="BAR_MOTOR_HOMING" xml:space="preserve">
+		<value>Motore non Tarato</value>
+	</data>
+	<data name="BAR_MOTOR" xml:space="preserve">
+		<value>Motore</value>
+	</data>
+	<data name="BAR_PRINT_CHANNELS_L1" xml:space="preserve">
+		<value>Parziali Linea 1</value>
+	</data>
+	<data name="BAR_PRINT_CHANNELS_L2" xml:space="preserve">
+		<value>Parziali Linea 2</value>
+	</data>
+	<data name="BAR_CLEANING" xml:space="preserve">
+		<value>Pulizia</value>
+	</data>
+	<data name="BAR_VENTURI_DRAIN" xml:space="preserve">
+		<value>Svuotare Venturi</value>
+	</data>
+	<data name="BAR_VENTURI_DRAIN_ON" xml:space="preserve">
+		<value>Scarico ON</value>
+	</data>
+	<data name="BAR_VENTURI_DRAIN_OFF" xml:space="preserve">
+		<value>Scarico OFF</value>
+	</data>
+	<data name="BAR_VACUUM_2" xml:space="preserve">
+		<value>Svuotamento 2:</value>
+	</data>
+	<data name="BAR_INK_SYSTEM_TEMP_SP" xml:space="preserve">
+		<value>Temperatura sp. del sistema Inchiostro:</value>
+	</data>
+	<data name="EDIT_LASER_HEIGHT_TILE" xml:space="preserve">
+		<value>Altezza Pezzo</value>
+	</data>
+	<data name="EDIT_LASER_GAUGE_THICKNESS" xml:space="preserve">
+		<value>Spessore Planarità</value>
+	</data>
+	<data name="EDIT_LASER_STOP_SENSOR" xml:space="preserve">
+		<value>Piastrella Doppia</value>
+	</data>
+	<data name="EDIT_LASER_DETECT_SENSOR" xml:space="preserve">
+		<value>Sensore rilevamento pezzo</value>
+	</data>
+	<data name="EDIT_LASER_HOMING" xml:space="preserve">
+		<value>Tarare</value>
+	</data>
+	<data name="MODEL_MAIN_QUEUE" xml:space="preserve">
+		<value>Lista Modelli salvati</value>
+	</data>
+	<data name="MODEL_MAIN_NEW" xml:space="preserve">
+		<value>Nuovo</value>
+	</data>
+	<data name="MODEL_MAIN_EDIT" xml:space="preserve">
+		<value>Modificare</value>
+	</data>
+	<data name="MODEL_MAIN_COPY" xml:space="preserve">
+		<value>Copiare</value>
+	</data>
+	<data name="MODEL_MAIN_DELETE" xml:space="preserve">
+		<value>Eliminare</value>
+	</data>
+	<data name="MODEL_MAIN_RENDER" xml:space="preserve">
+		<value>Convertire</value>
+	</data>
+	<data name="MODEL_MAIN_INK_CONSUM" xml:space="preserve">
+		<value>Consumo Inchiostro</value>
+	</data>
+	<data name="MODEL_LIST_NAME" xml:space="preserve">
+		<value>Nome</value>
+	</data>
+	<data name="MODEL_LIST_STATE" xml:space="preserve">
+		<value>Stato</value>
+	</data>
+	<data name="MODEL_LIST_DIMENSIONS" xml:space="preserve">
+		<value>Dimensioni</value>
+	</data>
+	<data name="MODEL_LIST_MODE" xml:space="preserve">
+		<value>Modalità</value>
+	</data>
+	<data name="MODEL_LIST_QUALITY" xml:space="preserve">
+		<value>Qualità:</value>
+	</data>
+	<data name="MODEL_LIST_DATE_CRE" xml:space="preserve">
+		<value>Data di creazione</value>
+	</data>
+	<data name="MODEL_LIST_DATE_IMP" xml:space="preserve">
+		<value>Data di stampa</value>
+	</data>
+	<data name="MODEL_MAIN_FAVORITES" xml:space="preserve">
+		<value>Preferiti</value>
+	</data>
+	<data name="MODEL_MAIN_PREVIEW" xml:space="preserve">
+		<value>Anteprima</value>
+	</data>
+	<data name="MODEL_MAIN_RENDERING" xml:space="preserve">
+		<value>Conversione</value>
+	</data>
+	<data name="MODEL_MAIN_USED_SPACE" xml:space="preserve">
+		<value>Spazio disco utilizzato negli slave:</value>
+	</data>
+	<data name="MODEL_MAIN_USED_SPACE_MASTER" xml:space="preserve">
+		<value>Spazio disco utilizzato nel master:</value>
+	</data>
+	<data name="MODEL_GENERAL_NAME" xml:space="preserve">
+		<value>Nome del Modello</value>
+	</data>
+	<data name="MODEL_GENERAL_DESCRIPTION" xml:space="preserve">
+		<value>Descrizione:</value>
+	</data>
+	<data name="MODEL_PRINTING_QUALITY" xml:space="preserve">
+		<value>Qualità di stampa</value>
+	</data>
+	<data name="MODEL_GENERAL_FAVORITE" xml:space="preserve">
+		<value>Preferito:</value>
+	</data>
+	<data name="MODEL_NEW" xml:space="preserve">
+		<value>Modello Nuovo</value>
+	</data>
+	<data name="MODEL_NEW_EXISTS" xml:space="preserve">
+		<value>Nome già in uso. Sceglierne un altro, per favore.</value>
+	</data>
+	<data name="MODEL_EDIT_DESIGNS" xml:space="preserve">
+		<value>Disegni</value>
+	</data>
+	<data name="MODEL_EDIT_MODIFIEDS" xml:space="preserve">
+		<value>Modificato</value>
+	</data>
+	<data name="MODEL_EDIT_RENDER_ALL" xml:space="preserve">
+		<value>Converti tutto</value>
+	</data>
+	<data name="MODEL_EDIT_NO_RENDER" xml:space="preserve">
+		<value>Blocca la conversione</value>
+	</data>
+	<data name="MODEL_EDIT_DELETE_RENDER" xml:space="preserve">
+		<value>Elimina la conversione</value>
+	</data>
+	<data name="MODEL_EDIT_ADD_IMAGE" xml:space="preserve">
+		<value>Aggiungere immagine</value>
+	</data>
+	<data name="MODEL_EDIT_DELETE_IMAGE" xml:space="preserve">
+		<value>Cancellare immagine</value>
+	</data>
+	<data name="MODEL_EDIT_COPY_IMAGES" xml:space="preserve">
+		<value>Copiare immagini convertite</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_ESTIMATION" xml:space="preserve">
+		<value>Calcolo</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_PRODUCTION" xml:space="preserve">
+		<value>Produzione</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR1" xml:space="preserve">
+		<value>Consumo inchiostro barra 1:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR2" xml:space="preserve">
+		<value>Consumo inchiostro barra 2:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR3" xml:space="preserve">
+		<value>Consumo inchiostro barra 3:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR4" xml:space="preserve">
+		<value>Consumo inchiostro barra 4:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR5" xml:space="preserve">
+		<value>Consumo inchiostro barra 5:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR6" xml:space="preserve">
+		<value>Consumo inchiostro barra 6:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR7" xml:space="preserve">
+		<value>Consumo inchiostro barra 7:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR8" xml:space="preserve">
+		<value>Consumo inchiostro barra 8:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_TOTAL" xml:space="preserve">
+		<value>Totale</value>
+	</data>
+	<data name="MODEL_DELETE" xml:space="preserve">
+		<value>Sicuro di eliminare il Modello selezionato?</value>
+	</data>
+	<data name="MODEL_DELETE_RENDERED" xml:space="preserve">
+		<value>Sicuro di eliminare il Modello Convertito?</value>
+	</data>
+	<data name="MODEL_DESIGNS_USE" xml:space="preserve">
+		<value>Usare</value>
+	</data>
+	<data name="MODEL_DESIGNS_ORDER" xml:space="preserve">
+		<value>Ordine</value>
+	</data>
+	<data name="MODEL_DESIGNS_SOURCE" xml:space="preserve">
+		<value>Origine</value>
+	</data>
+	<data name="MODEL_DESIGNS_DESCRIPTION" xml:space="preserve">
+		<value>Descrizione</value>
+	</data>
+	<data name="MODEL_MODES_NORMAL" xml:space="preserve">
+		<value>Normale</value>
+	</data>
+	<data name="MODEL_MODES_INCREMENTAL" xml:space="preserve">
+		<value>Sequenziale</value>
+	</data>
+	<data name="MODEL_MODES_RANDOM" xml:space="preserve">
+		<value>Casuale</value>
+	</data>
+	<data name="MODEL_MODES_TILING" xml:space="preserve">
+		<value>Griglia</value>
+	</data>
+	<data name="MODEL_MODES_MANUAL" xml:space="preserve">
+		<value>Manuale</value>
+	</data>
+	<data name="MODEL_MODES_CRETAVISION" xml:space="preserve">
+		<value>Cretavision</value>
+	</data>
+	<data name="MODELS_MODES_IMAGE_INFO" xml:space="preserve">
+		<value>Info immagini</value>
+	</data>
+	<data name="MODEL_MODES_WIDTH" xml:space="preserve">
+		<value>Larghezza (Y):</value>
+	</data>
+	<data name="MODEL_MODES_HEIGHT" xml:space="preserve">
+		<value>Lunghezza (X):</value>
+	</data>
+	<data name="M_ALARMS_CONFIRM" xml:space="preserve">
+		<value>Conferma</value>
+	</data>
+	<data name="M_EDIT_QUALITY_NOISE" xml:space="preserve">
+		<value>Rumore</value>
+	</data>
+	<data name="MODEL_MODES_CFG_MODE_IMGS" xml:space="preserve">
+		<value>Modalità cambio tra le immagini:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_OFFSET_X" xml:space="preserve">
+		<value>Offset in X:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_OFFSET_Y" xml:space="preserve">
+		<value>Offset: in Y:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CONT_HORIZ" xml:space="preserve">
+		<value>Modo continuo orizzontale</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CONT_VERT" xml:space="preserve">
+		<value>Modo continuo verticale</value>
+	</data>
+	<data name="MODEL_MODES_CFG_TILES_IMG" xml:space="preserve">
+		<value>Numero di pezzi per immagine</value>
+	</data>
+	<data name="MODEL_MODES_CFG_SIMULATION" xml:space="preserve">
+		<value>Simulazione</value>
+	</data>
+	<data name="MODEL_MODES_CFG_INCR_X" xml:space="preserve">
+		<value>Incremento X</value>
+	</data>
+	<data name="MODEL_MODES_CFG_INCR_Y" xml:space="preserve">
+		<value>Incremento Y</value>
+	</data>
+	<data name="MODEL_MODES_CFG_ROWS" xml:space="preserve">
+		<value>Numero di file:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_COLUMNS" xml:space="preserve">
+		<value>Numero di colonne:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_X" xml:space="preserve">
+		<value>X:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_Y" xml:space="preserve">
+		<value>Y:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_ADD" xml:space="preserve">
+		<value>Aggiungere</value>
+	</data>
+	<data name="MODEL_MODES_CAMERA_ID" xml:space="preserve">
+		<value>IDs telecamera:</value>
+	</data>
+	<data name="MODEL_DESIGNS_TIF_EXISTS" xml:space="preserve">
+		<value>Il file Tiff già esiste nel percorso originale.</value>
+	</data>
+	<data name="MODEL_EDIT_ABORT_RENDER" xml:space="preserve">
+		<value>Interrompere la Conversione</value>
+	</data>
+	<data name="M_EDIT_CAMERA" xml:space="preserve">
+		<value>Telecamera</value>
+	</data>
+	<data name="M_EDIT_RENDER" xml:space="preserve">
+		<value>Convertendo</value>
+	</data>
+	<data name="M_EDIT_SLAVES" xml:space="preserve">
+		<value>Slaves</value>
+	</data>
+	<data name="MODEL_IMG_STATE_OK" xml:space="preserve">
+		<value>Ok</value>
+	</data>
+	<data name="MODEL_IMG_STATE_QUEUE" xml:space="preserve">
+		<value>In coda</value>
+	</data>
+	<data name="MODEL_IMG_STATE_PROCESSING" xml:space="preserve">
+		<value>Processo</value>
+	</data>
+	<data name="MODEL_IMG_STATE_NOMEMORY" xml:space="preserve">
+		<value>Memoria insufficiente</value>
+	</data>
+	<data name="MODEL_IMG_STATE_NOORIGINAL" xml:space="preserve">
+		<value>L'immagine TIF originale non è stata trovata</value>
+	</data>
+	<data name="MODEL_IMG_STATE_NOPROCESSED" xml:space="preserve">
+		<value>Non elaborato</value>
+	</data>
+	<data name="MODEL_IMG_STATE_NOPROCESSED_ERROR" xml:space="preserve">
+		<value>Errore – Non elaborato</value>
+	</data>
+	<data name="MAIN_START_SELECTION" xml:space="preserve">
+		<value>Scegliere Modello da stampare</value>
+	</data>
+	<data name="MAIN_START_SELECT" xml:space="preserve">
+		<value>Seleziona</value>
+	</data>
+	<data name="MAIN_START_PRODUCTION" xml:space="preserve">
+		<value>Produzione</value>
+	</data>
+	<data name="MAIN_START_NUM_TILES" xml:space="preserve">
+		<value>Produrre una quantità e tornare indietro</value>
+	</data>
+	<data name="MAIN_START_TILES" xml:space="preserve">
+		<value>Pezzi</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_MODE" xml:space="preserve">
+		<value>Modalità di stampa:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SIGNALDELAY" xml:space="preserve">
+		<value>Ritardo segnale consenso</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_PCS_ON" xml:space="preserve">
+		<value>Tenere PC accesi</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_LOGS" xml:space="preserve">
+		<value>Salvare file autenticati</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SECURITY" xml:space="preserve">
+		<value>Livello sicurezza</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_INK_CONS" xml:space="preserve">
+		<value>Calcolo consumo inchiostro</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SUCTION_MODE" xml:space="preserve">
+		<value>Modalità Aspirazione</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SUCTION_LEN" xml:space="preserve">
+		<value>Durata Aspirazione</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_IMG_BUFFER" xml:space="preserve">
+		<value>Buffer carica immaggine</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_BARCONF" xml:space="preserve">
+		<value>Configurazione Barra</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_BELT_GEAR" xml:space="preserve">
+		<value>Riduttore Motore Nastro:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_BLOCKS" xml:space="preserve">
+		<value>Blocchi per barra:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_MASTER_PORT" xml:space="preserve">
+		<value>Porta Master ModbusRTU:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_NUMBARS" xml:space="preserve">
+		<value>Numero di barre:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_DIRECTION" xml:space="preserve">
+		<value>Verso della macchina</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_ENCODER" xml:space="preserve">
+		<value>Calcolo Encoder</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_DRIVE" xml:space="preserve">
+		<value>Albero di trasmissione:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_ENCODER_P" xml:space="preserve">
+		<value>Encoder:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_ESTIMATE" xml:space="preserve">
+		<value>Calcolo</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_RESULT" xml:space="preserve">
+		<value>Risultato</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_PULSES" xml:space="preserve">
+		<value>Impulsi</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_LINE1" xml:space="preserve">
+		<value>1 Linea</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_LINE2" xml:space="preserve">
+		<value>2 linee</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_LEFT" xml:space="preserve">
+		<value>Da sinistra</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_RIGHT" xml:space="preserve">
+		<value>Da destra</value>
+	</data>
+	<data name="MAIN_TILES_COUNT1" xml:space="preserve">
+		<value>Pezzi linea 1</value>
+	</data>
+	<data name="MAIN_TILES_COUNT2" xml:space="preserve">
+		<value>Pezzi linea 2</value>
+	</data>
+	<data name="MAIN_ALARMS" xml:space="preserve">
+		<value>Allarmi</value>
+	</data>
+	<data name="MODEL_STATE_PRINTING_L1" xml:space="preserve">
+		<value>Stampare L1</value>
+	</data>
+	<data name="MODEL_STATE_PRINTING_L2" xml:space="preserve">
+		<value>Stampare L2</value>
+	</data>
+	<data name="MODEL_STATE_NOT_READY" xml:space="preserve">
+		<value>Lavoro non pronto</value>
+	</data>
+	<data name="MODEL_STATE_PROCESSING" xml:space="preserve">
+		<value>Convertendo</value>
+	</data>
+	<data name="MAIN_PLC_OK" xml:space="preserve">
+		<value>Comunicazione con PLC abilitata</value>
+	</data>
+	<data name="MAIN_PLC_ERROR" xml:space="preserve">
+		<value>Impossibile comunicare con PLC</value>
+	</data>
+	<data name="MAIN_NO_USERS" xml:space="preserve">
+		<value>Nessun utente</value>
+	</data>
+	<data name="MAIN_USER" xml:space="preserve">
+		<value>Utente:</value>
+	</data>
+	<data name="MAIN_RENDER_SERVER_ON" xml:space="preserve">
+		<value>Server del render connesso</value>
+	</data>
+	<data name="MAIN_RENDER_SERVER_OFF" xml:space="preserve">
+		<value>Server del render disconnesso</value>
+	</data>
+	<data name="MAIN_PRINT_SERVER_ON" xml:space="preserve">
+		<value>Server di stampa connesso</value>
+	</data>
+	<data name="MAIN_PRINT_SERVER_OFF" xml:space="preserve">
+		<value>Server di stampa disconnesso</value>
+	</data>
+	<data name="MAIN_REMOTE_ASSISTANCE" xml:space="preserve">
+		<value>Assistenza remota:</value>
+	</data>
+	<data name="MAIN_CAMERA_CONNECTED" xml:space="preserve">
+		<value>Telecamera 1 connessa</value>
+	</data>
+	<data name="MAIN_CAMERA_NOT_CONNECTED" xml:space="preserve">
+		<value>Telecamera 1 non connessa</value>
+	</data>
+	<data name="MAIN_CAMERA_DISCONNECTING" xml:space="preserve">
+		<value>Telecamera 1 in disconnessione</value>
+	</data>
+	<data name="MAIN_CAMERA_DISCONNECTED" xml:space="preserve">
+		<value>Telecamera 1 disconnessa</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_COLOR" xml:space="preserve">
+		<value>Colore Barra</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DIS_L1" xml:space="preserve">
+		<value>Abilitare barra della linea 1</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DIS_L2" xml:space="preserve">
+		<value>Abilitare barra della linea 2</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_SENSOR_DIST" xml:space="preserve">
+		<value>Distanza sensore rilevamento pezzi:</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_PH_PMB" xml:space="preserve">
+		<value>Numero di testine</value>
+	</data>
+	<data name="G_WAVEFORM" xml:space="preserve">
+		<value>Waveform:</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DROPS" xml:space="preserve">
+		<value>Numero gocce:</value>
+	</data>
+	<data name="M_EDIT_DESC_PORT" xml:space="preserve">
+		<value>Porta:</value>
+	</data>
+	<data name="M_EDIT_BAR_TYPE" xml:space="preserve">
+		<value>Tipo barra:</value>
+	</data>
+	<data name="M_EDIT_BARTYPE_ESPESORADA" xml:space="preserve">
+		<value>Spessore</value>
+	</data>
+	<data name="M_EDIT_BARTYPE_DECORATION" xml:space="preserve">
+		<value>Decorazione</value>
+	</data>
+	<data name="M_EDIT_BAR_NUM_PMB" xml:space="preserve">
+		<value>Numero di PMB</value>
+	</data>
+	<data name="G_PATH" xml:space="preserve">
+		<value>Rotta</value>
+	</data>
+	<data name="G_ADDRESS" xml:space="preserve">
+		<value>Indirizzo:</value>
+	</data>
+	<data name="CLEAN_RUN_EVERY" xml:space="preserve">
+		<value>Pulire singolarmente</value>
+	</data>
+	<data name="CLEAN_CARRIER_MOV" xml:space="preserve">
+		<value>Tempo (s) Carrello</value>
+	</data>
+	<data name="CLEAN_DRIP_TIME" xml:space="preserve">
+		<value>Tempo (s) gocciolamento</value>
+	</data>
+	<data name="CLEAN_OFFSET" xml:space="preserve">
+		<value>Offset</value>
+	</data>
+	<data name="CLEAN_SPITTING" xml:space="preserve">
+		<value>T (s) spit</value>
+	</data>
+	<data name="CLEAN_TIME_BT_SPITS" xml:space="preserve">
+		<value>T (m) tra gli spit</value>
+	</data>
+	<data name="CLEAN_SPIT_FREQ" xml:space="preserve">
+		<value>Frequenza spit (Hz)</value>
+	</data>
+	<data name="CLEAN_SPIT" xml:space="preserve">
+		<value>Spit</value>
+	</data>
+	<data name="CLEAN_BY_TILES" xml:space="preserve">
+		<value>Per pezzi</value>
+	</data>
+	<data name="CLEAN_BY_TIME" xml:space="preserve">
+		<value>Per tempo</value>
+	</data>
+	<data name="CLEAN_CONTINOUS" xml:space="preserve">
+		<value>Continuo</value>
+	</data>
+	<data name="CLEAN_MANUAL_FORCED" xml:space="preserve">
+		<value>Forza manualmente</value>
+	</data>
+	<data name="G_MINUTES" xml:space="preserve">
+		<value>Minuti</value>
+	</data>
+	<data name="G_SECONDS" xml:space="preserve">
+		<value>Secondi</value>
+	</data>
+	<data name="CLEAN_BELT" xml:space="preserve">
+		<value>Nastro</value>
+	</data>
+	<data name="CLEAN_CYCLE_LENGTH" xml:space="preserve">
+		<value>Durata del ciclo</value>
+	</data>
+	<data name="CLEAN_HEADS_STOPPED" xml:space="preserve">
+		<value>Pulizia testine quando la macchina è ferma</value>
+	</data>
+	<data name="CLEAN_MORE_OPTIONS" xml:space="preserve">
+		<value>Maggiori opzioni</value>
+	</data>
+	<data name="CLEAN_L1_DELAY" xml:space="preserve">
+		<value>Ritardo linea 1:</value>
+	</data>
+	<data name="CLEAN_L2_DELAY" xml:space="preserve">
+		<value>Ritardo linea 2:</value>
+	</data>
+	<data name="CLEAN_GAP_TIME" xml:space="preserve">
+		<value>Intervallo di tempo:</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_GLOBAL" xml:space="preserve">
+		<value>Posizione globale</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_GLOBAL_L1" xml:space="preserve">
+		<value>Posizione globale della linea 1</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_GLOBAL_L2" xml:space="preserve">
+		<value>Posizione globale della linea 2</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_FROM0" xml:space="preserve">
+		<value>Da 0</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_FROMCENTER" xml:space="preserve">
+		<value>Dal centro</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_XOFFSET" xml:space="preserve">
+		<value>Spostamento X (mm):</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_YOFFSET" xml:space="preserve">
+		<value>Spostamento Y (mm):</value>
+	</data>
+	<data name="CLEAN_ERROR_AUTO" xml:space="preserve">
+		<value>La macchina deve essere in AUTOMATICO.</value>
+	</data>
+	<data name="CLEAN_ERROR_NO_IMG" xml:space="preserve">
+		<value>Non deve esserci nessuna immagine caricata.</value>
+	</data>
+	<data name="CLEAN_ERROR_BARS_TENSION" xml:space="preserve">
+		<value>Le barre devono essere alimentate.</value>
+	</data>
+	<data name="CLEAN_ERROR_INK_ON" xml:space="preserve">
+		<value>Il sistema inchiostro deve essere in funzione.</value>
+	</data>
+	<data name="CLEAN_OK" xml:space="preserve">
+		<value>La modalità spit è pronta all’uso.</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_YMODE" xml:space="preserve">
+		<value>Modalità Y</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL0" xml:space="preserve">
+		<value>Canale 0</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL1" xml:space="preserve">
+		<value>Canale 1</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL2" xml:space="preserve">
+		<value>Canale 2</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL3" xml:space="preserve">
+		<value>Canale 3</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL4" xml:space="preserve">
+		<value>Canale 4</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL5" xml:space="preserve">
+		<value>Canale 5</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL6" xml:space="preserve">
+		<value>Canale 6</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL7" xml:space="preserve">
+		<value>Canale 7</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP1" xml:space="preserve">
+		<value>Goccia 1</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP2" xml:space="preserve">
+		<value>Goccia 2</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP3" xml:space="preserve">
+		<value>Goccia 3</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP4" xml:space="preserve">
+		<value>Goccia 4</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP5" xml:space="preserve">
+		<value>Goccia 5</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP6" xml:space="preserve">
+		<value>Goccia 6</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP7" xml:space="preserve">
+		<value>Goccia 7</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP8" xml:space="preserve">
+		<value>Goccia 8</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP9" xml:space="preserve">
+		<value>Goccia 9</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP10" xml:space="preserve">
+		<value>Goccia 10</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP11" xml:space="preserve">
+		<value>Goccia 11</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP12" xml:space="preserve">
+		<value>Goccia 12</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP13" xml:space="preserve">
+		<value>Goccia 13</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP14" xml:space="preserve">
+		<value>Goccia 14</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP15" xml:space="preserve">
+		<value>Goccia 15</value>
+	</data>
+	<data name="M_EDIT_QUALITY_FACTOR" xml:space="preserve">
+		<value>Fattore:</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DENSITY" xml:space="preserve">
+		<value>Densità</value>
+	</data>
+	<data name="M_EDIT_QUALITY_OVERLAP" xml:space="preserve">
+		<value>Sovrapposizione</value>
+	</data>
+	<data name="M_EDIT_QUALITY_LEVELS" xml:space="preserve">
+		<value>Livelli:</value>
+	</data>
+	<data name="G_OPEN" xml:space="preserve">
+		<value>Aprire</value>
+	</data>
+	<data name="M_EDIT_QUALITY_SAVE" xml:space="preserve">
+		<value>Salvare le informazioni di qualità attuali?</value>
+	</data>
+	<data name="M_EDIT_QUALITY_SAVE_ERROR" xml:space="preserve">
+		<value>Impossibile salvare le informazioni di qualità.</value>
+	</data>
+	<data name="M_EDIT_QUALITY_NEWNAME" xml:space="preserve">
+		<value>Nome della qualità:</value>
+	</data>
+	<data name="M_EDIT_QUALITY_EXISTS" xml:space="preserve">
+		<value>Nome qualità già esistente.</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DELETE" xml:space="preserve">
+		<value>Cancellare le informazioni di qualità selezionate?</value>
+	</data>
+	<data name="M_EDIT_QUALITY_OPEN_ERROR" xml:space="preserve">
+		<value>Impossibile aprire il file Qualità.</value>
+	</data>
+	<data name="M_EDIT_QUALITY_SAVECHANGES" xml:space="preserve">
+		<value>Salvare tutti i cambi effettuati?</value>
+	</data>
+	<data name="G_YES" xml:space="preserve">
+		<value>Sì.</value>
+	</data>
+	<data name="G_NO" xml:space="preserve">
+		<value>No.</value>
+	</data>
+	<data name="CLEAN_SPIT_BT_TILES" xml:space="preserve">
+		<value>Spit tra i pezzi.</value>
+	</data>
+	<data name="MAIN_RESET_TILE_COUNTER" xml:space="preserve">
+		<value>Azzerare il conteggio?</value>
+	</data>
+	<data name="MAIN_CONTINUOUS_TIME" xml:space="preserve">
+		<value>Tempo di ripetizione</value>
+	</data>
+	<data name="MAIN_START_LOAD_ERROR" xml:space="preserve">
+		<value>Errore di caricamento. Controllare lo status Server di stampa.</value>
+	</data>
+	<data name="MAIN_HELP_OSK" xml:space="preserve">
+		<value>Tasto tastiera sullo schermo</value>
+	</data>
+	<data name="G_SHOW" xml:space="preserve">
+		<value>Mostrare</value>
+	</data>
+	<data name="G_HIDE" xml:space="preserve">
+		<value>Nascondere</value>
+	</data>
+	<data name="G_DATE_FROM" xml:space="preserve">
+		<value>Da:</value>
+	</data>
+	<data name="G_DATE_TO" xml:space="preserve">
+		<value>A:</value>
+	</data>
+	<data name="G_UPDATE" xml:space="preserve">
+		<value>Aggiornare</value>
+	</data>
+	<data name="M_ALARMS_TIMEEND" xml:space="preserve">
+		<value>Ora Fine</value>
+	</data>
+	<data name="MAIN_KERNEL_ERROR" xml:space="preserve">
+		<value>Impossibile comunicare con Kernel</value>
+	</data>
+	<data name="MAIN_KERNEL_OK" xml:space="preserve">
+		<value>Comunicazione con Kernel abilitata</value>
+	</data>
+	<data name="MAIN_USER_PASSWORD" xml:space="preserve">
+		<value>Password:</value>
+	</data>
+	<data name="MAIN_USER_LIST" xml:space="preserve">
+		<value>Elenco utenti</value>
+	</data>
+	<data name="MAIN_USER_ENABLE" xml:space="preserve">
+		<value>Abilitare</value>
+	</data>
+	<data name="MAIN_USER_CONFIRMATION" xml:space="preserve">
+		<value>Conferma:</value>
+	</data>
+	<data name="MAIN_USER_LANGUAGE" xml:space="preserve">
+		<value>Lingua:</value>
+	</data>
+	<data name="MAIN_USER_LEVEL" xml:space="preserve">
+		<value>Livello:</value>
+	</data>
+	<data name="MAIN_USER_PASSWORD_REPEAT" xml:space="preserve">
+		<value>Ripetere la password:</value>
+	</data>
+	<data name="MAIN_USER_CONFIRM_ERROR" xml:space="preserve">
+		<value>La Password introdotta e la conferma devono essere uguali.</value>
+	</data>
+	<data name="MAIN_USER_USB" xml:space="preserve">
+		<value>Preparare la pendrive.</value>
+	</data>
+	<data name="M_USER_LEVEL_LOW" xml:space="preserve">
+		<value>Normale</value>
+	</data>
+	<data name="M_USER_LEVEL_MED" xml:space="preserve">
+		<value>Tecnico di fabbrica</value>
+	</data>
+	<data name="M_USER_LEVEL_HIGH" xml:space="preserve">
+		<value>Tecnico Cretaprint</value>
+	</data>
+	<data name="M_USER_LEVEL_ADMIN" xml:space="preserve">
+		<value>Amministratore</value>
+	</data>
+	<data name="M_WANT_EXIT" xml:space="preserve">
+		<value>Vuoi davvero chiudere l’applicazione?</value>
+	</data>
+	<data name="G_METERS" xml:space="preserve">
+		<value>Metri:</value>
+	</data>
+	<data name="FILE_PRODUCTION_REPORT_TOTAL" xml:space="preserve">
+		<value>Totale</value>
+	</data>
+	<data name="FILE_PRODUCTION_REPORT_L1" xml:space="preserve">
+		<value>Parziale linea 1</value>
+	</data>
+	<data name="FILE_PRODUCTION_REPORT_L2" xml:space="preserve">
+		<value>Parziale linea 2</value>
+	</data>
+	<data name="FILE_CANOPEN" xml:space="preserve">
+		<value>Stato CANopen</value>
+	</data>
+	<data name="SIMULATION_IMG_MODE_EDIT" xml:space="preserve">
+		<value>Modificare</value>
+	</data>
+	<data name="SIMULATION_IMG_MODE_ONE" xml:space="preserve">
+		<value>Simulare uno</value>
+	</data>
+	<data name="SIMULATION_IMG_MODE_ALL" xml:space="preserve">
+		<value>Simulare tutti</value>
+	</data>
+	<data name="M_FILE_PRINTSERVER_PRINTING" xml:space="preserve">
+		<value>Stampando</value>
+	</data>
+	<data name="MODEL_IMAGES" xml:space="preserve">
+		<value>Immagini</value>
+	</data>
+	<data name="M_EDIT_QUALITY_COPY_DROPS" xml:space="preserve">
+		<value>Copiare su tutti i canali</value>
+	</data>
+	<data name="MAIN_USER_LOGIN_ERROR" xml:space="preserve">
+		<value>Password o username non corretti</value>
+	</data>
+	<data name="MAIN_USER_DELETE" xml:space="preserve">
+		<value>Sicuro di eliminare l’utente selezionato?</value>
+	</data>
+	<data name="M_EDIT_DESC_SLAVES_POS" xml:space="preserve">
+		<value>Posizione degli slaves:</value>
+	</data>
+	<data name="G_NAME_COLON" xml:space="preserve">
+		<value>Nome:</value>
+	</data>
+	<data name="TAS_TONE_AUTO" xml:space="preserve">
+		<value>Automatico</value>
+	</data>
+	<data name="TAS_TONE_MANUAL" xml:space="preserve">
+		<value>Manuale</value>
+	</data>
+	<data name="TAS_SAMPLES" xml:space="preserve">
+		<value>Campioni totali:</value>
+	</data>
+	<data name="TAS_TILE_DIM" xml:space="preserve">
+		<value>Dimensioni del pezzo</value>
+	</data>
+	<data name="TAS_SAMPLE_DIST" xml:space="preserve">
+		<value>Distribuzione dei campioni</value>
+	</data>
+	<data name="TAS_SAMPLE_SELECT_IMG" xml:space="preserve">
+		<value>Selezionare l’immagine Campione</value>
+	</data>
+	<data name="TAS_SAMPLE_SECTION" xml:space="preserve">
+		<value>Selezionare una sezione (campione)</value>
+	</data>
+	<data name="TAS_SAMPLE_SIZE" xml:space="preserve">
+		<value>Misura Campione:</value>
+	</data>
+	<data name="TAS_SAMPLE_ROWS" xml:space="preserve">
+		<value>Righe per pezzo:</value>
+	</data>
+	<data name="TAS_SAMPLE_COLS" xml:space="preserve">
+		<value>Colonne per pezzo:</value>
+	</data>
+	<data name="TAS_SAMPLES_PER_TILE" xml:space="preserve">
+		<value>Campioni per pezzo:</value>
+	</data>
+	<data name="TAS_SAMPLES_TOTAL_TILES" xml:space="preserve">
+		<value>Pezzi totali:</value>
+	</data>
+	<data name="TAS_INTEN_GENERAR" xml:space="preserve">
+		<value>Generare</value>
+	</data>
+	<data name="TAS_INTEN_VARIATION" xml:space="preserve">
+		<value>Variazione:</value>
+	</data>
+	<data name="TAS_INTEN_LIMIT" xml:space="preserve">
+		<value>Variazione massima:</value>
+	</data>
+	<data name="TAS_INTEN_NEGATIVE" xml:space="preserve">
+		<value>Includere valori negativi</value>
+	</data>
+	<data name="TAS_TONE_DEVIATION" xml:space="preserve">
+		<value>Scarto (%):</value>
+	</data>
+	<data name="TAS_TONE_CH_COMB" xml:space="preserve">
+		<value>Specificare il canale dell'immagine che verrà modificata:</value>
+	</data>
+	<data name="TAS_TONE_CH_COMB_1" xml:space="preserve">
+		<value>(1) Combinazione di un canale ogni campione</value>
+	</data>
+	<data name="TAS_TONE_CH_COMB_2" xml:space="preserve">
+		<value>(2) Combinazione di due canali ogni campione</value>
+	</data>
+	<data name="TAS_TONE_CH_CH_MODIFY" xml:space="preserve">
+		<value>Specificare il canale dell'immagine che verrà modificata:</value>
+	</data>
+	<data name="TAS_NEXT" xml:space="preserve">
+		<value>Successivo</value>
+	</data>
+	<data name="TAS_BACK" xml:space="preserve">
+		<value>Indietro</value>
+	</data>
+	<data name="TAS_PROCESS" xml:space="preserve">
+		<value>Processare</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL8" xml:space="preserve">
+		<value>Canale 8</value>
+	</data>
+	<data name="TAS_TAG" xml:space="preserve">
+		<value>Tag</value>
+	</data>
+	<data name="QR_CODE" xml:space="preserve">
+		<value>Codice QR:</value>
+	</data>
+	<data name="HELP_INFO_SYSTEM_MEM" xml:space="preserve">
+		<value>Memoria del sistema</value>
+	</data>
+	<data name="HELP_INFO_SLAVES" xml:space="preserve">
+		<value>Uso della memoria negli slaves:</value>
+	</data>
+	<data name="HELP_INFO_MASTER" xml:space="preserve">
+		<value>Uso della memoria nei master:</value>
+	</data>
+	<data name="HELP_INFO_VERSIONS" xml:space="preserve">
+		<value>Versioni</value>
+	</data>
+	<data name="MODELS_NOQUALITIES" xml:space="preserve">
+		<value>Nessuna qualità, si vogliono creare qualità per difetto?</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_CONNECT_1" xml:space="preserve">
+		<value>Connettere con la telecamera 1</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_CONNECT_2" xml:space="preserve">
+		<value>Connettere con la telecamera 2</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_IP_1" xml:space="preserve">
+		<value>Indirizzo IP della telecamera:</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_USR_1" xml:space="preserve">
+		<value>Utente della telecamera:</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_PAS_1" xml:space="preserve">
+		<value>Password della telecamera:</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_1" xml:space="preserve">
+		<value>Telecamera 1</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_2" xml:space="preserve">
+		<value>Telecamera 2</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_PORT1_1" xml:space="preserve">
+		<value>Porta 1:</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_PORT2_1" xml:space="preserve">
+		<value>Porta 2:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CAM_IDS" xml:space="preserve">
+		<value>Ids della telecamera:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CAM_ORIGIN" xml:space="preserve">
+		<value>Origine del rilevamento:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CAM_IN_CAM" xml:space="preserve">
+		<value>Telecamera (Cognex)</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CAM_IN_PLC1" xml:space="preserve">
+		<value>Entrate PLC1</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_MATRICULA" xml:space="preserve">
+		<value>Registrazione:</value>
+	</data>
+	<data name="G_QUESTION_DELETE" xml:space="preserve">
+		<value>Si vuole eliminare l’elemento selezionato?</value>
+	</data>
+	<data name="TAS_SELECT_SAMPLE" xml:space="preserve">
+		<value>Selezionare il campione desiderato:</value>
+	</data>
+	<data name="TAS_SAMPLE_VALIDATE" xml:space="preserve">
+		<value>Validare il campione</value>
+	</data>
+	<data name="TAS_SAMPLE_VALIDATE_INFO" xml:space="preserve">
+		<value>Usare questi parametri per la creazione di un nuovo TAS di produzione (variazione applicata su ogni file TIFF).</value>
+	</data>
+	<data name="TAS_NUM_SAMPLES" xml:space="preserve">
+		<value>Campioni</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_AUTOALIGN_QUESTION" xml:space="preserve">
+		<value>Si è sicuri di voler resettare l’allineamento delle testine?   Si perderà l’allineamento attuale.</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_AUTOALIGN_LEFT" xml:space="preserve">
+		<value>La testina numero 1 è collocata a sinistra?</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_AUTOALIGN" xml:space="preserve">
+		<value>Auto-allineamento</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_INTERROW_DESV" xml:space="preserve">
+		<value>Deviazione dell’Inter Row:</value>
+	</data>
+	<data name="G_ERROR_COMMAND" xml:space="preserve">
+		<value>Non si può processare il comando</value>
+	</data>
+	<data name="MODEL_STATE_INK_CONS" xml:space="preserve">
+		<value>Calcolando il consumo di inchiostro</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SIDE_TABLE" xml:space="preserve">
+		<value>Tabelle ausiliarie:</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_NONE" xml:space="preserve">
+		<value>Nessuna</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DIS_ALLBAR" xml:space="preserve">
+		<value>Barra abilitata</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_BENT_TILE" xml:space="preserve">
+		<value>Separazione dei pezzi piegati:</value>
+	</data>
+	<data name="BAR_VALIDATE_AUTO" xml:space="preserve">
+		<value>Validare in automatico</value>
+	</data>
+	<data name="MAIN_CAMERA_NOT_CONNECTED2" xml:space="preserve">
+		<value>Telecamera 2 non connessa</value>
+	</data>
+	<data name="M_ALR_ACTIONS_USER" xml:space="preserve">
+		<value>Utente</value>
+	</data>
+	<data name="MAIN_BAR_CLEAN_ASK" xml:space="preserve">
+		<value>Sicuro di pulire tutte le barre?</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DROP_VOL" xml:space="preserve">
+		<value>Peso goccia minima</value>
+	</data>
+	<data name="TAS_TONE" xml:space="preserve">
+		<value>Tono</value>
+	</data>
+	<data name="TAS_INTENSITY" xml:space="preserve">
+		<value>Intensità</value>
+	</data>
+	<data name="TAS_EXTRACT_TIFF" xml:space="preserve">
+		<value>Estrarre TIFF</value>
+	</data>
+	<data name="G_REFRESH" xml:space="preserve">
+		<value>Aggiornamento</value>
+	</data>
+	<data name="M_EDIT_INCREMENT" xml:space="preserve">
+		<value>Incremento</value>
+	</data>
+	<data name="G_SELECT_ALL" xml:space="preserve">
+		<value>Selezionare tutto</value>
+	</data>
+	<data name="M_FILE_BACKUP_RESTORE" xml:space="preserve">
+		<value>Ripristinare</value>
+	</data>
+	<data name="M_FILE_BACKUP_DIFF" xml:space="preserve">
+		<value>Ci sono versioni differenti:</value>
+	</data>
+	<data name="G_WISH_TO_CONTINUE" xml:space="preserve">
+		<value>Vuole continuare?</value>
+	</data>
+	<data name="G_APPLY_CHANGES" xml:space="preserve">
+		<value>È sicuro di voler ripristinare i dati?</value>
+	</data>
+	<data name="M_EDIT_DSEC_BAR_ELECTRONICS" xml:space="preserve">
+		<value>Elettronica</value>
+	</data>
+	<data name="G_ENABLE_ALL" xml:space="preserve">
+		<value>Abilitare tutto</value>
+	</data>
+	<data name="G_DISABLE_ALL" xml:space="preserve">
+		<value>Disabilitare tutto</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_MOUNT_TILE" xml:space="preserve">
+		<value>Altezza del pezzo montato:</value>
+	</data>
+	<data name="EDIT_LASER_HOMING_INFO" xml:space="preserve">
+		<value>Il selettore deve essere sullo 0</value>
+	</data>
+	<data name="BAR_RECIRCULATION_PUMP" xml:space="preserve">
+		<value>Bomba positiva:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_NUM_BARS_CLEAN" xml:space="preserve">
+		<value>Pulizia delle barre simultanee:</value>
+	</data>
+	<data name="BAR_RECIRCULATION" xml:space="preserve">
+		<value>Riciclo dell'inchiostro:</value>
+	</data>
+	<data name="ENABLED_NOZZLES" xml:space="preserve">
+		<value>Iniettori abilitati</value>
+	</data>
+	<data name="DISABLED_NOZZLES" xml:space="preserve">
+		<value>Iniettori annullati</value>
+	</data>
+	<data name="ENABLE_NOZZLE" xml:space="preserve">
+		<value>Abilitare iniettori</value>
+	</data>
+	<data name="DISABLE_NOZZLE" xml:space="preserve">
+		<value>Annullare iniettori</value>
+	</data>
+	<data name="PLOT_MOTOR_GAIN" xml:space="preserve">
+		<value>Rafforzamento del motore:</value>
+	</data>
+	<data name="PLOT_PASSES" xml:space="preserve">
+		<value>Passaggi</value>
+	</data>
+	<data name="PLOT_DSEC_GNR_WITH_BELT" xml:space="preserve">
+		<value>Con cinta</value>
+	</data>
+	<data name="PLOT_DSEC_GNR_VALIDATE" xml:space="preserve">
+		<value>Validare dopo aver ravviato</value>
+	</data>
+	<data name="M_EDIT_DIAGNOSTICS" xml:space="preserve">
+		<value>Efi Diagnostics</value>
+	</data>
+	<data name="M_EDIT_DESC_MOTOR_HOMING_EDIT" xml:space="preserve">
+		<value>È sicuro di voler modificare i dati di riferimento del motore?</value>
+	</data>
+	<data name="M_ALR_ACTIONS_DATE" xml:space="preserve">
+		<value>Data</value>
+	</data>
+	<data name="M_ALR_ACTIONS_MESSAGE" xml:space="preserve">
+		<value>Messaggio</value>
+	</data>
+	<data name="INKS_CLEAN_BELT" xml:space="preserve">
+		<value>Pulire la banda</value>
+	</data>
+	<data name="M_HELP_LICENSE_TIME_LEFT" xml:space="preserve">
+		<value>Tempo residuo per attivare la licenza:</value>
+	</data>
+	<data name="G_DAYS" xml:space="preserve">
+		<value>giorni</value>
+	</data>
+	<data name="M_HELP_LICENSE_ACTIVATE" xml:space="preserve">
+		<value>Attivare</value>
+	</data>
+	<data name="M_HELP_LICENSE" xml:space="preserve">
+		<value>Licenza</value>
+	</data>
+	<data name="M_HELP_LICENSE_ACT_CODE" xml:space="preserve">
+		<value>Codice di attivazione</value>
+	</data>
+	<data name="M_HELP_LICENSE_IS_ACTIVE" xml:space="preserve">
+		<value>La licenza è attiva</value>
+	</data>
+	<data name="M_HELP_LICENSE_INVALID" xml:space="preserve">
+		<value>La licenza non è valida</value>
+	</data>
+	<data name="RENDER_WARNING_NO_IMG_ORIG" xml:space="preserve">
+		<value>Una o più immagini originali non si trovano</value>
+	</data>
+	<data name="M_FILE_BACKUP_RESTORE_POINT" xml:space="preserve">
+		<value>Aprire il punto di ripristino</value>
+	</data>
+	<data name="PLOTTER_ZERO_VACUUM" xml:space="preserve">
+		<value>Per realizzare lo 0 vuoto è necessario togliere il tubo. È sicuro di voler continuare?</value>
+	</data>
+	<data name="WARNING_BAR_NOT_TO_PRINT" xml:space="preserve">
+		<value>La barra # non stamperà</value>
+	</data>
+	<data name="WARNING_BAR_NOT_TO_PRINT_PRINTING" xml:space="preserve">
+		<value>La barra non si trova nella posizione di tinta.</value>
+	</data>
+	<data name="WARNING_BAR_NOT_TO_PRINT_DISABLED" xml:space="preserve">
+		<value>La barra non è abilitata</value>
+	</data>
+	<data name="WARNING_TRIMS_DIFFERENCE" xml:space="preserve">
+		<value>La differenza tra i trims massimo e minimo deve essere inferiore a 2.0v</value>
+	</data>
+	<data name="M_MAIN_CONSENT" xml:space="preserve">
+		<value>Acconsentimento</value>
+	</data>
+	<data name="M_WANT_SAVE" xml:space="preserve">
+		<value>L'applicazione si chiuderà se si realizza questa modifica. Vuole salvare e ravviare?</value>
+	</data>
+	<data name="RETURN_SPEED" xml:space="preserve">
+		<value>Velocità di risposta:</value>
+	</data>
+	<data name="M_EDIT_CARRIER_ADJUST" xml:space="preserve">
+		<value>Impostazione di carrello di pulizia</value>
+	</data>
+	<data name="M_EDIT_BAR_NUM_PMB_LINE1" xml:space="preserve">
+		<value>PMBs in linea 1:</value>
+	</data>
+	<data name="CLEANING_SPEED" xml:space="preserve">
+		<value>Velocità di pulizia:</value>
+	</data>
+	<data name="BAR_INK_ADVANCED" xml:space="preserve">
+		<value>Avanzate</value>
+	</data>
+	<data name="BAR_INK_CLEAN_MANIFOLD" xml:space="preserve">
+		<value>Pulire il collettore</value>
+	</data>
+	<data name="BAR_INK_EMPTY_DEPOSIT" xml:space="preserve">
+		<value>Svuotare il deposito</value>
+	</data>
+	<data name="BAR_INK_EMPTY_EXCHANGER" xml:space="preserve">
+		<value>Svuotare lo scambiatore</value>
+	</data>
+	<data name="BAR_INK_LOAD" xml:space="preserve">
+		<value>Caricare inchiostro</value>
+	</data>
+	<data name="BAR_INK_MAN_REVERSE" xml:space="preserve">
+		<value>Flusso contrario manuale</value>
+	</data>
+	<data name="BAR_INK_TEST_MODE" xml:space="preserve">
+		<value>Modalità test:</value>
+	</data>
+	<data name="BAR_MESSAGE_CLEAN_MANIFOLD_1" xml:space="preserve">
+		<value>Pulire collettore (1/3): Preparare il deposito per pulire il collettore</value>
+	</data>
+	<data name="BAR_MESSAGE_CLEAN_MANIFOLD_2" xml:space="preserve">
+		<value>Pulire collettore (2/3): Pulendo il collettore…</value>
+	</data>
+	<data name="BAR_MESSAGE_CLEAN_MANIFOLD_3" xml:space="preserve">
+		<value>Pulire collettore (3/3): Preparare per il normale funzionamento</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_DEPOSIT_1" xml:space="preserve">
+		<value>Svuotare il deposito (1/3): Preparare il contenitore e aprire la valvola di deposito</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_DEPOSIT_2" xml:space="preserve">
+		<value>Svuotare il deposito (2/3): Svuotando il deposito…</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_DEPOSIT_3" xml:space="preserve">
+		<value>Svuotare il deposito (3/3): Chiudere la valvola del deposito</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_EXCHANGER_1" xml:space="preserve">
+		<value>Svuotare lo scambiatore (1/3): Aprire la valvola situata al di sotto dello scambiatore.</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_EXCHANGER_2" xml:space="preserve">
+		<value>Svuotare lo scambiatore (2/3): Svuotando l'intercambiatore…</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_EXCHANGER_3" xml:space="preserve">
+		<value>Svuotare lo scambiatore (3/3): Svuotare la valvola situata al di sotto dello scambiatore.</value>
+	</data>
+	<data name="BAR_MESSAGE_LOAD_INK_1" xml:space="preserve">
+		<value>Caricare inchiostro (1/2): Assicurarsi che le valvole siano in posizione di ricircolo e carichi l'inchiostro nel deposito.</value>
+	</data>
+	<data name="BAR_MESSAGE_LOAD_INK_2" xml:space="preserve">
+		<value>Caricare inchiostro (2/2): Ricircolo iniziale dell'inchiostro…</value>
+	</data>
+	<data name="BAR_VACUUM_DIFF" xml:space="preserve">
+		<value>Differenza vuoto:</value>
+	</data>
+	<data name="BAR_VACUUM_ENTRY" xml:space="preserve">
+		<value>Pressione in entrata:</value>
+	</data>
+	<data name="BAR_VACUUM_EXIT" xml:space="preserve">
+		<value>Pressione in uscita:</value>
+	</data>
+	<data name="G_DONE" xml:space="preserve">
+		<value>Fatto</value>
+	</data>
+	<data name="ADV_INK_COLD_MENISCUS" xml:space="preserve">
+		<value>Menisco freddo</value>
+	</data>
+	<data name="ADV_INK_DESHAB_PID" xml:space="preserve">
+		<value>Disabilitare PID:</value>
+	</data>
+	<data name="ADV_INK_DRIP_SETPOINT" xml:space="preserve">
+		<value>Setpoint del gocciolamento:</value>
+	</data>
+	<data name="ADV_INK_EMPTYING_PARAMETERS" xml:space="preserve">
+		<value>Parametri di svuotamento</value>
+	</data>
+	<data name="ADV_INK_EMPTYING_SETPOINT" xml:space="preserve">
+		<value>Setpoint di svuotamento:</value>
+	</data>
+	<data name="ADV_INK_LOADING" xml:space="preserve">
+		<value>Carica</value>
+	</data>
+	<data name="ADV_INK_LOADING_TIME" xml:space="preserve">
+		<value>Tempo di ricircolo:</value>
+	</data>
+	<data name="ADV_INK_MANUAL_REVERSE_PARAMETERS" xml:space="preserve">
+		<value>Flusso contrario manuale</value>
+	</data>
+	<data name="ADV_INK_MANUAL_REVERSE_TIME" xml:space="preserve">
+		<value>Tempo del flusso inverso manuale</value>
+	</data>
+	<data name="ADV_INK_PARAM" xml:space="preserve">
+		<value>Parametri avanzati</value>
+	</data>
+	<data name="ADV_INK_REVERSE_SETPOINT" xml:space="preserve">
+		<value>Setpoint di flusso inverso:</value>
+	</data>
+	<data name="ADV_INK_STAB_SOLENOIDS" xml:space="preserve">
+		<value>Stabilire solenoidi:</value>
+	</data>
+	<data name="ADV_INK_TIME_AFTER_MINIMUM_LEVEL" xml:space="preserve">
+		<value>Tempo di bomba in seguito al livello minimo:</value>
+	</data>
+	<data name="BAR_INK_COPY_ADVANCED_PARAMETERS" xml:space="preserve">
+		<value>Copiare i valori in tutte le barre</value>
+	</data>
+	<data name="MAIN_START_CANT_LOAD" xml:space="preserve">
+		<value>L'immagine non può essere caricata con il macchinario fermo o in bypass</value>
+	</data>
+	<data name="BAR_INK_TEMP" xml:space="preserve">
+		<value>Temperatura:</value>
+	</data>
+	<data name="BAR_MENISCUS" xml:space="preserve">
+		<value>Menisco:</value>
+	</data>
+	<data name="BAR_MENISCUS_SETPOINT" xml:space="preserve">
+		<value>Setpoint menisco:</value>
+	</data>
+	<data name="G_NOZZLE" xml:space="preserve">
+		<value>iniettori</value>
+	</data>
+	<data name="ADV_INK_TIME_EMPTYING_MANIFOLD" xml:space="preserve">
+		<value>Tempo per svuotare lo scambiatore:</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_DIGITALSIGNALS" xml:space="preserve">
+		<value>Sincronizza</value>
+	</data>
+	<data name="M_EDIT_NOZZLE_OUT" xml:space="preserve">
+		<value>Correzione ugello</value>
+	</data>
+	<data name="M_WANT_COPY_ADVANCED_INK_PARAMETERS" xml:space="preserve">
+		<value>Copiare questa configurazione per tutte le barre?</value>
+	</data>
+	<data name="M_EDIT_BAR_INK_COM_PORT" xml:space="preserve">
+		<value>Porta COM Inkbox</value>
+	</data>
+	<data name="BAR_SP_SENSOR_POSITIVO" xml:space="preserve">
+		<value>Pressione sp in entrata:</value>
+	</data>
+	<data name="BAR_SP_BOMBA_NEGATIVO" xml:space="preserve">
+		<value>Pompa di risalita:</value>
+	</data>
+	<data name="BAR_SP_LLENADO" xml:space="preserve">
+		<value>Pompa di riempimento:</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_EXCEEDS_WIDTH" xml:space="preserve">
+		<value>L'offset in Y supera la larghezza della stampa. Parte dell'immagine non verrà stampata.</value>
+	</data>
+	<data name="SECURITY_OFF" xml:space="preserve">
+		<value>Sicurezza disabilitata</value>
+	</data>
+	<data name="CLEANING_BARS_INK_STOP" xml:space="preserve">
+		<value>Almeno un sistema di inchiostro è fermo. Preparare la/e barra/e per la pulizia</value>
+	</data>
+	<data name="ERROR_SAVING_PARAMS" xml:space="preserve">
+		<value>Le impostazioni non sono state salvate</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_USEROFFSET" xml:space="preserve">
+		<value>Offset barre:</value>
+	</data>
+	<data name="MODEL_NOT_RIPPED_DOUBLE_Y" xml:space="preserve">
+		<value>Il plotter è impostato per stampare a una risoluzione Y doppia, ma il modello non è stato convertito correttamente.</value>
+	</data>
+	<data name="PLOTTER_MOVEMENTS_INCORRECT" xml:space="preserve">
+		<value>Il movimento del plotter non è corretto: il progetto viene convertito a una risoluzione Y doppia</value>
+	</data>
+	<data name="MODEL_DESINGS_TIFFRES" xml:space="preserve">
+		<value>Risoluzione dell'immagine</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_REPEATED_COLORPLANES" xml:space="preserve">
+		<value>Le modifiche non verranno salvate: Sono presenti barre alle quali è assegnato lo stesso canale.</value>
+	</data>
+	<data name="MAIN_MARCHA_PAUSE" xml:space="preserve">
+		<value>SOSPENDI</value>
+	</data>
+	<data name="M_EDIT_DESC_SUBPORT" xml:space="preserve">
+		<value>SubPort:</value>
+	</data>
+	<data name="M_EDIT_DESC_HEAD_ID" xml:space="preserve">
+		<value>Head Id:</value>
+	</data>
+</root>

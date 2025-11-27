@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{03B60F51-7695-437C-97ED-1F0C2C83A68A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CretaBase</RootNamespace>
+    <AssemblyName>CretaBase</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.20525.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BitMiracle.LibTiff.NET">
+      <HintPath>..\..\LibreriasComunes\BitMiracle.LibTiff.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="libTiffCreta">
+      <HintPath>..\..\LibreriasComunes\libTiffCreta.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFLocalizeExtension">
+      <HintPath>..\..\LibreriasComunes\WPF\WPFLocalizeExtension.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CretaControls\CretaMessageBoxC4.cs" />
+    <Compile Include="CretaControls\CretaMessageBoxCtrlC4.xaml.cs">
+      <DependentUpon>CretaMessageBoxCtrlC4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CretaControls\CretaTextBoxArrowsUpDownC4.xaml.cs">
+      <DependentUpon>CretaTextBoxArrowsUpDownC4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CretaControls\CretaTextBoxNumericC4.xaml.cs">
+      <DependentUpon>CretaTextBoxNumericC4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CretaControls\CretaTextBoxUtils.cs" />
+    <Compile Include="CretaConverters\BooleanToVisibilityConverter.cs" />
+    <Compile Include="CretaConverters\EnumToBoolConverter.cs" />
+    <Compile Include="CretaConverters\ImagePathConverter.cs" />
+    <Compile Include="CretaConverters\InverseBooleanConverter.cs" />
+    <Compile Include="CretaStylesC4\Test_Controls.xaml.cs">
+      <DependentUpon>Test_Controls.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CretaUtils\AlignableWrapPanel.cs" />
+    <Compile Include="CretaUtils\CretaEncrypt.cs" />
+    <Compile Include="CretaUtils\CretaImageUtils.cs" />
+    <Compile Include="CretaUtils\CretaProperties.cs" />
+    <Compile Include="CretaUtils\CretaSerialization.cs" />
+    <Compile Include="CretaUtils\CretaUtils.cs" />
+    <Compile Include="CretaUtils\HashSetCollection.cs" />
+    <Compile Include="CretaUtils\ObservableCollectionEx.cs" />
+    <Compile Include="CretaUtils\SortedObservableCollection.cs" />
+    <Compile Include="Langs\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Managers\LocalizationMgr.cs" />
+    <Compile Include="Managers\PopUpMgr.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Base_MVVM\RelayCommand.cs" />
+    <Compile Include="Base_MVVM\ViewModelBase.cs" />
+    <EmbeddedResource Include="Langs\Strings.cs-CZ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.de-DE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.fr-FR.resx" />
+    <EmbeddedResource Include="Langs\Strings.id-ID.resx" />
+    <EmbeddedResource Include="Langs\Strings.it-IT.resx" />
+    <EmbeddedResource Include="Langs\Strings.ko-KR.resx" />
+    <EmbeddedResource Include="Langs\Strings.pl-PL.resx" />
+    <EmbeddedResource Include="Langs\Strings.pt-PT.resx" />
+    <EmbeddedResource Include="Langs\Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Langs\Strings.ru-RU.resx" />
+    <EmbeddedResource Include="Langs\Strings.tr-TR.resx" />
+    <EmbeddedResource Include="Langs\Strings.zh-CN.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="CretaControls\CretaMessageBoxCtrlC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaControls\CretaTextBoxArrowsUpDownC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaControls\CretaTextBoxNumericC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaCheckBoxC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaComboBoxC4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStylesC4\CretaFocusVisualStyleC4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CretaStylesC4\CretaGroupBoxC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaListViewC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaProgressBarC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaRadioButtonC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaRectangleBackgroundC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaSeparatorC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaToggleButtonC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\Test_Controls.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaButtonsC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaColorsC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaIcons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaMenuC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CretaStylesC4\CretaTextBoxC4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Quitar_VersionFinal.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\Spain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\United-Kingdom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\Italy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\China.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\France.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\Turkey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\Russia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\Portugal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\Germany.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\Poland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Img_play.png" />
+    <Resource Include="ImagesC4\Img_stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\Indonesia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\Czech-Republic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagesC4\Flags\South-Korea.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,29 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+	<ControlTemplate x:Key="CretaSeparatorHorizontalC4" TargetType="{x:Type Separator}">
+		<StackPanel Orientation="Vertical">
+			<Grid Background="#FF999999" Height="2"/>
+			<Grid Background="White" Height="2"/>
+		</StackPanel>
+	</ControlTemplate>
+	<ControlTemplate x:Key="CretaSeparatorHorizontalThinC4" TargetType="{x:Type Separator}">
+		<StackPanel Orientation="Vertical">
+			<Grid Background="#FF999999" Height="1"/>
+			<Grid Background="White" Height="1"/>
+		</StackPanel>
+	</ControlTemplate>
+	<ControlTemplate x:Key="CretaSeparatorVerticalC4" TargetType="{x:Type Separator}">
+		<StackPanel Orientation="Horizontal">
+			<Grid Background="#FF999999" Width="2"/>
+			<Grid Background="White" Width="2"/>
+		</StackPanel>
+	</ControlTemplate>
+	<ControlTemplate x:Key="CretaSeparatorVerticalThinC4" TargetType="{x:Type Separator}">
+		<StackPanel Orientation="Horizontal">
+			<Grid Background="#FF999999" Width="1"/>
+			<Grid Background="White" Width="1"/>
+		</StackPanel>
+	</ControlTemplate>
+	<!-- Resource dictionary entries should be defined here. -->
+</ResourceDictionary>

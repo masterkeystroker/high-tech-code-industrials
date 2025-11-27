@@ -1,0 +1,2276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="M_FILE" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="M_FILE_START" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="M_FILE_SLAVES" xml:space="preserve">
+    <value>Slaves PC's control</value>
+  </data>
+  <data name="M_EDIT" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="M_ALARMS" xml:space="preserve">
+    <value>Alarms</value>
+  </data>
+  <data name="M_USERS" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="M_HELP" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="M_FILE_MODELS" xml:space="preserve">
+    <value>Jobs</value>
+  </data>
+  <data name="M_FILE_PRODUCTION" xml:space="preserve">
+    <value>Production report</value>
+  </data>
+  <data name="M_FILE_PREVIEW" xml:space="preserve">
+    <value>Create preview</value>
+  </data>
+  <data name="M_FILE_CONTINUOUS" xml:space="preserve">
+    <value>Continuous printing on line 1</value>
+  </data>
+  <data name="M_FILE_SAVE" xml:space="preserve">
+    <value>Save Print Server configurations</value>
+  </data>
+  <data name="M_FILE_RESTART" xml:space="preserve">
+    <value>Restart slaves communication</value>
+  </data>
+  <data name="M_FILE_CONSOLE" xml:space="preserve">
+    <value>Console</value>
+  </data>
+  <data name="M_FILE_BACKUP" xml:space="preserve">
+    <value>Configurations Backup</value>
+  </data>
+  <data name="M_FILE_STATUS" xml:space="preserve">
+    <value>Print Server status</value>
+  </data>
+  <data name="M_FILE_CLEANUP" xml:space="preserve">
+    <value>Screen Clean up</value>
+  </data>
+  <data name="M_FILE_MAXIMISE" xml:space="preserve">
+    <value>Maximize</value>
+  </data>
+  <data name="M_FILE_MINIMISE" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="M_FILE_CLOSE" xml:space="preserve">
+    <value>Close application</value>
+  </data>
+  <data name="M_FILE_CONTINUOUS2" xml:space="preserve">
+    <value>Continuous printing on line 2</value>
+  </data>
+  <data name="M_EDIT_HEADS" xml:space="preserve">
+    <value>Print Heads ON/OFF</value>
+  </data>
+  <data name="M_EDIT_CANCEL1" xml:space="preserve">
+    <value>Printing line 1 ON/OFF</value>
+  </data>
+  <data name="M_EDIT_CANCEL2" xml:space="preserve">
+    <value>Printing line 2 ON/OFF</value>
+  </data>
+  <data name="M_EDIT_ADJUST" xml:space="preserve">
+    <value>Adjust tile position</value>
+  </data>
+  <data name="M_EDIT_ALIGNMENT" xml:space="preserve">
+    <value>Alignment</value>
+  </data>
+  <data name="M_EDIT_DESCRIPTION" xml:space="preserve">
+    <value>Printer description</value>
+  </data>
+  <data name="M_EDIT_QUALITIES" xml:space="preserve">
+    <value>Qualities</value>
+  </data>
+  <data name="M_EDIT_PHOTOCELL" xml:space="preserve">
+    <value>Entrance photocell</value>
+  </data>
+  <data name="M_EDIT_MOTORBAR" xml:space="preserve">
+    <value>Adjust motorbar</value>
+  </data>
+  <data name="M_EDIT_BELTSTART" xml:space="preserve">
+    <value>Belt manual start</value>
+  </data>
+  <data name="M_EDIT_BELTSTOP" xml:space="preserve">
+    <value>Belt manual stop</value>
+  </data>
+  <data name="G_BAR" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="G_BARS" xml:space="preserve">
+    <value>Bars</value>
+  </data>
+  <data name="G_BAR1" xml:space="preserve">
+    <value>Bar 1</value>
+  </data>
+  <data name="G_BAR2" xml:space="preserve">
+    <value>Bar 2</value>
+  </data>
+  <data name="G_BAR3" xml:space="preserve">
+    <value>Bar 3</value>
+  </data>
+  <data name="G_BAR4" xml:space="preserve">
+    <value>Bar 4</value>
+  </data>
+  <data name="G_BAR5" xml:space="preserve">
+    <value>Bar 5</value>
+  </data>
+  <data name="G_BAR6" xml:space="preserve">
+    <value>Bar 6</value>
+  </data>
+  <data name="G_BAR7" xml:space="preserve">
+    <value>Bar 7</value>
+  </data>
+  <data name="G_BAR8" xml:space="preserve">
+    <value>Bar 8</value>
+  </data>
+  <data name="M_ALARMS_CHECK" xml:space="preserve">
+    <value>Check active alarms</value>
+  </data>
+  <data name="M_ALARMS_RESET" xml:space="preserve">
+    <value>Reset alarms</value>
+  </data>
+  <data name="M_ALARMS_REPORT" xml:space="preserve">
+    <value>Alarms report</value>
+  </data>
+  <data name="M_ALARMS_ACTIONS" xml:space="preserve">
+    <value>Actions report</value>
+  </data>
+  <data name="M_ALARMS_REGISTRY" xml:space="preserve">
+    <value>Registry report</value>
+  </data>
+  <data name="M_USERS_LOGIN" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="M_USERS_LOGOUT" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="M_USERS_LANGUAGES" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="M_USERS_EDIT" xml:space="preserve">
+    <value>Edit user account</value>
+  </data>
+  <data name="M_HELP_INFO" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="M_HELP_HELP" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="M_HELP_REMOTE" xml:space="preserve">
+    <value>Remote Connection</value>
+  </data>
+  <data name="M_HELP_CHAT" xml:space="preserve">
+    <value>Start Chat</value>
+  </data>
+  <data name="G_CLOSE" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="MAIN_MODEL_COLON" xml:space="preserve">
+    <value>Job:</value>
+  </data>
+  <data name="G_LINE1" xml:space="preserve">
+    <value>Line 1</value>
+  </data>
+  <data name="MAIN_LENGTH" xml:space="preserve">
+    <value>Length:</value>
+  </data>
+  <data name="MAIN_WIDTH" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="MAIN_RESOLUTION" xml:space="preserve">
+    <value>Resolution:</value>
+  </data>
+  <data name="MAIN_QUALITY" xml:space="preserve">
+    <value>Quality:</value>
+  </data>
+  <data name="MAIN_MODE_COLON" xml:space="preserve">
+    <value>Mode:</value>
+  </data>
+  <data name="MAIN_START" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="MAIN_STOP" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="MAIN_INSTANT_PRINT" xml:space="preserve">
+    <value>Instant Print</value>
+  </data>
+  <data name="MAIN_PRINT_CHANNELS" xml:space="preserve">
+    <value>Print Channels</value>
+  </data>
+  <data name="MAIN_GENERAL" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="MAIN_SPEED" xml:space="preserve">
+    <value>Speed:</value>
+  </data>
+  <data name="MAIN_THICKNESS" xml:space="preserve">
+    <value>Tile thickness:</value>
+  </data>
+  <data name="MAIN_JETTING" xml:space="preserve">
+    <value>Jetting gap:</value>
+  </data>
+  <data name="MAIN_MANUAL" xml:space="preserve">
+    <value>MANUAL</value>
+  </data>
+  <data name="MAIN_STOPPED" xml:space="preserve">
+    <value>STOPPED</value>
+  </data>
+  <data name="MAIN_AUTOMATIC" xml:space="preserve">
+    <value>AUTOMATIC</value>
+  </data>
+  <data name="G_LINE2" xml:space="preserve">
+    <value>Line 2</value>
+  </data>
+  <data name="MAIN_MODE" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="MAIN_MODEL" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="MAIN_TAS" xml:space="preserve">
+    <value>TAS</value>
+  </data>
+  <data name="MAIN_BAR_CLEAN" xml:space="preserve">
+    <value>Cleaning</value>
+  </data>
+  <data name="MAIN_INIT_INK" xml:space="preserve">
+    <value>Start ink system</value>
+  </data>
+  <data name="MAIN_SILENCE" xml:space="preserve">
+    <value>Mute</value>
+  </data>
+  <data name="MAIN_CLEANING" xml:space="preserve">
+    <value>Cleaning menu</value>
+  </data>
+  <data name="MAIN_BAR_CAPPED" xml:space="preserve">
+    <value>Over tray</value>
+  </data>
+  <data name="MAIN_BAR_MAINTENANCE" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="MAIN_BAR_PAINT" xml:space="preserve">
+    <value>Printing</value>
+  </data>
+  <data name="MAIN_MARCHA_START" xml:space="preserve">
+    <value>START</value>
+  </data>
+  <data name="MAIN_MARCHA_LAB" xml:space="preserve">
+    <value>LABORATORY</value>
+  </data>
+  <data name="MAIN_MARCHA_BYPASS" xml:space="preserve">
+    <value>BY-PASS</value>
+  </data>
+  <data name="MAIN_MARCHA_STOP" xml:space="preserve">
+    <value>STOP</value>
+  </data>
+  <data name="MAIN_LINEMODE_NORMAL" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="MAIN_LINEMODE_STOPPED" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="MAIN_LINEMODE" xml:space="preserve">
+    <value>Line mode</value>
+  </data>
+  <data name="MAIN_SCREEN_CLEAN" xml:space="preserve">
+    <value>Press the two corners to exit</value>
+  </data>
+  <data name="M_FILE_SLAVES_SLAVE1" xml:space="preserve">
+    <value>Slave 1</value>
+  </data>
+  <data name="M_FILE_SLAVES_SLAVE2" xml:space="preserve">
+    <value>Slave 2</value>
+  </data>
+  <data name="M_FILE_SLAVES_SLAVE3" xml:space="preserve">
+    <value>Slave 3</value>
+  </data>
+  <data name="M_FILE_SLAVES_SLAVE4" xml:space="preserve">
+    <value>Slave 4</value>
+  </data>
+  <data name="M_FILE_SLAVES_SLAVE5" xml:space="preserve">
+    <value>Slave 5</value>
+  </data>
+  <data name="M_FILE_SLAVES_SLAVE6" xml:space="preserve">
+    <value>Slave 6</value>
+  </data>
+  <data name="M_FILE_SLAVES_SLAVE7" xml:space="preserve">
+    <value>Slave 7</value>
+  </data>
+  <data name="M_FILE_SLAVES_SLAVE8" xml:space="preserve">
+    <value>Slave 8</value>
+  </data>
+  <data name="M_FILE_SLAVES_RESTART" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="M_FILE_SLAVES_RESTARTALL" xml:space="preserve">
+    <value>Restart all</value>
+  </data>
+  <data name="M_FILE_SLAVES_SHUTDOWN" xml:space="preserve">
+    <value>Shutdown</value>
+  </data>
+  <data name="M_FILE_SLAVES_CONNECTED" xml:space="preserve">
+    <value>Connected:</value>
+  </data>
+  <data name="M_FILE_SLAVES_TIME" xml:space="preserve">
+    <value>Time On:</value>
+  </data>
+  <data name="M_FILE_SLAVES_FREESPACE" xml:space="preserve">
+    <value>Free space:</value>
+  </data>
+  <data name="M_ALARMS_NAME" xml:space="preserve">
+    <value>Alarm name</value>
+  </data>
+  <data name="M_ALARMS_MESSAGE" xml:space="preserve">
+    <value>Alarm message</value>
+  </data>
+  <data name="M_ALARMS_TIMESTART" xml:space="preserve">
+    <value>Time start</value>
+  </data>
+  <data name="M_ALARMS_TIMECONFIRMED" xml:space="preserve">
+    <value>Time alarm confirmed</value>
+  </data>
+  <data name="G_SAVE" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_INFO_HEAD" xml:space="preserve">
+    <value>Selected print head - Data</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_WAVEFORM" xml:space="preserve">
+    <value>Current waveform:</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_DIS_NOZZLES_BEG" xml:space="preserve">
+    <value>Disabled nozzles at the beginning:</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_DIS_NOZZLES_END" xml:space="preserve">
+    <value>Disabled nozzles at the end:</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_SERIAL" xml:space="preserve">
+    <value>Print head serial number:</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_ENABLE" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_PTRIMS" xml:space="preserve">
+    <value>PTrims</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_OFFSET" xml:space="preserve">
+    <value>Selected print head offset</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_TYPE" xml:space="preserve">
+    <value>Print head type:</value>
+  </data>
+  <data name="G_CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_TRIMS_LOCK" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="G_PRINTHEAD" xml:space="preserve">
+    <value>Print head</value>
+  </data>
+  <data name="BAR_INKS" xml:space="preserve">
+    <value>Inks</value>
+  </data>
+  <data name="BAR_DOWN_FAST" xml:space="preserve">
+    <value>Down fast</value>
+  </data>
+  <data name="BAR_DOWN" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="BAR_UP" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="BAR_UP_FAST" xml:space="preserve">
+    <value>Up fast</value>
+  </data>
+  <data name="BAR_FORWARD" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="BAR_BACKWARD" xml:space="preserve">
+    <value>Backward</value>
+  </data>
+  <data name="BAR_IN" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="BAR_OUT" xml:space="preserve">
+    <value>Out</value>
+  </data>
+  <data name="BAR_TRAY" xml:space="preserve">
+    <value>Tray:</value>
+  </data>
+  <data name="BAR_CLEANING_CARRIER" xml:space="preserve">
+    <value>Cleaning carrier:</value>
+  </data>
+  <data name="BAR_CLEANING_VENTURI" xml:space="preserve">
+    <value>Venturi cleaning:</value>
+  </data>
+  <data name="BAR_VENTURI_ON" xml:space="preserve">
+    <value>Suction on</value>
+  </data>
+  <data name="BAR_VENTURI_OFF" xml:space="preserve">
+    <value>Suction off</value>
+  </data>
+  <data name="BAR_HEATER_ON" xml:space="preserve">
+    <value>Bar heater on</value>
+  </data>
+  <data name="BAR_HEATER_OFF" xml:space="preserve">
+    <value>Bar heater off</value>
+  </data>
+  <data name="BAR_TANK_HEATER_ON" xml:space="preserve">
+    <value>Tank heater on</value>
+  </data>
+  <data name="BAR_TANK_HEATER_OFF" xml:space="preserve">
+    <value>Tank heater off</value>
+  </data>
+  <data name="BAR_STIRRER_ON" xml:space="preserve">
+    <value>Stirrer on</value>
+  </data>
+  <data name="BAR_STIRRER_OFF" xml:space="preserve">
+    <value>Stirrer off</value>
+  </data>
+  <data name="BAR_TEMP" xml:space="preserve">
+    <value>Bar temperature:</value>
+  </data>
+  <data name="BAR_INK_SYSTEM" xml:space="preserve">
+    <value>Ink system online:</value>
+  </data>
+  <data name="BAR_INK_TEMP_IN" xml:space="preserve">
+    <value>Temperature in:</value>
+  </data>
+  <data name="BAR_INK_TEMP_OUT" xml:space="preserve">
+    <value>Temperature out:</value>
+  </data>
+  <data name="BAR_VACUUM_SETPOINT" xml:space="preserve">
+    <value>Vacuum setpoint:</value>
+  </data>
+  <data name="BAR_VACUUM" xml:space="preserve">
+    <value>Vacuum:</value>
+  </data>
+  <data name="BAR_DUTY_CICLE" xml:space="preserve">
+    <value>Duty cycle return pump:</value>
+  </data>
+  <data name="BAR_WEIR_BUMP" xml:space="preserve">
+    <value>Duty cycle pump in:</value>
+  </data>
+  <data name="BAR_DEAIR_PUMP" xml:space="preserve">
+    <value>Overflow pump:</value>
+  </data>
+  <data name="BAR_FIRMWARE_VER" xml:space="preserve">
+    <value>Firmware version:</value>
+  </data>
+  <data name="BAR_TANK_TEMP" xml:space="preserve">
+    <value>Tank temperature:</value>
+  </data>
+  <data name="BAR_EXTRACTION" xml:space="preserve">
+    <value>Extraction</value>
+  </data>
+  <data name="BAR_USER_OFFSET" xml:space="preserve">
+    <value>User offset:</value>
+  </data>
+  <data name="BAR_MOTOR_POS" xml:space="preserve">
+    <value>Motor position:</value>
+  </data>
+  <data name="BAR_MOTOR_ERROR" xml:space="preserve">
+    <value>Motor error:</value>
+  </data>
+  <data name="BAR_MOTOR_HOMING" xml:space="preserve">
+    <value>Motor homing:</value>
+  </data>
+  <data name="BAR_MOTOR" xml:space="preserve">
+    <value>Motor:</value>
+  </data>
+  <data name="BAR_PRINT_CHANNELS_L1" xml:space="preserve">
+    <value>Print channels line 1</value>
+  </data>
+  <data name="BAR_PRINT_CHANNELS_L2" xml:space="preserve">
+    <value>Print channels line 2</value>
+  </data>
+  <data name="BAR_CLEANING" xml:space="preserve">
+    <value>Cleaning</value>
+  </data>
+  <data name="BAR_VENTURI_DRAIN" xml:space="preserve">
+    <value>Venturi Drain:</value>
+  </data>
+  <data name="BAR_VENTURI_DRAIN_ON" xml:space="preserve">
+    <value>Drain on</value>
+  </data>
+  <data name="BAR_VENTURI_DRAIN_OFF" xml:space="preserve">
+    <value>Drain off</value>
+  </data>
+  <data name="BAR_VACUUM_2" xml:space="preserve">
+    <value>Vacuum 2:</value>
+  </data>
+  <data name="BAR_INK_SYSTEM_TEMP_SP" xml:space="preserve">
+    <value>Sp temperature:</value>
+  </data>
+  <data name="EDIT_LASER_HEIGHT_TILE" xml:space="preserve">
+    <value>Tile height:</value>
+  </data>
+  <data name="EDIT_LASER_GAUGE_THICKNESS" xml:space="preserve">
+    <value>Gauge thickness:</value>
+  </data>
+  <data name="EDIT_LASER_STOP_SENSOR" xml:space="preserve">
+    <value>Overlapping sensor:</value>
+  </data>
+  <data name="EDIT_LASER_DETECT_SENSOR" xml:space="preserve">
+    <value>Product detect sensor:</value>
+  </data>
+  <data name="EDIT_LASER_HOMING" xml:space="preserve">
+    <value>Homing</value>
+  </data>
+  <data name="MODEL_MAIN_QUEUE" xml:space="preserve">
+    <value>Saved jobs queue</value>
+  </data>
+  <data name="MODEL_MAIN_NEW" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="MODEL_MAIN_EDIT" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="MODEL_MAIN_COPY" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="MODEL_MAIN_DELETE" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="MODEL_MAIN_RENDER" xml:space="preserve">
+    <value>Render</value>
+  </data>
+  <data name="MODEL_MAIN_INK_CONSUM" xml:space="preserve">
+    <value>Ink consumption</value>
+  </data>
+  <data name="MODEL_LIST_NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="MODEL_LIST_STATE" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="MODEL_LIST_DIMENSIONS" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="MODEL_LIST_MODE" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="MODEL_LIST_QUALITY" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="MODEL_LIST_DATE_CRE" xml:space="preserve">
+    <value>Creation date</value>
+  </data>
+  <data name="MODEL_LIST_DATE_IMP" xml:space="preserve">
+    <value>Print date</value>
+  </data>
+  <data name="MODEL_MAIN_FAVORITES" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="MODEL_MAIN_PREVIEW" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="MODEL_MAIN_RENDERING" xml:space="preserve">
+    <value>Rendering:</value>
+  </data>
+  <data name="MODEL_MAIN_USED_SPACE" xml:space="preserve">
+    <value>Disk space used in slaves:</value>
+  </data>
+  <data name="MODEL_MAIN_USED_SPACE_MASTER" xml:space="preserve">
+    <value>Disk space used in master PC:</value>
+  </data>
+  <data name="MODEL_GENERAL_NAME" xml:space="preserve">
+    <value>Job's name:</value>
+  </data>
+  <data name="MODEL_GENERAL_DESCRIPTION" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="MODEL_PRINTING_QUALITY" xml:space="preserve">
+    <value>Printing quality:</value>
+  </data>
+  <data name="MODEL_GENERAL_FAVORITE" xml:space="preserve">
+    <value>Favorite:</value>
+  </data>
+  <data name="MODEL_NEW" xml:space="preserve">
+    <value>New job</value>
+  </data>
+  <data name="MODEL_NEW_EXISTS" xml:space="preserve">
+    <value>Name specified already exists. Please, choose another one.</value>
+  </data>
+  <data name="MODEL_EDIT_DESIGNS" xml:space="preserve">
+    <value>Designs</value>
+  </data>
+  <data name="MODEL_EDIT_MODIFIEDS" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+  <data name="MODEL_EDIT_RENDER_ALL" xml:space="preserve">
+    <value>Render all</value>
+  </data>
+  <data name="MODEL_EDIT_NO_RENDER" xml:space="preserve">
+    <value>Stop render</value>
+  </data>
+  <data name="MODEL_EDIT_DELETE_RENDER" xml:space="preserve">
+    <value>Delete render</value>
+  </data>
+  <data name="MODEL_EDIT_ADD_IMAGE" xml:space="preserve">
+    <value>Add image</value>
+  </data>
+  <data name="MODEL_EDIT_DELETE_IMAGE" xml:space="preserve">
+    <value>Delete image</value>
+  </data>
+  <data name="MODEL_EDIT_COPY_IMAGES" xml:space="preserve">
+    <value>Copy rendered images:</value>
+  </data>
+  <data name="MODEL_INK_CONSUM_ESTIMATION" xml:space="preserve">
+    <value>Estimation</value>
+  </data>
+  <data name="MODEL_INK_CONSUM_PRODUCTION" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="MODEL_INK_CONSUM_BAR1" xml:space="preserve">
+    <value>Ink consumption bar 1:</value>
+  </data>
+  <data name="MODEL_INK_CONSUM_BAR2" xml:space="preserve">
+    <value>Ink consumption bar 2:</value>
+  </data>
+  <data name="MODEL_INK_CONSUM_BAR3" xml:space="preserve">
+    <value>Ink consumption bar 3:</value>
+  </data>
+  <data name="MODEL_INK_CONSUM_BAR4" xml:space="preserve">
+    <value>Ink consumption bar 4:</value>
+  </data>
+  <data name="MODEL_INK_CONSUM_BAR5" xml:space="preserve">
+    <value>Ink consumption bar 5:</value>
+  </data>
+  <data name="MODEL_INK_CONSUM_BAR6" xml:space="preserve">
+    <value>Ink consumption bar 6:</value>
+  </data>
+  <data name="MODEL_INK_CONSUM_BAR7" xml:space="preserve">
+    <value>Ink consumption bar 7:</value>
+  </data>
+  <data name="MODEL_INK_CONSUM_BAR8" xml:space="preserve">
+    <value>Ink consumption bar 8:</value>
+  </data>
+  <data name="MODEL_INK_CONSUM_TOTAL" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="MODEL_DELETE" xml:space="preserve">
+    <value>Do you want to delete the selected job?</value>
+  </data>
+  <data name="MODEL_DELETE_RENDERED" xml:space="preserve">
+    <value>Do you want to delete the rendered job?</value>
+  </data>
+  <data name="MODEL_DESIGNS_USE" xml:space="preserve">
+    <value>Use</value>
+  </data>
+  <data name="MODEL_DESIGNS_ORDER" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="MODEL_DESIGNS_SOURCE" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="MODEL_DESIGNS_DESCRIPTION" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="MODEL_MODES_NORMAL" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="MODEL_MODES_INCREMENTAL" xml:space="preserve">
+    <value>Incremental</value>
+  </data>
+  <data name="MODEL_MODES_RANDOM" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="MODEL_MODES_TILING" xml:space="preserve">
+    <value>Tiling</value>
+  </data>
+  <data name="MODEL_MODES_MANUAL" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="MODEL_MODES_CRETAVISION" xml:space="preserve">
+    <value>Cretavision</value>
+  </data>
+  <data name="MODELS_MODES_IMAGE_INFO" xml:space="preserve">
+    <value>Image information</value>
+  </data>
+  <data name="MODEL_MODES_WIDTH" xml:space="preserve">
+    <value>Width (Y):</value>
+  </data>
+  <data name="MODEL_MODES_HEIGHT" xml:space="preserve">
+    <value>Length (X):</value>
+  </data>
+  <data name="M_ALARMS_CONFIRM" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="M_EDIT_QUALITY_NOISE" xml:space="preserve">
+    <value>Noise:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_MODE_IMGS" xml:space="preserve">
+    <value>Selection mode between images:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_OFFSET_X" xml:space="preserve">
+    <value>X offset:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_OFFSET_Y" xml:space="preserve">
+    <value>Y offset:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_CONT_HORIZ" xml:space="preserve">
+    <value>Horizontal continuous mode</value>
+  </data>
+  <data name="MODEL_MODES_CFG_CONT_VERT" xml:space="preserve">
+    <value>Vertical continuous mode</value>
+  </data>
+  <data name="MODEL_MODES_CFG_TILES_IMG" xml:space="preserve">
+    <value>Number of tiles per image:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_SIMULATION" xml:space="preserve">
+    <value>Simulation:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_INCR_X" xml:space="preserve">
+    <value>X increment:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_INCR_Y" xml:space="preserve">
+    <value>Y increment:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_ROWS" xml:space="preserve">
+    <value>Number of rows:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_COLUMNS" xml:space="preserve">
+    <value>Number of columns:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_X" xml:space="preserve">
+    <value>X:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_Y" xml:space="preserve">
+    <value>Y:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_ADD" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="MODEL_MODES_CAMERA_ID" xml:space="preserve">
+    <value>Camera IDs:</value>
+  </data>
+  <data name="MODEL_DESIGNS_TIF_EXISTS" xml:space="preserve">
+    <value>Tiff file already exists in the path.</value>
+  </data>
+  <data name="MODEL_EDIT_ABORT_RENDER" xml:space="preserve">
+    <value>Abort render</value>
+  </data>
+  <data name="M_EDIT_CAMERA" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="M_EDIT_RENDER" xml:space="preserve">
+    <value>Rendering</value>
+  </data>
+  <data name="M_EDIT_SLAVES" xml:space="preserve">
+    <value>Slaves</value>
+  </data>
+  <data name="MODEL_IMG_STATE_OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="MODEL_IMG_STATE_QUEUE" xml:space="preserve">
+    <value>Enqueued</value>
+  </data>
+  <data name="MODEL_IMG_STATE_PROCESSING" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="MODEL_IMG_STATE_NOMEMORY" xml:space="preserve">
+    <value>Not enough memory</value>
+  </data>
+  <data name="MODEL_IMG_STATE_NOORIGINAL" xml:space="preserve">
+    <value>TIF original image not found</value>
+  </data>
+  <data name="MODEL_IMG_STATE_NOPROCESSED" xml:space="preserve">
+    <value>Not processed</value>
+  </data>
+  <data name="MODEL_IMG_STATE_NOPROCESSED_ERROR" xml:space="preserve">
+    <value>Error - Not processed</value>
+  </data>
+  <data name="MAIN_START_SELECTION" xml:space="preserve">
+    <value>Choose the job to be printed</value>
+  </data>
+  <data name="MAIN_START_SELECT" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="MAIN_START_PRODUCTION" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="MAIN_START_NUM_TILES" xml:space="preserve">
+    <value>Produce a quantity and return</value>
+  </data>
+  <data name="MAIN_START_TILES" xml:space="preserve">
+    <value>Tiles</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_MODE" xml:space="preserve">
+    <value>Printing mode:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_SIGNALDELAY" xml:space="preserve">
+    <value>Permission to line delay:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_PCS_ON" xml:space="preserve">
+    <value>Keep PCs ON</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_LOGS" xml:space="preserve">
+    <value>Save Log Files:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_SECURITY" xml:space="preserve">
+    <value>Security level:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_INK_CONS" xml:space="preserve">
+    <value>Ink consumption estimation</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_SUCTION_MODE" xml:space="preserve">
+    <value>Suction mode:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_SUCTION_LEN" xml:space="preserve">
+    <value>Suction time:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_IMG_BUFFER" xml:space="preserve">
+    <value>Load image buffer:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_BARCONF" xml:space="preserve">
+    <value>Bar configuration</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_BELT_GEAR" xml:space="preserve">
+    <value>Belt gearbox ratio:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_BLOCKS" xml:space="preserve">
+    <value>Blocks per bar:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_MASTER_PORT" xml:space="preserve">
+    <value>Master port ModbusRTU:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_NUMBARS" xml:space="preserve">
+    <value>Number of bars:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_DIRECTION" xml:space="preserve">
+    <value>Direction of the printer:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_ENCODER" xml:space="preserve">
+    <value>Calculate encoder</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_DRIVE" xml:space="preserve">
+    <value>Drive shaft:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_ENCODER_P" xml:space="preserve">
+    <value>Encoder:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_ESTIMATE" xml:space="preserve">
+    <value>Estimate</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_RESULT" xml:space="preserve">
+    <value>Result:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_PULSES" xml:space="preserve">
+    <value>Pulses</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_LINE1" xml:space="preserve">
+    <value>1 Line</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_LINE2" xml:space="preserve">
+    <value>2 Lines</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_LEFT" xml:space="preserve">
+    <value>From left</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_RIGHT" xml:space="preserve">
+    <value>From right</value>
+  </data>
+  <data name="MAIN_TILES_COUNT1" xml:space="preserve">
+    <value>Tiles line 1:</value>
+  </data>
+  <data name="MAIN_TILES_COUNT2" xml:space="preserve">
+    <value>Tiles line 2:</value>
+  </data>
+  <data name="MAIN_ALARMS" xml:space="preserve">
+    <value>Alarms:</value>
+  </data>
+  <data name="MODEL_STATE_PRINTING_L1" xml:space="preserve">
+    <value>Printing L1</value>
+  </data>
+  <data name="MODEL_STATE_PRINTING_L2" xml:space="preserve">
+    <value>Printing L2</value>
+  </data>
+  <data name="MODEL_STATE_NOT_READY" xml:space="preserve">
+    <value>Job not ready</value>
+  </data>
+  <data name="MODEL_STATE_PROCESSING" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="MAIN_PLC_OK" xml:space="preserve">
+    <value>Communication with PLC enabled</value>
+  </data>
+  <data name="MAIN_PLC_ERROR" xml:space="preserve">
+    <value>Unable to communicate with PLC</value>
+  </data>
+  <data name="MAIN_NO_USERS" xml:space="preserve">
+    <value>No user</value>
+  </data>
+  <data name="MAIN_USER" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="MAIN_RENDER_SERVER_ON" xml:space="preserve">
+    <value>Render server connected</value>
+  </data>
+  <data name="MAIN_RENDER_SERVER_OFF" xml:space="preserve">
+    <value>Render server disconnected</value>
+  </data>
+  <data name="MAIN_PRINT_SERVER_ON" xml:space="preserve">
+    <value>Print Server connected</value>
+  </data>
+  <data name="MAIN_PRINT_SERVER_OFF" xml:space="preserve">
+    <value>Print Server disconnected</value>
+  </data>
+  <data name="MAIN_REMOTE_ASSISTANCE" xml:space="preserve">
+    <value>Remote assistance:</value>
+  </data>
+  <data name="MAIN_CAMERA_CONNECTED" xml:space="preserve">
+    <value>Camera 1 connected</value>
+  </data>
+  <data name="MAIN_CAMERA_NOT_CONNECTED" xml:space="preserve">
+    <value>Camera 1 not connected</value>
+  </data>
+  <data name="MAIN_CAMERA_DISCONNECTING" xml:space="preserve">
+    <value>Camera 1 disconnecting</value>
+  </data>
+  <data name="MAIN_CAMERA_DISCONNECTED" xml:space="preserve">
+    <value>Cámara 1 desconectada</value>
+  </data>
+  <data name="M_EDIT_DESC_BAR_COLOR" xml:space="preserve">
+    <value>Bar color:</value>
+  </data>
+  <data name="M_EDIT_DESC_BAR_DROP_VOL" xml:space="preserve">
+    <value>Min. drop weight:</value>
+  </data>
+  <data name="M_EDIT_DESC_BAR_DIS_L1" xml:space="preserve">
+    <value>Enable line 1 bar (Print)</value>
+  </data>
+  <data name="M_EDIT_DESC_BAR_DIS_L2" xml:space="preserve">
+    <value>Enable line 2 bar (Print)</value>
+  </data>
+  <data name="M_EDIT_DESC_BAR_SENSOR_DIST" xml:space="preserve">
+    <value>Distance to the Tile Detect Sensor:</value>
+  </data>
+  <data name="M_EDIT_DESC_BAR_PH_PMB" xml:space="preserve">
+    <value>Number of print heads:</value>
+  </data>
+  <data name="G_WAVEFORM" xml:space="preserve">
+    <value>Waveform:</value>
+  </data>
+  <data name="M_EDIT_DESC_BAR_DROPS" xml:space="preserve">
+    <value>Drops number:</value>
+  </data>
+  <data name="M_EDIT_DESC_PORT" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="M_EDIT_BAR_TYPE" xml:space="preserve">
+    <value>Bar type:</value>
+  </data>
+  <data name="M_EDIT_BARTYPE_ESPESORADA" xml:space="preserve">
+    <value>Thickening</value>
+  </data>
+  <data name="M_EDIT_BARTYPE_DECORATION" xml:space="preserve">
+    <value>Decoration</value>
+  </data>
+  <data name="M_EDIT_BAR_NUM_PMB" xml:space="preserve">
+    <value>Number of PMBs:</value>
+  </data>
+  <data name="G_PATH" xml:space="preserve">
+    <value>Path:</value>
+  </data>
+  <data name="G_ADDRESS" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="CLEAN_RUN_EVERY" xml:space="preserve">
+    <value>Run every:</value>
+  </data>
+  <data name="CLEAN_CARRIER_MOV" xml:space="preserve">
+    <value>Carrier mov. t(s)</value>
+  </data>
+  <data name="CLEAN_DRIP_TIME" xml:space="preserve">
+    <value>Drip time (s)</value>
+  </data>
+  <data name="CLEAN_OFFSET" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="CLEAN_SPITTING" xml:space="preserve">
+    <value>Spitting t(s)</value>
+  </data>
+  <data name="CLEAN_TIME_BT_SPITS" xml:space="preserve">
+    <value>T(m) bt. Spits</value>
+  </data>
+  <data name="CLEAN_SPIT_FREQ" xml:space="preserve">
+    <value>Spit frequency (Hz)</value>
+  </data>
+  <data name="CLEAN_SPIT" xml:space="preserve">
+    <value>Spit</value>
+  </data>
+  <data name="CLEAN_BY_TILES" xml:space="preserve">
+    <value>By tiles</value>
+  </data>
+  <data name="CLEAN_BY_TIME" xml:space="preserve">
+    <value>By time</value>
+  </data>
+  <data name="CLEAN_CONTINOUS" xml:space="preserve">
+    <value>Continuous</value>
+  </data>
+  <data name="CLEAN_MANUAL_FORCED" xml:space="preserve">
+    <value>Manual forced</value>
+  </data>
+  <data name="G_MINUTES" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="G_SECONDS" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="CLEAN_BELT" xml:space="preserve">
+    <value>Belt</value>
+  </data>
+  <data name="CLEAN_CYCLE_LENGTH" xml:space="preserve">
+    <value>Cycle length</value>
+  </data>
+  <data name="CLEAN_HEADS_STOPPED" xml:space="preserve">
+    <value>Cleaning heads system when printer is stopped</value>
+  </data>
+  <data name="CLEAN_MORE_OPTIONS" xml:space="preserve">
+    <value>More options</value>
+  </data>
+  <data name="CLEAN_L1_DELAY" xml:space="preserve">
+    <value>Line 1 delay:</value>
+  </data>
+  <data name="CLEAN_L2_DELAY" xml:space="preserve">
+    <value>Line 2 delay:</value>
+  </data>
+  <data name="CLEAN_GAP_TIME" xml:space="preserve">
+    <value>Gap time:</value>
+  </data>
+  <data name="M_EDIT_ADJUST_TILE_GLOBAL" xml:space="preserve">
+    <value>Global position</value>
+  </data>
+  <data name="M_EDIT_ADJUST_TILE_GLOBAL_L1" xml:space="preserve">
+    <value>Global position line 1</value>
+  </data>
+  <data name="M_EDIT_ADJUST_TILE_GLOBAL_L2" xml:space="preserve">
+    <value>Global position line 2</value>
+  </data>
+  <data name="M_EDIT_ADJUST_TILE_FROM0" xml:space="preserve">
+    <value>From 0</value>
+  </data>
+  <data name="M_EDIT_ADJUST_TILE_FROMCENTER" xml:space="preserve">
+    <value>From the center</value>
+  </data>
+  <data name="M_EDIT_ADJUST_TILE_XOFFSET" xml:space="preserve">
+    <value>X offset (mm):</value>
+  </data>
+  <data name="M_EDIT_ADJUST_TILE_YOFFSET" xml:space="preserve">
+    <value>Y offset (mm):</value>
+  </data>
+  <data name="CLEAN_ERROR_AUTO" xml:space="preserve">
+    <value>Printer must be in Automatic mode.</value>
+  </data>
+  <data name="CLEAN_ERROR_NO_IMG" xml:space="preserve">
+    <value>No jobs must be loaded in production line.</value>
+  </data>
+  <data name="CLEAN_ERROR_BARS_TENSION" xml:space="preserve">
+    <value>Bars must be powered.</value>
+  </data>
+  <data name="CLEAN_ERROR_INK_ON" xml:space="preserve">
+    <value>Ink systems must be running.</value>
+  </data>
+  <data name="CLEAN_OK" xml:space="preserve">
+    <value>Spit mode is ready for use.</value>
+  </data>
+  <data name="M_EDIT_ADJUST_TILE_YMODE" xml:space="preserve">
+    <value>Y mode</value>
+  </data>
+  <data name="M_EDIT_QUALITY_CANAL0" xml:space="preserve">
+    <value>Channel 0</value>
+  </data>
+  <data name="M_EDIT_QUALITY_CANAL1" xml:space="preserve">
+    <value>Channel 1</value>
+  </data>
+  <data name="M_EDIT_QUALITY_CANAL2" xml:space="preserve">
+    <value>Channel 2</value>
+  </data>
+  <data name="M_EDIT_QUALITY_CANAL3" xml:space="preserve">
+    <value>Channel 3</value>
+  </data>
+  <data name="M_EDIT_QUALITY_CANAL4" xml:space="preserve">
+    <value>Channel 4</value>
+  </data>
+  <data name="M_EDIT_QUALITY_CANAL5" xml:space="preserve">
+    <value>Channel 5</value>
+  </data>
+  <data name="M_EDIT_QUALITY_CANAL6" xml:space="preserve">
+    <value>Channel 6</value>
+  </data>
+  <data name="M_EDIT_QUALITY_CANAL7" xml:space="preserve">
+    <value>Channel 7</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP1" xml:space="preserve">
+    <value>Drop 1</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP2" xml:space="preserve">
+    <value>Drop 2</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP3" xml:space="preserve">
+    <value>Drop 3</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP4" xml:space="preserve">
+    <value>Drop 4</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP5" xml:space="preserve">
+    <value>Drop 5</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP6" xml:space="preserve">
+    <value>Drop 6</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP7" xml:space="preserve">
+    <value>Drop 7</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP8" xml:space="preserve">
+    <value>Drop 8</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP9" xml:space="preserve">
+    <value>Drop 9</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP10" xml:space="preserve">
+    <value>Drop 10</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP11" xml:space="preserve">
+    <value>Drop 11</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP12" xml:space="preserve">
+    <value>Drop 12</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP13" xml:space="preserve">
+    <value>Drop 13</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP14" xml:space="preserve">
+    <value>Drop 14</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DROP15" xml:space="preserve">
+    <value>Drop 15</value>
+  </data>
+  <data name="M_EDIT_QUALITY_FACTOR" xml:space="preserve">
+    <value>Factor:</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DENSITY" xml:space="preserve">
+    <value>Density</value>
+  </data>
+  <data name="M_EDIT_QUALITY_OVERLAP" xml:space="preserve">
+    <value>Overlap</value>
+  </data>
+  <data name="M_EDIT_QUALITY_LEVELS" xml:space="preserve">
+    <value>Levels:</value>
+  </data>
+  <data name="G_OPEN" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="M_EDIT_QUALITY_SAVE" xml:space="preserve">
+    <value>Do you want to save the current quality info?</value>
+  </data>
+  <data name="M_EDIT_QUALITY_SAVE_ERROR" xml:space="preserve">
+    <value>Unable to save quality info</value>
+  </data>
+  <data name="M_EDIT_QUALITY_NEWNAME" xml:space="preserve">
+    <value>New quality name:</value>
+  </data>
+  <data name="M_EDIT_QUALITY_EXISTS" xml:space="preserve">
+    <value>Quality file name already exists</value>
+  </data>
+  <data name="M_EDIT_QUALITY_DELETE" xml:space="preserve">
+    <value>Do you want to delete the selected quality info?</value>
+  </data>
+  <data name="M_EDIT_QUALITY_OPEN_ERROR" xml:space="preserve">
+    <value>Unable to open Quality file</value>
+  </data>
+  <data name="M_EDIT_QUALITY_SAVECHANGES" xml:space="preserve">
+    <value>Would you like to save all changes?</value>
+  </data>
+  <data name="G_YES" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="G_NO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="CLEAN_SPIT_BT_TILES" xml:space="preserve">
+    <value>Spit between tiles</value>
+  </data>
+  <data name="MAIN_RESET_TILE_COUNTER" xml:space="preserve">
+    <value>Would you like to reset the counter?</value>
+  </data>
+  <data name="MAIN_CONTINUOUS_TIME" xml:space="preserve">
+    <value>Repetition time</value>
+  </data>
+  <data name="MAIN_START_LOAD_ERROR" xml:space="preserve">
+    <value>Load error. Check PrintServer status.</value>
+  </data>
+  <data name="MAIN_HELP_OSK" xml:space="preserve">
+    <value>On Screen Keyboard button</value>
+  </data>
+  <data name="G_SHOW" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="G_HIDE" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="G_DATE_FROM" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="G_DATE_TO" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="G_UPDATE" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="M_ALARMS_TIMEEND" xml:space="preserve">
+    <value>Time finish</value>
+  </data>
+  <data name="MAIN_KERNEL_ERROR" xml:space="preserve">
+    <value>Unable to communicate with Kernel</value>
+  </data>
+  <data name="MAIN_KERNEL_OK" xml:space="preserve">
+    <value>Communication with Kernel enabled</value>
+  </data>
+  <data name="MAIN_USER_PASSWORD" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="MAIN_USER_LIST" xml:space="preserve">
+    <value>Users list</value>
+  </data>
+  <data name="MAIN_USER_ENABLE" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="MAIN_USER_CONFIRMATION" xml:space="preserve">
+    <value>Confirmation:</value>
+  </data>
+  <data name="MAIN_USER_LANGUAGE" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="MAIN_USER_LEVEL" xml:space="preserve">
+    <value>Level:</value>
+  </data>
+  <data name="MAIN_USER_PASSWORD_REPEAT" xml:space="preserve">
+    <value>Repeat password:</value>
+  </data>
+  <data name="MAIN_USER_CONFIRM_ERROR" xml:space="preserve">
+    <value>Password and confirmation must be the same</value>
+  </data>
+  <data name="MAIN_USER_USB" xml:space="preserve">
+    <value>Prepare pendrive</value>
+  </data>
+  <data name="M_USER_LEVEL_LOW" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="M_USER_LEVEL_MED" xml:space="preserve">
+    <value>Factory technician</value>
+  </data>
+  <data name="M_USER_LEVEL_HIGH" xml:space="preserve">
+    <value>CretaPrint technician</value>
+  </data>
+  <data name="M_USER_LEVEL_ADMIN" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="M_WANT_EXIT" xml:space="preserve">
+    <value>Are you sure you want to close the application?</value>
+  </data>
+  <data name="G_METERS" xml:space="preserve">
+    <value>Meters:</value>
+  </data>
+  <data name="FILE_PRODUCTION_REPORT_TOTAL" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="FILE_PRODUCTION_REPORT_L1" xml:space="preserve">
+    <value>Partial counter 1</value>
+  </data>
+  <data name="FILE_PRODUCTION_REPORT_L2" xml:space="preserve">
+    <value>Partial counter 2</value>
+  </data>
+  <data name="FILE_CANOPEN" xml:space="preserve">
+    <value>CANopen status</value>
+  </data>
+  <data name="SIMULATION_IMG_MODE_EDIT" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="SIMULATION_IMG_MODE_ONE" xml:space="preserve">
+    <value>Simulate one</value>
+  </data>
+  <data name="SIMULATION_IMG_MODE_ALL" xml:space="preserve">
+    <value>Simulate all</value>
+  </data>
+  <data name="M_FILE_PRINTSERVER_PRINTING" xml:space="preserve">
+    <value>Printing</value>
+  </data>
+  <data name="MODEL_IMAGES" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="M_EDIT_QUALITY_COPY_DROPS" xml:space="preserve">
+    <value>Copy to all channels</value>
+  </data>
+  <data name="MAIN_USER_LOGIN_ERROR" xml:space="preserve">
+    <value>Incorrect username or password</value>
+  </data>
+  <data name="MAIN_USER_DELETE" xml:space="preserve">
+    <value>Do you want to delete the selected user?</value>
+  </data>
+  <data name="M_EDIT_DESC_SLAVES_POS" xml:space="preserve">
+    <value>Slaves position:</value>
+  </data>
+  <data name="G_NAME_COLON" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="TAS_TONE_AUTO" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="TAS_TONE_MANUAL" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="TAS_SAMPLES" xml:space="preserve">
+    <value>Total samples:</value>
+  </data>
+  <data name="TAS_TILE_DIM" xml:space="preserve">
+    <value>Tile size</value>
+  </data>
+  <data name="TAS_SAMPLE_DIST" xml:space="preserve">
+    <value>Sample distribution</value>
+  </data>
+  <data name="TAS_SAMPLE_SELECT_IMG" xml:space="preserve">
+    <value>Select sample image</value>
+  </data>
+  <data name="TAS_SAMPLE_SECTION" xml:space="preserve">
+    <value>Select section (sample)</value>
+  </data>
+  <data name="TAS_SAMPLE_SIZE" xml:space="preserve">
+    <value>Sample size:</value>
+  </data>
+  <data name="TAS_SAMPLE_ROWS" xml:space="preserve">
+    <value>Rows per tile:</value>
+  </data>
+  <data name="TAS_SAMPLE_COLS" xml:space="preserve">
+    <value>Columns per tile:</value>
+  </data>
+  <data name="TAS_SAMPLES_PER_TILE" xml:space="preserve">
+    <value>Samples per tile:</value>
+  </data>
+  <data name="TAS_SAMPLES_TOTAL_TILES" xml:space="preserve">
+    <value>Total tiles:</value>
+  </data>
+  <data name="TAS_INTEN_GENERAR" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="TAS_INTEN_VARIATION" xml:space="preserve">
+    <value>Variation:</value>
+  </data>
+  <data name="TAS_INTEN_LIMIT" xml:space="preserve">
+    <value>Maximum variation:</value>
+  </data>
+  <data name="TAS_INTEN_NEGATIVE" xml:space="preserve">
+    <value>Include negative values</value>
+  </data>
+  <data name="TAS_TONE_DEVIATION" xml:space="preserve">
+    <value>Deviations (%):</value>
+  </data>
+  <data name="TAS_TONE_CH_COMB" xml:space="preserve">
+    <value>Specify image channels that will be modified:</value>
+  </data>
+  <data name="TAS_TONE_CH_COMB_1" xml:space="preserve">
+    <value>(1) One channel combination on each sample</value>
+  </data>
+  <data name="TAS_TONE_CH_COMB_2" xml:space="preserve">
+    <value>(2) Two channels combination on each sample</value>
+  </data>
+  <data name="TAS_TONE_CH_CH_MODIFY" xml:space="preserve">
+    <value>Specify image channels that will be modified:</value>
+  </data>
+  <data name="TAS_NEXT" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="TAS_BACK" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="TAS_PROCESS" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="M_EDIT_QUALITY_CANAL8" xml:space="preserve">
+    <value>Channel 8</value>
+  </data>
+  <data name="TAS_TAG" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="QR_CODE" xml:space="preserve">
+    <value>QR code:</value>
+  </data>
+  <data name="HELP_INFO_SYSTEM_MEM" xml:space="preserve">
+    <value>System memory</value>
+  </data>
+  <data name="HELP_INFO_SLAVES" xml:space="preserve">
+    <value>Slaves hard disk usage:</value>
+  </data>
+  <data name="HELP_INFO_MASTER" xml:space="preserve">
+    <value>Master hard disk usage:</value>
+  </data>
+  <data name="HELP_INFO_VERSIONS" xml:space="preserve">
+    <value>Versions</value>
+  </data>
+  <data name="MODELS_NOQUALITIES" xml:space="preserve">
+    <value>No qualities, do you want to create default qualities?</value>
+  </data>
+  <data name="M_EDIT_DESC_CAM_CONNECT_1" xml:space="preserve">
+    <value>Connect with camera 1</value>
+  </data>
+  <data name="M_EDIT_DESC_CAM_CONNECT_2" xml:space="preserve">
+    <value>Connect with camera 2</value>
+  </data>
+  <data name="M_EDIT_DESC_CAM_IP_1" xml:space="preserve">
+    <value>Camera IP address:</value>
+  </data>
+  <data name="M_EDIT_DESC_CAM_USR_1" xml:space="preserve">
+    <value>Camera user:</value>
+  </data>
+  <data name="M_EDIT_DESC_CAM_PAS_1" xml:space="preserve">
+    <value>Camera password:</value>
+  </data>
+  <data name="M_EDIT_DESC_CAM_1" xml:space="preserve">
+    <value>Camera 1</value>
+  </data>
+  <data name="M_EDIT_DESC_CAM_2" xml:space="preserve">
+    <value>Camera 2</value>
+  </data>
+  <data name="M_EDIT_DESC_CAM_PORT1_1" xml:space="preserve">
+    <value>Port 1:</value>
+  </data>
+  <data name="M_EDIT_DESC_CAM_PORT2_1" xml:space="preserve">
+    <value>Port 2:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_CAM_IDS" xml:space="preserve">
+    <value>Camera IDs:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_CAM_ORIGIN" xml:space="preserve">
+    <value>Detection origin:</value>
+  </data>
+  <data name="MODEL_MODES_CFG_CAM_IN_CAM" xml:space="preserve">
+    <value>Camera (Cognex)</value>
+  </data>
+  <data name="MODEL_MODES_CFG_CAM_IN_PLC1" xml:space="preserve">
+    <value>PLC1 entries</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_MATRICULA" xml:space="preserve">
+    <value>Registration:</value>
+  </data>
+  <data name="G_QUESTION_DELETE" xml:space="preserve">
+    <value>Do you want to delete the selected item?</value>
+  </data>
+  <data name="TAS_SELECT_SAMPLE" xml:space="preserve">
+    <value>Select the desired sample:</value>
+  </data>
+  <data name="TAS_SAMPLE_VALIDATE" xml:space="preserve">
+    <value>Validate sample</value>
+  </data>
+  <data name="TAS_SAMPLE_VALIDATE_INFO" xml:space="preserve">
+    <value>Use this parameters for creating a new production TAS (variation applied on every TIFF file)</value>
+  </data>
+  <data name="TAS_NUM_SAMPLES" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_AUTOALIGN_QUESTION" xml:space="preserve">
+    <value>Are you sure you want to reset the alignment of heads?  
+You will lose the current alignment</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_AUTOALIGN_LEFT" xml:space="preserve">
+    <value>Is the head number one located on the left side?</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_AUTOALIGN" xml:space="preserve">
+    <value>Auto alignment</value>
+  </data>
+  <data name="M_EDIT_PRINTHEADS_INTERROW_DESV" xml:space="preserve">
+    <value>Inter Row deviation:</value>
+  </data>
+  <data name="G_ERROR_COMMAND" xml:space="preserve">
+    <value>Cannot process the command</value>
+  </data>
+  <data name="G_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MODEL_STATE_INK_CONS" xml:space="preserve">
+    <value>Calculating ink consumption</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_SIDE_TABLE" xml:space="preserve">
+    <value>Side tables:</value>
+  </data>
+  <data name="M_EDIT_DESC_CAM_NONE" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="M_EDIT_DESC_BAR_DIS_ALLBAR" xml:space="preserve">
+    <value>Bar enabled (Electrically)</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_BENT_TILE" xml:space="preserve">
+    <value>Bent tile separation:</value>
+  </data>
+  <data name="BAR_VALIDATE_AUTO" xml:space="preserve">
+    <value>Validate auto</value>
+  </data>
+  <data name="MAIN_CAMERA_NOT_CONNECTED2" xml:space="preserve">
+    <value>Camera 2 not connected</value>
+  </data>
+  <data name="G_SELECT_ALL" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="M_FILE_BACKUP_RESTORE" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="M_FILE_BACKUP_DIFF" xml:space="preserve">
+    <value>There are differences between versions:</value>
+  </data>
+  <data name="G_WISH_TO_CONTINUE" xml:space="preserve">
+    <value>Do you want to continue?</value>
+  </data>
+  <data name="G_APPLY_CHANGES" xml:space="preserve">
+    <value>Are you sure you want to restore the data?</value>
+  </data>
+  <data name="M_EDIT_DSEC_BAR_ELECTRONICS" xml:space="preserve">
+    <value>Electronics</value>
+  </data>
+  <data name="G_ENABLE_ALL" xml:space="preserve">
+    <value>Enable all</value>
+  </data>
+  <data name="G_DISABLE_ALL" xml:space="preserve">
+    <value>Disable all</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_MOUNT_TILE" xml:space="preserve">
+    <value>Tile mounted heigth:</value>
+  </data>
+  <data name="EDIT_LASER_HOMING_INFO" xml:space="preserve">
+    <value>The selector must be 0</value>
+  </data>
+  <data name="BAR_RECIRCULATION_PUMP" xml:space="preserve">
+    <value>Positive pump:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_NUM_BARS_CLEAN" xml:space="preserve">
+    <value>Simultaneous cleaning bars:</value>
+  </data>
+  <data name="BAR_RECIRCULATION" xml:space="preserve">
+    <value>Ink recirculation:</value>
+  </data>
+  <data name="ENABLED_NOZZLES" xml:space="preserve">
+    <value>Enabled nozzles</value>
+  </data>
+  <data name="DISABLED_NOZZLES" xml:space="preserve">
+    <value>Disabled nozzles</value>
+  </data>
+  <data name="ENABLE_NOZZLE" xml:space="preserve">
+    <value>Enable nozzle</value>
+  </data>
+  <data name="DISABLE_NOZZLE" xml:space="preserve">
+    <value>Disable nozzle</value>
+  </data>
+  <data name="PLOT_MOTOR_GAIN" xml:space="preserve">
+    <value>Motor gain:</value>
+  </data>
+  <data name="PLOT_PASSES" xml:space="preserve">
+    <value>Passes</value>
+  </data>
+  <data name="PLOT_DSEC_GNR_WITH_BELT" xml:space="preserve">
+    <value>With belt</value>
+  </data>
+  <data name="PLOT_DSEC_GNR_VALIDATE" xml:space="preserve">
+    <value>Validate after start</value>
+  </data>
+  <data name="M_EDIT_DIAGNOSTICS" xml:space="preserve">
+    <value>Efi Diagnostics</value>
+  </data>
+  <data name="M_EDIT_DESC_MOTOR_HOMING_EDIT" xml:space="preserve">
+    <value>Are you sure you want to edit the motor homing?</value>
+  </data>
+  <data name="M_ALR_ACTIONS_DATE" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="M_ALR_ACTIONS_USER" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="M_ALR_ACTIONS_MESSAGE" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="INKS_CLEAN_BELT" xml:space="preserve">
+    <value>Clean belt</value>
+  </data>
+  <data name="M_HELP_LICENSE_TIME_LEFT" xml:space="preserve">
+    <value>Time left to activate the license:</value>
+  </data>
+  <data name="G_DAYS" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="M_HELP_LICENSE_ACTIVATE" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="M_HELP_LICENSE" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="M_HELP_LICENSE_ACT_CODE" xml:space="preserve">
+    <value>Activation code</value>
+  </data>
+  <data name="M_HELP_LICENSE_IS_ACTIVE" xml:space="preserve">
+    <value>The license is active</value>
+  </data>
+  <data name="M_HELP_LICENSE_INVALID" xml:space="preserve">
+    <value>The license is invalid</value>
+  </data>
+  <data name="RENDER_WARNING_NO_IMG_ORIG" xml:space="preserve">
+    <value>One or more original images were not found</value>
+  </data>
+  <data name="M_FILE_BACKUP_RESTORE_POINT" xml:space="preserve">
+    <value>Open Restore Point</value>
+  </data>
+  <data name="MAIN_BAR_CLEAN_ASK" xml:space="preserve">
+    <value>Would you like to run cleaning in all bars?</value>
+  </data>
+  <data name="PLOTTER_ZERO_VACUUM" xml:space="preserve">
+    <value>To do the 0 Vacuum it's necessary remove the tube. 
+Are you sure you want to continue?</value>
+  </data>
+  <data name="WARNING_BAR_NOT_TO_PRINT" xml:space="preserve">
+    <value>Bar number # will not print.</value>
+  </data>
+  <data name="WARNING_BAR_NOT_TO_PRINT_PRINTING" xml:space="preserve">
+    <value>The bar is not in Printing possition</value>
+  </data>
+  <data name="WARNING_BAR_NOT_TO_PRINT_DISABLED" xml:space="preserve">
+    <value>The bar is not enabled</value>
+  </data>
+  <data name="WARNING_TRIMS_DIFFERENCE" xml:space="preserve">
+    <value>The trim difference between minimum and maximum should be less than 2.0v</value>
+  </data>
+  <data name="M_MAIN_CONSENT" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="M_WANT_SAVE" xml:space="preserve">
+    <value>This modification needs application to be restarted. Are you sure you want to save and close the application?</value>
+  </data>
+  <data name="RETURN_SPEED" xml:space="preserve">
+    <value>Return speed:</value>
+  </data>
+  <data name="M_EDIT_CARRIER_ADJUST" xml:space="preserve">
+    <value>Adjust cleaning carrier</value>
+  </data>
+  <data name="M_EDIT_BAR_NUM_PMB_LINE1" xml:space="preserve">
+    <value>PMBs in Line 1:</value>
+  </data>
+  <data name="CLEANING_SPEED" xml:space="preserve">
+    <value>Cleaning speed:</value>
+  </data>
+  <data name="BAR_INK_ADVANCED" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="BAR_INK_CLEAN_MANIFOLD" xml:space="preserve">
+    <value>Clean manifold</value>
+  </data>
+  <data name="BAR_INK_EMPTY_DEPOSIT" xml:space="preserve">
+    <value>Empty Tank</value>
+  </data>
+  <data name="BAR_INK_EMPTY_EXCHANGER" xml:space="preserve">
+    <value>Empty exchanger</value>
+  </data>
+  <data name="BAR_INK_LOAD" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="BAR_INK_MAN_REVERSE" xml:space="preserve">
+    <value>Manual Reverse Flow</value>
+  </data>
+  <data name="BAR_INK_TEST_MODE" xml:space="preserve">
+    <value>Test mode:</value>
+  </data>
+  <data name="BAR_MESSAGE_CLEAN_MANIFOLD_1" xml:space="preserve">
+    <value>Clean manifold (1/3): Prepare the tank to clean the manifold</value>
+  </data>
+  <data name="BAR_MESSAGE_CLEAN_MANIFOLD_2" xml:space="preserve">
+    <value>Clean manifold (2/3): Cleaning manifold...</value>
+  </data>
+  <data name="BAR_MESSAGE_CLEAN_MANIFOLD_3" xml:space="preserve">
+    <value>Clean manifold (3/3): Prepare to normal function</value>
+  </data>
+  <data name="BAR_MESSAGE_EMPTY_DEPOSIT_1" xml:space="preserve">
+    <value>Empty ink tank (1/3): Prepare the container and open the tank valve</value>
+  </data>
+  <data name="BAR_MESSAGE_EMPTY_DEPOSIT_2" xml:space="preserve">
+    <value>Empty ink tank (2/3): Emptying the tank...</value>
+  </data>
+  <data name="BAR_MESSAGE_EMPTY_DEPOSIT_3" xml:space="preserve">
+    <value>Empty ink tank (3/3): Close the tank valve</value>
+  </data>
+  <data name="BAR_MESSAGE_EMPTY_EXCHANGER_1" xml:space="preserve">
+    <value>Empty ink exchanger (1/3): Open the valve situated under the exchanger</value>
+  </data>
+  <data name="BAR_MESSAGE_EMPTY_EXCHANGER_2" xml:space="preserve">
+    <value>Empty ink exchanger (2/3): Emptying the exchanger...</value>
+  </data>
+  <data name="BAR_MESSAGE_EMPTY_EXCHANGER_3" xml:space="preserve">
+    <value>Empty ink exchanger (3/3): Close the valve situated under the exchanger</value>
+  </data>
+  <data name="BAR_MESSAGE_LOAD_INK_1" xml:space="preserve">
+    <value>Load ink tank(1/2): Ensure the valves are in recirculing position and load ink in the tank</value>
+  </data>
+  <data name="BAR_MESSAGE_LOAD_INK_2" xml:space="preserve">
+    <value>Load ink tank(2/2): Initial recirculation of the ink ...</value>
+  </data>
+  <data name="BAR_VACUUM_DIFF" xml:space="preserve">
+    <value>Vacuum Diff:</value>
+  </data>
+  <data name="BAR_VACUUM_ENTRY" xml:space="preserve">
+    <value>Pressure at entry:</value>
+  </data>
+  <data name="BAR_VACUUM_EXIT" xml:space="preserve">
+    <value>Pressure at exit:</value>
+  </data>
+  <data name="G_DONE" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="ADV_INK_COLD_MENISCUS" xml:space="preserve">
+    <value>Cold meniscus</value>
+  </data>
+  <data name="ADV_INK_DESHAB_PID" xml:space="preserve">
+    <value>Disable PID:</value>
+  </data>
+  <data name="ADV_INK_DRIP_SETPOINT" xml:space="preserve">
+    <value>Setpoint drip:</value>
+  </data>
+  <data name="ADV_INK_EMPTYING_PARAMETERS" xml:space="preserve">
+    <value>Emptying parameters</value>
+  </data>
+  <data name="ADV_INK_EMPTYING_SETPOINT" xml:space="preserve">
+    <value>Setpoint empty:</value>
+  </data>
+  <data name="ADV_INK_LOADING" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="ADV_INK_LOADING_TIME" xml:space="preserve">
+    <value>Recirculation time:</value>
+  </data>
+  <data name="ADV_INK_MANUAL_REVERSE_PARAMETERS" xml:space="preserve">
+    <value>Manual reverse flow</value>
+  </data>
+  <data name="ADV_INK_MANUAL_REVERSE_TIME" xml:space="preserve">
+    <value>Manual reverse flow time:</value>
+  </data>
+  <data name="ADV_INK_PARAM" xml:space="preserve">
+    <value>Advanced ink parameters</value>
+  </data>
+  <data name="ADV_INK_REVERSE_SETPOINT" xml:space="preserve">
+    <value>Setpoint reverse:</value>
+  </data>
+  <data name="ADV_INK_STAB_SOLENOIDS" xml:space="preserve">
+    <value>Stabilize solenoids:</value>
+  </data>
+  <data name="ADV_INK_TIME_AFTER_MINIMUM_LEVEL" xml:space="preserve">
+    <value>Time of pump after minimum level:</value>
+  </data>
+  <data name="ADV_INK_TIME_EMPTYING_MANIFOLD" xml:space="preserve">
+    <value>Time to empty exchanger:</value>
+  </data>
+  <data name="TAS_TONE" xml:space="preserve">
+    <value>Tone</value>
+  </data>
+  <data name="TAS_INTENSITY" xml:space="preserve">
+    <value>Intensity</value>
+  </data>
+  <data name="TAS_EXTRACT_TIFF" xml:space="preserve">
+    <value>Extract TIFF</value>
+  </data>
+  <data name="G_REFRESH" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="BAR_INK_COPY_ADVANCED_PARAMETERS" xml:space="preserve">
+    <value>Copy values in all bars</value>
+  </data>
+  <data name="MAIN_START_CANT_LOAD" xml:space="preserve">
+    <value>Can´t load image with the printer stopped or in bypass</value>
+  </data>
+  <data name="BAR_INK_TEMP" xml:space="preserve">
+    <value>Temperature:</value>
+  </data>
+  <data name="BAR_MENISCUS" xml:space="preserve">
+    <value>Meniscus:</value>
+  </data>
+  <data name="BAR_MENISCUS_SETPOINT" xml:space="preserve">
+    <value>Sp meniscus:</value>
+  </data>
+  <data name="M_EDIT_INCREMENT" xml:space="preserve">
+    <value>Increment</value>
+  </data>
+  <data name="M_EDIT_NOZZLE_OUT" xml:space="preserve">
+    <value>Nozzle out correction</value>
+  </data>
+  <data name="G_NOZZLE" xml:space="preserve">
+    <value>Nozzle</value>
+  </data>
+  <data name="M_EDIT_DESC_CAM_DIGITALSIGNALS" xml:space="preserve">
+    <value>Sync</value>
+  </data>
+  <data name="M_WANT_COPY_ADVANCED_INK_PARAMETERS" xml:space="preserve">
+    <value>Do you want to copy this configuration to all bars?</value>
+  </data>
+  <data name="M_EDIT_BAR_INK_COM_PORT" xml:space="preserve">
+    <value>Inkbox COM Port</value>
+  </data>
+  <data name="BAR_SP_SENSOR_POSITIVO" xml:space="preserve">
+    <value>Sp Pressure at entry:</value>
+  </data>
+  <data name="BAR_SP_BOMBA_NEGATIVO" xml:space="preserve">
+    <value>Return pump:</value>
+  </data>
+  <data name="BAR_SP_LLENADO" xml:space="preserve">
+    <value>Fill pump:</value>
+  </data>
+  <data name="M_EDIT_ADJUST_TILE_EXCEEDS_WIDTH" xml:space="preserve">
+    <value>The offset in Y exceeds the printed width, part of the image can not be printed.</value>
+  </data>
+  <data name="SECURITY_OFF" xml:space="preserve">
+    <value>The safety is disabled</value>
+  </data>
+  <data name="CLEANING_BARS_INK_STOP" xml:space="preserve">
+    <value>At least one ink system is stopped. You should prepare propperly that bar(s) for cleaning</value>
+  </data>
+  <data name="ERROR_SAVING_PARAMS" xml:space="preserve">
+    <value>Settings were not saved correctly</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_USEROFFSET" xml:space="preserve">
+    <value>Bars offset:</value>
+  </data>
+  <data name="PLOTTER_MOVEMENTS_INCORRECT" xml:space="preserve">
+    <value>The plotter movement is not correct: the job is rendered at double Y resolution</value>
+  </data>
+  <data name="MODEL_NOT_RIPPED_DOUBLE_Y" xml:space="preserve">
+    <value>The plotter is set to print at double Y resolution, but the model has not been rendered correctly</value>
+  </data>
+  <data name="MODEL_DESINGS_TIFFRES" xml:space="preserve">
+    <value>Image resolution</value>
+  </data>
+  <data name="M_EDIT_DESC_BAR_REPEATED_COLORPLANES" xml:space="preserve">
+    <value>Changes won't be saved: There are bars with the same assigned channel.</value>
+  </data>
+  <data name="MAIN_MARCHA_PAUSE" xml:space="preserve">
+    <value>PAUSE</value>
+  </data>
+  <data name="MAIN_JETTING_GAP_CHANGED" xml:space="preserve">
+    <value>Thickness sensor readjust required.</value>
+  </data>
+  <data name="WARNING_REPEATED_COLORPLANE_MULTIHEAD" xml:space="preserve">
+    <value>It's not possible to repeat color planes in bars with different resolution</value>
+  </data>
+  <data name="MAIN_THICKNESS_READ" xml:space="preserve">
+    <value>Thickness read:</value>
+  </data>
+  <data name="MODEL_DESIGNS_TIF_FORMAT_ERROR" xml:space="preserve">
+    <value>The image must be a CMYK Tiff file. RGB is not supported</value>
+  </data>
+  <data name="COMPENSER_L1" xml:space="preserve">
+    <value>Compenser L1</value>
+  </data>
+  <data name="COMPENSER_L2" xml:space="preserve">
+    <value>Compenser L2</value>
+  </data>
+  <data name="M_EDIT_DESC_NUM_CARR" xml:space="preserve">
+    <value>Number of Carriage Boards:</value>
+  </data>
+  <data name="M_EDIT_DESC_THINKNESS" xml:space="preserve">
+    <value>Thickness Sensor</value>
+  </data>
+  <data name="M_EDIT_DESC_BAR_COLORPLANE" xml:space="preserve">
+    <value>Color Plane:</value>
+  </data>
+  <data name="M_EDIT_DESC_SUBPORT" xml:space="preserve">
+    <value>SubPort:</value>
+  </data>
+  <data name="M_EDIT_DESC_HEAD_ID" xml:space="preserve">
+    <value>Head Id:</value>
+  </data>
+  <data name="M_EDIT_DIAG_RESET_CARRIAGE" xml:space="preserve">
+    <value>Reset carriage</value>
+  </data>
+  <data name="M_EDIT_DIAG_RESET_SWITCH" xml:space="preserve">
+    <value>Reset switch</value>
+  </data>
+  <data name="M_EDIT_DIAG_ENC_FW" xml:space="preserve">
+    <value>Forward count:</value>
+  </data>
+  <data name="M_EDIT_DIAG_ENC_REV" xml:space="preserve">
+    <value>Reverse count:</value>
+  </data>
+  <data name="M_EDIT_DIAG_ENC_DIFF" xml:space="preserve">
+    <value>Difference:</value>
+  </data>
+  <data name="M_EDIT_DIAG_ENC_RES" xml:space="preserve">
+    <value>Encoder resolution:</value>
+  </data>
+  <data name="M_EDIT_DIAG_ENC_BELT" xml:space="preserve">
+    <value>Belt speed:</value>
+  </data>
+  <data name="M_EDIT_DIAG_ENC_PRDETECT" xml:space="preserve">
+    <value>Product detect count:</value>
+  </data>
+  <data name="G_VOLTAGE" xml:space="preserve">
+    <value>Voltage</value>
+  </data>
+  <data name="G_OFF" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="G_ON" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="M_EDIT_QUAL_LIN_OPENCURVE" xml:space="preserve">
+    <value>Open curve</value>
+  </data>
+  <data name="M_EDIT_QUAL_LIN_RECALCURVE" xml:space="preserve">
+    <value>Recalculating curve</value>
+  </data>
+  <data name="G_RESET" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="M_EDIT_QUAL_LIN_EXTRACTCURVE" xml:space="preserve">
+    <value>Extract curve</value>
+  </data>
+  <data name="M_FILE_PRINT_STATUS" xml:space="preserve">
+    <value>Print status:</value>
+  </data>
+  <data name="M_FILE_SYSTEM_STATUS" xml:space="preserve">
+    <value>System status:</value>
+  </data>
+  <data name="M_POWEROFF_WARNING" xml:space="preserve">
+    <value>The power off process has failed. The electronics could be damaged. Do you want to continue?</value>
+  </data>
+  <data name="M_POWERON_WARNING" xml:space="preserve">
+    <value>Warning! Power on process has failed. Ptrims values could not be properly set</value>
+  </data>
+  <data name="M_EDIT_DESC_MAX_SPEED" xml:space="preserve">
+    <value>Maximum belt speed:</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_STEP_1" xml:space="preserve">
+    <value>Firmware Update Wizard: Step 1</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_STEP_2" xml:space="preserve">
+    <value>Firmware Update Wizard: Step 2</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_STEP_3" xml:space="preserve">
+    <value>Firmware Update Wizard: Step 3</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_STEP_4" xml:space="preserve">
+    <value>Firmware Update Wizard: Step 4</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_REQUIRED" xml:space="preserve">
+    <value>Firmware update required. Proceed?</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_INFO_TEXT" xml:space="preserve">
+    <value>Update process may take several minutes and cannot be interrupted. Are you sure you want to continue?</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_OK" xml:space="preserve">
+    <value>Firmware update finished succesfully.</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_ERROR" xml:space="preserve">
+    <value>Firmware update has not finished correctly.</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_RUNNING" xml:space="preserve">
+    <value>Firmware update in process. Please wait.</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_RELEASE_VERSION" xml:space="preserve">
+    <value>Release version:</value>
+  </data>
+  <data name="M_EDIT_MACHINE_WIDTH" xml:space="preserve">
+    <value>Printer Width:</value>
+  </data>
+  <data name="M_CHANNELS_CHANGED_WANT_SAVE" xml:space="preserve">
+    <value>You are going to change the channels of the bars. This change may affect the qualities and the created TAS. Do you want to continue?</value>
+  </data>
+  <data name="KERNEL_CONNECTION_ERROR" xml:space="preserve">
+    <value>Kernel connection lost. Reboot from C4_Mgr required.</value>
+  </data>
+  <data name="KERNEL_CONNECTION_ERROR_HEADER" xml:space="preserve">
+    <value>Kernel connection error.</value>
+  </data>
+  <data name="START_JOB_WO_HEADS_LINE" xml:space="preserve">
+    <value>No print heads enabled at the line</value>
+  </data>
+  <data name="OPEN_BNDL" xml:space="preserve">
+    <value>Bndl</value>
+  </data>
+  <data name="MODEL_BNDL_NOT_FOUND" xml:space="preserve">
+    <value>Bndl files not found.</value>
+  </data>
+  <data name="WARNING_BAR_NOT_TO_PRINT_CHANNEL" xml:space="preserve">
+    <value>The channel is not present in the image</value>
+  </data>
+  <data name="BNDL_FILE_NOT_FOUND" xml:space="preserve">
+    <value>Bndl file not found</value>
+  </data>
+  <data name="BNDL_VIEWER_NOT_FOUND" xml:space="preserve">
+    <value>Bndl file viewer not found</value>
+  </data>
+  <data name="BAR_INK_SYSTEM_TEMP_SP_BOTTOM" xml:space="preserve">
+    <value>SP temperature tank:</value>
+  </data>
+  <data name="G_PRINT" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="BAR_INK_TEMP_BOTTOM" xml:space="preserve">
+    <value>Temperature tank:</value>
+  </data>
+  <data name="BOTTOM_TANK_HEATING" xml:space="preserve">
+    <value>Tank heating:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_AUTO" xml:space="preserve">
+    <value>AUTO</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_HIGH" xml:space="preserve">
+    <value>HIGH</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_IN" xml:space="preserve">
+    <value>IN</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_INK_SYSTEM" xml:space="preserve">
+    <value>Ink system:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_LOW" xml:space="preserve">
+    <value>LOW</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_MED" xml:space="preserve">
+    <value>MED</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_OFF" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_ON" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_OUT" xml:space="preserve">
+    <value>OUT</value>
+  </data>
+  <data name="M_EDIT_PRESSURE_CALIBRATION" xml:space="preserve">
+    <value>Bars pressure calibration</value>
+  </data>
+  <data name="M_EDIT_PRESSURE_SENSOR_CALIBRATION" xml:space="preserve">
+    <value>Bars pressure calibration</value>
+  </data>
+  <data name="M_EDIT_HOMING_ALL" xml:space="preserve">
+    <value>Home all bars</value>
+  </data>
+  <data name="M_EDIT_CANCEL_HOMING" xml:space="preserve">
+    <value>Cancel homing</value>
+  </data>
+  <data name="HEATING_OFF" xml:space="preserve">
+    <value>Heating Off</value>
+  </data>
+  <data name="HEATING_ON" xml:space="preserve">
+    <value>Heating On</value>
+  </data>
+  <data name="BNDL_SIZE_ERROR" xml:space="preserve">
+    <value>Impossible to open bndl file, bndl size error</value>
+  </data>
+  <data name="BNDL_SIZE_REQ_ERROR" xml:space="preserve">
+    <value>Error requesting bndl size</value>
+  </data>
+  <data name="FIRMWARE_INSTALLED" xml:space="preserve">
+    <value>Firmware installed:</value>
+  </data>
+  <data name="FIRMWARE_TOO_MANY_PRINTHEADS" xml:space="preserve">
+    <value>Maximum number of printheads to update exceeded. Manual reprogramming required.</value>
+  </data>
+  <data name="BAR_INK_STOP_ERROR" xml:space="preserve">
+    <value>Ink system cannot be stopped while the bar is printing. It should be disabled first.</value>
+  </data>
+  <data name="BAR_MAPPING_ERROR" xml:space="preserve">
+    <value>Bar mapping error. This change won't be saved</value>
+  </data>
+  <data name="NOZZLEOUT_OBTAIN_FROM_PRINTHEAD" xml:space="preserve">
+    <value>Obtain from printhead</value>
+  </data>
+  <data name="M_EDIT_DESC_BAR_SHAREPRINTHEAD" xml:space="preserve">
+    <value>Share last printhead</value>
+  </data>
+  <data name="G_DATA_WILL_BE_LOST" xml:space="preserve">
+    <value>All unsaved data will be lost.</value>
+  </data>
+  <data name="G_DATA_WILL_BE_OVERWRITTEN" xml:space="preserve">
+    <value>Data will be overwritten.</value>
+  </data>
+  <data name="JOBS_AKIRA_DELETE_RENDER" xml:space="preserve">
+    <value>It will be needed to rip the job again.</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_PHOTOCELL_DETECTION" xml:space="preserve">
+    <value>Photocell detection:</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_PHOTOCELL_DETECTION_2CELLS" xml:space="preserve">
+    <value>2-Photocells</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_PHOTOCELL_DETECTION_3CELLS" xml:space="preserve">
+    <value>3-Photocells</value>
+  </data>
+  <data name="M_EDIT_DESC_GRAL_PHOTOCELL_DETECTION_NONE" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="EDIT_PHOTOCELL_HEADS_UP_SENSOR" xml:space="preserve">
+    <value>Heads up sensor:</value>
+  </data>
+  <data name="EDIT_PHOTOCELL_HOMING_INFO" xml:space="preserve">
+    <value>The machine must be in MANUAL mode</value>
+  </data>
+  <data name="EDIT_PHOTOCELL_MOTOR_ERROR" xml:space="preserve">
+    <value>Motor error:</value>
+  </data>
+  <data name="EDIT_PHOTOCELL_MOTOR_HOMED" xml:space="preserve">
+    <value>Motor homed:</value>
+  </data>
+  <data name="EDIT_PHOTOCELL_MOTOR_POSITION" xml:space="preserve">
+    <value>Motor position:</value>
+  </data>
+  <data name="EDIT_PHOTOCELL_PRINTING_OFFSET" xml:space="preserve">
+    <value>Printing offset:</value>
+  </data>
+  <data name="MODEL_LINEAR_NO_RENDER" xml:space="preserve">
+    <value>Cannot render a linear model with a resolution different than the native of the print head</value>
+  </data>
+  <data name="G_EXIT_NOW" xml:space="preserve">
+    <value>Exit Now</value>
+  </data>
+  <data name="G_PASTE" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="M_EDIT_INK_REFERENCE" xml:space="preserve">
+    <value>Ink Reference</value>
+  </data>
+	<data name="G_APPLY" xml:space="preserve">
+		<value>Apply</value>
+	</data>
+	<data name="M_EDIT_CONFWEAKNOZZLES" xml:space="preserve">
+		<value>Weak Nozzles Configuration</value>
+	</data>
+	<data name="WPN_ALL_SMOOTH" xml:space="preserve">
+		<value>All smooth</value>
+	</data>
+	<data name="WPN_SMOOTH_END" xml:space="preserve">
+		<value>Smooth end</value>
+	</data>
+	<data name="WPN_SMOOTH_START" xml:space="preserve">
+		<value>Smooth start</value>
+	</data>
+	<data name="WPN_CLEAN_CONFIGURATION" xml:space="preserve">
+		<value>Clean configuration</value>
+	</data>
+	<data name="WPN_FILL_AUTOMATIC" xml:space="preserve">
+		<value>Fill automatic</value>
+	</data>
+</root>

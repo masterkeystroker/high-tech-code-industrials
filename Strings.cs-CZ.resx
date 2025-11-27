@@ -1,0 +1,1976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="G_OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="MAIN_BAR_CLEAN_ASK" xml:space="preserve">
+		<value>Chcete spustit čištění ve všech barech?</value>
+	</data>
+	<data name="M_FILE" xml:space="preserve">
+		<value>Soubor</value>
+	</data>
+	<data name="M_FILE_START" xml:space="preserve">
+		<value>Start</value>
+	</data>
+	<data name="M_FILE_SLAVES" xml:space="preserve">
+		<value>Ovládání podřízených PC</value>
+	</data>
+	<data name="M_EDIT" xml:space="preserve">
+		<value>Editovat</value>
+	</data>
+	<data name="M_ALARMS" xml:space="preserve">
+		<value>Alarmy</value>
+	</data>
+	<data name="M_USERS" xml:space="preserve">
+		<value>Uživatelé</value>
+	</data>
+	<data name="M_HELP" xml:space="preserve">
+		<value>Nápověda</value>
+	</data>
+	<data name="M_FILE_MODELS" xml:space="preserve">
+		<value>Modely</value>
+	</data>
+	<data name="M_FILE_PRODUCTION" xml:space="preserve">
+		<value>Záznam o výrobě</value>
+	</data>
+	<data name="M_FILE_PREVIEW" xml:space="preserve">
+		<value>Vytvořit náhled</value>
+	</data>
+	<data name="M_FILE_CONTINUOUS" xml:space="preserve">
+		<value>Kontinuální tisk na lince 1</value>
+	</data>
+	<data name="M_FILE_SAVE" xml:space="preserve">
+		<value>Uložit konfiguraci tiskového serveru</value>
+	</data>
+	<data name="M_FILE_RESTART" xml:space="preserve">
+		<value>Restartovat komunikaci s podřízenými zařízeními</value>
+	</data>
+	<data name="M_FILE_CONSOLE" xml:space="preserve">
+		<value>Konzola</value>
+	</data>
+	<data name="M_FILE_BACKUP" xml:space="preserve">
+		<value>Záloha konfigurace</value>
+	</data>
+	<data name="M_FILE_STATUS" xml:space="preserve">
+		<value>Stav tiskového serveru</value>
+	</data>
+	<data name="M_FILE_CLEANUP" xml:space="preserve">
+		<value>Čištění obrazovky</value>
+	</data>
+	<data name="M_FILE_MAXIMISE" xml:space="preserve">
+		<value>Maximalizovat</value>
+	</data>
+	<data name="M_FILE_MINIMISE" xml:space="preserve">
+		<value>Minimalizovat</value>
+	</data>
+	<data name="M_FILE_CLOSE" xml:space="preserve">
+		<value>Zavřít aplikaci</value>
+	</data>
+	<data name="M_FILE_CONTINUOUS2" xml:space="preserve">
+		<value>Kontinuální tisk na lince 2</value>
+	</data>
+	<data name="M_EDIT_HEADS" xml:space="preserve">
+		<value>Tiskové hlavy ON/OFF</value>
+	</data>
+	<data name="M_EDIT_CANCEL1" xml:space="preserve">
+		<value>Tisková linka 1 ON/OFF</value>
+	</data>
+	<data name="M_EDIT_CANCEL2" xml:space="preserve">
+		<value>Tisková linka 2 ON/OFF</value>
+	</data>
+	<data name="M_EDIT_ADJUST" xml:space="preserve">
+		<value>Nastavit pozici dílu</value>
+	</data>
+	<data name="M_EDIT_ALIGNMENT" xml:space="preserve">
+		<value>Vyrovnání</value>
+	</data>
+	<data name="M_EDIT_DESCRIPTION" xml:space="preserve">
+		<value>Popis tiskárny</value>
+	</data>
+	<data name="M_EDIT_QUALITIES" xml:space="preserve">
+		<value>Vlastnosti</value>
+	</data>
+	<data name="M_EDIT_PHOTOCELL" xml:space="preserve">
+		<value>Vstupní fotobuňky</value>
+	</data>
+	<data name="M_EDIT_MOTORBAR" xml:space="preserve">
+		<value>Seřídit motor baru</value>
+	</data>
+	<data name="M_EDIT_BELTSTART" xml:space="preserve">
+		<value>Ruční spuštění pásu</value>
+	</data>
+	<data name="M_EDIT_BELTSTOP" xml:space="preserve">
+		<value>Ruční zastavení pásu</value>
+	</data>
+	<data name="G_BAR" xml:space="preserve">
+		<value>Bar</value>
+	</data>
+	<data name="G_BARS" xml:space="preserve">
+		<value>Bary</value>
+	</data>
+	<data name="G_BAR1" xml:space="preserve">
+		<value>Bar 1</value>
+	</data>
+	<data name="G_BAR2" xml:space="preserve">
+		<value>Bar 2</value>
+	</data>
+	<data name="G_BAR3" xml:space="preserve">
+		<value>Bar 3</value>
+	</data>
+	<data name="G_BAR4" xml:space="preserve">
+		<value>Bar 4</value>
+	</data>
+	<data name="G_BAR5" xml:space="preserve">
+		<value>Bar 5</value>
+	</data>
+	<data name="G_BAR6" xml:space="preserve">
+		<value>Bar 6</value>
+	</data>
+	<data name="G_BAR7" xml:space="preserve">
+		<value>Bar 7</value>
+	</data>
+	<data name="G_BAR8" xml:space="preserve">
+		<value>Bar 8</value>
+	</data>
+	<data name="M_ALARMS_CHECK" xml:space="preserve">
+		<value>Zkontrolovat aktivní alarmy</value>
+	</data>
+	<data name="M_ALARMS_RESET" xml:space="preserve">
+		<value>Resetovat alarmy</value>
+	</data>
+	<data name="M_ALARMS_REPORT" xml:space="preserve">
+		<value>Záznam alarmů</value>
+	</data>
+	<data name="M_ALARMS_ACTIONS" xml:space="preserve">
+		<value>Záznam akcí</value>
+	</data>
+	<data name="M_ALARMS_REGISTRY" xml:space="preserve">
+		<value>Záznam registru</value>
+	</data>
+	<data name="M_USERS_LOGIN" xml:space="preserve">
+		<value>Přihlásit se</value>
+	</data>
+	<data name="M_USERS_LOGOUT" xml:space="preserve">
+		<value>Odhlásit se</value>
+	</data>
+	<data name="M_USERS_LANGUAGES" xml:space="preserve">
+		<value>Jazyky</value>
+	</data>
+	<data name="M_USERS_EDIT" xml:space="preserve">
+		<value>Editovat uživatelský účet</value>
+	</data>
+	<data name="M_HELP_INFO" xml:space="preserve">
+		<value>Informace</value>
+	</data>
+	<data name="M_HELP_HELP" xml:space="preserve">
+		<value>Nápověda</value>
+	</data>
+	<data name="M_HELP_REMOTE" xml:space="preserve">
+		<value>Vzdálené připojení</value>
+	</data>
+	<data name="M_HELP_CHAT" xml:space="preserve">
+		<value>Zahájit chat</value>
+	</data>
+	<data name="G_CLOSE" xml:space="preserve">
+		<value>Zavřít</value>
+	</data>
+	<data name="MAIN_MODEL_COLON" xml:space="preserve">
+		<value>Model:</value>
+	</data>
+	<data name="G_LINE1" xml:space="preserve">
+		<value>Linka 1</value>
+	</data>
+	<data name="MAIN_LENGTH" xml:space="preserve">
+		<value>Délka:</value>
+	</data>
+	<data name="MAIN_WIDTH" xml:space="preserve">
+		<value>Šířka:</value>
+	</data>
+	<data name="MAIN_RESOLUTION" xml:space="preserve">
+		<value>Rozlišení:</value>
+	</data>
+	<data name="MAIN_QUALITY" xml:space="preserve">
+		<value>Kvalita:</value>
+	</data>
+	<data name="MAIN_MODE_COLON" xml:space="preserve">
+		<value>Režim:</value>
+	</data>
+	<data name="MAIN_START" xml:space="preserve">
+		<value>Start</value>
+	</data>
+	<data name="MAIN_STOP" xml:space="preserve">
+		<value>Stop</value>
+	</data>
+	<data name="MAIN_INSTANT_PRINT" xml:space="preserve">
+		<value>Okamžitý tisk</value>
+	</data>
+	<data name="MAIN_PRINT_CHANNELS" xml:space="preserve">
+		<value>Tiskové kanály</value>
+	</data>
+	<data name="MAIN_GENERAL" xml:space="preserve">
+		<value>Všeobecné</value>
+	</data>
+	<data name="MAIN_SPEED" xml:space="preserve">
+		<value>Rychlost:</value>
+	</data>
+	<data name="MAIN_THICKNESS" xml:space="preserve">
+		<value>Tloušťka dílu:</value>
+	</data>
+	<data name="MAIN_JETTING" xml:space="preserve">
+		<value>Okraje tisku:</value>
+	</data>
+	<data name="MAIN_MANUAL" xml:space="preserve">
+		<value>RUČNÍ</value>
+	</data>
+	<data name="MAIN_STOPPED" xml:space="preserve">
+		<value>ZASTAVENO</value>
+	</data>
+	<data name="MAIN_AUTOMATIC" xml:space="preserve">
+		<value>AUTOMATICKÝ</value>
+	</data>
+	<data name="G_LINE2" xml:space="preserve">
+		<value>Linka 2</value>
+	</data>
+	<data name="MAIN_MODE" xml:space="preserve">
+		<value>REŽIM</value>
+	</data>
+	<data name="MAIN_MODEL" xml:space="preserve">
+		<value>Model</value>
+	</data>
+	<data name="MAIN_TAS" xml:space="preserve">
+		<value>TAS</value>
+	</data>
+	<data name="MAIN_BAR_CLEAN" xml:space="preserve">
+		<value>Čištění</value>
+	</data>
+	<data name="MAIN_INIT_INK" xml:space="preserve">
+		<value>Spustit inkoustový systém</value>
+	</data>
+	<data name="MAIN_SILENCE" xml:space="preserve">
+		<value>Ztlumit</value>
+	</data>
+	<data name="MAIN_CLEANING" xml:space="preserve">
+		<value>Menu čištění</value>
+	</data>
+	<data name="MAIN_BAR_CAPPED" xml:space="preserve">
+		<value>Nad podavačem</value>
+	</data>
+	<data name="MAIN_BAR_MAINTENANCE" xml:space="preserve">
+		<value>Údržba</value>
+	</data>
+	<data name="MAIN_BAR_PAINT" xml:space="preserve">
+		<value>Tisk</value>
+	</data>
+	<data name="MAIN_MARCHA_START" xml:space="preserve">
+		<value>START</value>
+	</data>
+	<data name="MAIN_MARCHA_LAB" xml:space="preserve">
+		<value>LABORATOŘ</value>
+	</data>
+	<data name="MAIN_MARCHA_BYPASS" xml:space="preserve">
+		<value>BY-PASS</value>
+	</data>
+	<data name="MAIN_MARCHA_STOP" xml:space="preserve">
+		<value>STOP</value>
+	</data>
+	<data name="MAIN_LINEMODE_NORMAL" xml:space="preserve">
+		<value>Normální</value>
+	</data>
+	<data name="MAIN_LINEMODE_STOPPED" xml:space="preserve">
+		<value>Zastaveno</value>
+	</data>
+	<data name="MAIN_LINEMODE" xml:space="preserve">
+		<value>Režim linky</value>
+	</data>
+	<data name="MAIN_SCREEN_CLEAN" xml:space="preserve">
+		<value>Pro ukončení stiskněte oba rohy</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE1" xml:space="preserve">
+		<value>Podřízené zařízení 1</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE2" xml:space="preserve">
+		<value>Podřízené zařízení 2</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE3" xml:space="preserve">
+		<value>Podřízené zařízení 3</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE4" xml:space="preserve">
+		<value>Podřízené zařízení 4</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE5" xml:space="preserve">
+		<value>Podřízené zařízení 5</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE6" xml:space="preserve">
+		<value>Podřízené zařízení 6</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE7" xml:space="preserve">
+		<value>Podřízené zařízení 7</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE8" xml:space="preserve">
+		<value>Podřízené zařízení 8</value>
+	</data>
+	<data name="M_FILE_SLAVES_RESTART" xml:space="preserve">
+		<value>Restartovat</value>
+	</data>
+	<data name="M_FILE_SLAVES_RESTARTALL" xml:space="preserve">
+		<value>Restartovat vše</value>
+	</data>
+	<data name="M_FILE_SLAVES_SHUTDOWN" xml:space="preserve">
+		<value>Vypnout</value>
+	</data>
+	<data name="M_FILE_SLAVES_CONNECTED" xml:space="preserve">
+		<value>Připojeno:</value>
+	</data>
+	<data name="M_FILE_SLAVES_TIME" xml:space="preserve">
+		<value>Doba zapojení:</value>
+	</data>
+	<data name="M_FILE_SLAVES_FREESPACE" xml:space="preserve">
+		<value>Volné místo:</value>
+	</data>
+	<data name="M_ALARMS_NAME" xml:space="preserve">
+		<value>Název alarmu</value>
+	</data>
+	<data name="M_ALARMS_MESSAGE" xml:space="preserve">
+		<value>Text alarmu</value>
+	</data>
+	<data name="M_ALARMS_TIMESTART" xml:space="preserve">
+		<value>Čas spuštění</value>
+	</data>
+	<data name="M_ALARMS_TIMECONFIRMED" xml:space="preserve">
+		<value>Časový alarm potvrzen</value>
+	</data>
+	<data name="G_SAVE" xml:space="preserve">
+		<value>Uložit</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_INFO_HEAD" xml:space="preserve">
+		<value>Vybraná tisková hlava – údaje</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_WAVEFORM" xml:space="preserve">
+		<value>Průběh proudové křivky:</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_DIS_NOZZLES_BEG" xml:space="preserve">
+		<value>Deaktivované trysky na začátku:</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_DIS_NOZZLES_END" xml:space="preserve">
+		<value>Deaktivované trysky na konci:</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_SERIAL" xml:space="preserve">
+		<value>Sériové číslo tiskové hlavy:</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_ENABLE" xml:space="preserve">
+		<value>Aktivovat</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_PTRIMS" xml:space="preserve">
+		<value>PTrims</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_OFFSET" xml:space="preserve">
+		<value>Odsazení vybrané tiskové hlavy</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_TYPE" xml:space="preserve">
+		<value>Typ tiskové hlavy:</value>
+	</data>
+	<data name="G_CANCEL" xml:space="preserve">
+		<value>Zrušit</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_TRIMS_LOCK" xml:space="preserve">
+		<value>Zablokovat</value>
+	</data>
+	<data name="G_PRINTHEAD" xml:space="preserve">
+		<value>Tisková hlava</value>
+	</data>
+	<data name="BAR_INKS" xml:space="preserve">
+		<value>Inkousty</value>
+	</data>
+	<data name="BAR_DOWN_FAST" xml:space="preserve">
+		<value>Rychle dolů</value>
+	</data>
+	<data name="BAR_DOWN" xml:space="preserve">
+		<value>Dolů</value>
+	</data>
+	<data name="BAR_UP" xml:space="preserve">
+		<value>Nahoru</value>
+	</data>
+	<data name="BAR_UP_FAST" xml:space="preserve">
+		<value>Rychle nahoru</value>
+	</data>
+	<data name="BAR_FORWARD" xml:space="preserve">
+		<value>Dopředu</value>
+	</data>
+	<data name="BAR_BACKWARD" xml:space="preserve">
+		<value>Dozadu</value>
+	</data>
+	<data name="BAR_IN" xml:space="preserve">
+		<value>Uvnitř</value>
+	</data>
+	<data name="BAR_OUT" xml:space="preserve">
+		<value>Venku</value>
+	</data>
+	<data name="BAR_TRAY" xml:space="preserve">
+		<value>Podavač:</value>
+	</data>
+	<data name="BAR_CLEANING_CARRIER" xml:space="preserve">
+		<value>Čisticí vozík:</value>
+	</data>
+	<data name="BAR_CLEANING_VENTURI" xml:space="preserve">
+		<value>Čištění difuzéru:</value>
+	</data>
+	<data name="BAR_VENTURI_ON" xml:space="preserve">
+		<value>Sání zapnuto</value>
+	</data>
+	<data name="BAR_VENTURI_OFF" xml:space="preserve">
+		<value>Sání vypnuto</value>
+	</data>
+	<data name="BAR_HEATER_ON" xml:space="preserve">
+		<value>Ohřívač baru zapnut</value>
+	</data>
+	<data name="BAR_HEATER_OFF" xml:space="preserve">
+		<value>Ohřívač baru vypnut</value>
+	</data>
+	<data name="BAR_TANK_HEATER_ON" xml:space="preserve">
+		<value>Zásobníkový ohřívač zapnut</value>
+	</data>
+	<data name="BAR_TANK_HEATER_OFF" xml:space="preserve">
+		<value>Zásobníkový ohřívač vypnut</value>
+	</data>
+	<data name="BAR_STIRRER_ON" xml:space="preserve">
+		<value>Míchadlo zapnuto</value>
+	</data>
+	<data name="BAR_STIRRER_OFF" xml:space="preserve">
+		<value>Míchadlo vypnuto</value>
+	</data>
+	<data name="BAR_TEMP" xml:space="preserve">
+		<value>Teplota baru:</value>
+	</data>
+	<data name="BAR_INK_SYSTEM" xml:space="preserve">
+		<value>Inkoustový systém on-line:</value>
+	</data>
+	<data name="BAR_INK_TEMP_IN" xml:space="preserve">
+		<value>Vnitřní teplota:</value>
+	</data>
+	<data name="BAR_INK_TEMP_OUT" xml:space="preserve">
+		<value>Vnější teplota:</value>
+	</data>
+	<data name="BAR_VACUUM_SETPOINT" xml:space="preserve">
+		<value>Vakuum setpoint:</value>
+	</data>
+	<data name="BAR_VACUUM" xml:space="preserve">
+		<value>Vakuum:</value>
+	</data>
+	<data name="BAR_DUTY_CICLE" xml:space="preserve">
+		<value>Pracovní cyklus:</value>
+	</data>
+	<data name="BAR_WEIR_BUMP" xml:space="preserve">
+		<value>Čerpadlo inkoustu:</value>
+	</data>
+	<data name="BAR_DEAIR_PUMP" xml:space="preserve">
+		<value>Přepadové čerpadlo:</value>
+	</data>
+	<data name="BAR_FIRMWARE_VER" xml:space="preserve">
+		<value>Verze firmwaru:</value>
+	</data>
+	<data name="BAR_TANK_TEMP" xml:space="preserve">
+		<value>Teplota nádrže:</value>
+	</data>
+	<data name="BAR_EXTRACTION" xml:space="preserve">
+		<value>Vyjmutí</value>
+	</data>
+	<data name="BAR_USER_OFFSET" xml:space="preserve">
+		<value>Odsazení uživatele:</value>
+	</data>
+	<data name="BAR_MOTOR_POS" xml:space="preserve">
+		<value>Pozice motoru:</value>
+	</data>
+	<data name="BAR_MOTOR_ERROR" xml:space="preserve">
+		<value>Chyba motoru:</value>
+	</data>
+	<data name="BAR_MOTOR_HOMING" xml:space="preserve">
+		<value>Navádění motoru:</value>
+	</data>
+	<data name="BAR_MOTOR" xml:space="preserve">
+		<value>Motor:</value>
+	</data>
+	<data name="BAR_PRINT_CHANNELS_L1" xml:space="preserve">
+		<value>Tiskové kanály linky 1</value>
+	</data>
+	<data name="BAR_PRINT_CHANNELS_L2" xml:space="preserve">
+		<value>Tiskové kanály linky 2</value>
+	</data>
+	<data name="BAR_CLEANING" xml:space="preserve">
+		<value>Čištění</value>
+	</data>
+	<data name="BAR_VENTURI_DRAIN" xml:space="preserve">
+		<value>Vyprazdňování difuzéru:</value>
+	</data>
+	<data name="BAR_VENTURI_DRAIN_ON" xml:space="preserve">
+		<value>Vyprazdňování zapnuto</value>
+	</data>
+	<data name="BAR_VENTURI_DRAIN_OFF" xml:space="preserve">
+		<value>Vyprazdňování vypnuto</value>
+	</data>
+	<data name="BAR_VACUUM_2" xml:space="preserve">
+		<value>Vakuum 2:</value>
+	</data>
+	<data name="BAR_INK_SYSTEM_TEMP_SP" xml:space="preserve">
+		<value>Sp teplota:</value>
+	</data>
+	<data name="EDIT_LASER_HEIGHT_TILE" xml:space="preserve">
+		<value>Výška dílu:</value>
+	</data>
+	<data name="EDIT_LASER_GAUGE_THICKNESS" xml:space="preserve">
+		<value>Tloušťka šablony:</value>
+	</data>
+	<data name="EDIT_LASER_STOP_SENSOR" xml:space="preserve">
+		<value>Senzor překrytí:</value>
+	</data>
+	<data name="EDIT_LASER_DETECT_SENSOR" xml:space="preserve">
+		<value>Senzor detekce produktu:</value>
+	</data>
+	<data name="EDIT_LASER_HOMING" xml:space="preserve">
+		<value>Navádění</value>
+	</data>
+	<data name="MODEL_MAIN_QUEUE" xml:space="preserve">
+		<value>Fronta uložených modelů</value>
+	</data>
+	<data name="MODEL_MAIN_NEW" xml:space="preserve">
+		<value>Nový</value>
+	</data>
+	<data name="MODEL_MAIN_EDIT" xml:space="preserve">
+		<value>Editovat</value>
+	</data>
+	<data name="MODEL_MAIN_COPY" xml:space="preserve">
+		<value>Kopírovat</value>
+	</data>
+	<data name="MODEL_MAIN_DELETE" xml:space="preserve">
+		<value>Vymazat</value>
+	</data>
+	<data name="MODEL_MAIN_RENDER" xml:space="preserve">
+		<value>Renderovat</value>
+	</data>
+	<data name="MODEL_MAIN_INK_CONSUM" xml:space="preserve">
+		<value>Spotřeba inkoustu</value>
+	</data>
+	<data name="MODEL_LIST_NAME" xml:space="preserve">
+		<value>Název</value>
+	</data>
+	<data name="MODEL_LIST_STATE" xml:space="preserve">
+		<value>Stav</value>
+	</data>
+	<data name="MODEL_LIST_DIMENSIONS" xml:space="preserve">
+		<value>Rozměry</value>
+	</data>
+	<data name="MODEL_LIST_MODE" xml:space="preserve">
+		<value>Režim</value>
+	</data>
+	<data name="MODEL_LIST_QUALITY" xml:space="preserve">
+		<value>Kvalita</value>
+	</data>
+	<data name="MODEL_LIST_DATE_CRE" xml:space="preserve">
+		<value>Datum vytvoření</value>
+	</data>
+	<data name="MODEL_LIST_DATE_IMP" xml:space="preserve">
+		<value>Datum tisku</value>
+	</data>
+	<data name="MODEL_MAIN_FAVORITES" xml:space="preserve">
+		<value>Oblíbené</value>
+	</data>
+	<data name="MODEL_MAIN_PREVIEW" xml:space="preserve">
+		<value>Náhled</value>
+	</data>
+	<data name="MODEL_MAIN_RENDERING" xml:space="preserve">
+		<value>Renderování:</value>
+	</data>
+	<data name="MODEL_MAIN_USED_SPACE" xml:space="preserve">
+		<value>Využité místo na disku podřízených zařízení:</value>
+	</data>
+	<data name="MODEL_MAIN_USED_SPACE_MASTER" xml:space="preserve">
+		<value>Využité místo na disku hlavního PC:</value>
+	</data>
+	<data name="MODEL_GENERAL_NAME" xml:space="preserve">
+		<value>Název modelu:</value>
+	</data>
+	<data name="MODEL_GENERAL_DESCRIPTION" xml:space="preserve">
+		<value>Popis:</value>
+	</data>
+	<data name="MODEL_PRINTING_QUALITY" xml:space="preserve">
+		<value>Kvalita tisku:</value>
+	</data>
+	<data name="MODEL_GENERAL_FAVORITE" xml:space="preserve">
+		<value>Oblíbený:</value>
+	</data>
+	<data name="MODEL_NEW" xml:space="preserve">
+		<value>Nový model</value>
+	</data>
+	<data name="MODEL_NEW_EXISTS" xml:space="preserve">
+		<value>Zvolený název již existuje. Vyberte prosím jiný.</value>
+	</data>
+	<data name="MODEL_EDIT_DESIGNS" xml:space="preserve">
+		<value>Designy</value>
+	</data>
+	<data name="MODEL_EDIT_MODIFIEDS" xml:space="preserve">
+		<value>Modifikované</value>
+	</data>
+	<data name="MODEL_EDIT_RENDER_ALL" xml:space="preserve">
+		<value>Renderovat vše</value>
+	</data>
+	<data name="MODEL_EDIT_NO_RENDER" xml:space="preserve">
+		<value>Zastavit renderování</value>
+	</data>
+	<data name="MODEL_EDIT_DELETE_RENDER" xml:space="preserve">
+		<value>Vymazat render</value>
+	</data>
+	<data name="MODEL_EDIT_ADD_IMAGE" xml:space="preserve">
+		<value>Přidat snímek</value>
+	</data>
+	<data name="MODEL_EDIT_DELETE_IMAGE" xml:space="preserve">
+		<value>Vymazat snímek</value>
+	</data>
+	<data name="MODEL_EDIT_COPY_IMAGES" xml:space="preserve">
+		<value>Kopírovat renderované snímky:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_ESTIMATION" xml:space="preserve">
+		<value>Odhad</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_PRODUCTION" xml:space="preserve">
+		<value>Produkce</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR1" xml:space="preserve">
+		<value>Spotřeba inkoustu bar 1:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR2" xml:space="preserve">
+		<value>Spotřeba inkoustu bar 2:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR3" xml:space="preserve">
+		<value>Spotřeba inkoustu bar 3:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR4" xml:space="preserve">
+		<value>Spotřeba inkoustu bar 4:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR5" xml:space="preserve">
+		<value>Spotřeba inkoustu bar 5:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR6" xml:space="preserve">
+		<value>Spotřeba inkoustu bar 6:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR7" xml:space="preserve">
+		<value>Spotřeba inkoustu bar 7:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR8" xml:space="preserve">
+		<value>Spotřeba inkoustu bar 8:</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_TOTAL" xml:space="preserve">
+		<value>Celkem:</value>
+	</data>
+	<data name="MODEL_DELETE" xml:space="preserve">
+		<value>Chcete vymazat vybraný model?</value>
+	</data>
+	<data name="MODEL_DELETE_RENDERED" xml:space="preserve">
+		<value>Chcete vymazat renderovaný model?</value>
+	</data>
+	<data name="MODEL_DESIGNS_USE" xml:space="preserve">
+		<value>Použít</value>
+	</data>
+	<data name="MODEL_DESIGNS_ORDER" xml:space="preserve">
+		<value>Příkaz</value>
+	</data>
+	<data name="MODEL_DESIGNS_SOURCE" xml:space="preserve">
+		<value>Zdroj</value>
+	</data>
+	<data name="MODEL_DESIGNS_DESCRIPTION" xml:space="preserve">
+		<value>Popis</value>
+	</data>
+	<data name="MODEL_MODES_NORMAL" xml:space="preserve">
+		<value>Normální</value>
+	</data>
+	<data name="MODEL_MODES_INCREMENTAL" xml:space="preserve">
+		<value>Vzrůstající</value>
+	</data>
+	<data name="MODEL_MODES_RANDOM" xml:space="preserve">
+		<value>Náhodný</value>
+	</data>
+	<data name="MODEL_MODES_TILING" xml:space="preserve">
+		<value>Mřížkování</value>
+	</data>
+	<data name="MODEL_MODES_MANUAL" xml:space="preserve">
+		<value>Ruční</value>
+	</data>
+	<data name="MODEL_MODES_CRETAVISION" xml:space="preserve">
+		<value>Cretavision</value>
+	</data>
+	<data name="MODELS_MODES_IMAGE_INFO" xml:space="preserve">
+		<value>Informace o snímku</value>
+	</data>
+	<data name="MODEL_MODES_WIDTH" xml:space="preserve">
+		<value>Šířka (Y):</value>
+	</data>
+	<data name="MODEL_MODES_HEIGHT" xml:space="preserve">
+		<value>Délka (X):</value>
+	</data>
+	<data name="M_ALARMS_CONFIRM" xml:space="preserve">
+		<value>Potvrdit</value>
+	</data>
+	<data name="M_EDIT_QUALITY_NOISE" xml:space="preserve">
+		<value>Šum:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_MODE_IMGS" xml:space="preserve">
+		<value>Režim výběru snímků:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_OFFSET_X" xml:space="preserve">
+		<value>Odsazení X:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_OFFSET_Y" xml:space="preserve">
+		<value>Odsazení Y:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CONT_HORIZ" xml:space="preserve">
+		<value>Horizontální kontinuální režim</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CONT_VERT" xml:space="preserve">
+		<value>Vertikální kontinuální režim</value>
+	</data>
+	<data name="MODEL_MODES_CFG_TILES_IMG" xml:space="preserve">
+		<value>Počet dílů na snímek:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_SIMULATION" xml:space="preserve">
+		<value>Simulace:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_INCR_X" xml:space="preserve">
+		<value>Přírůstek X:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_INCR_Y" xml:space="preserve">
+		<value>Přírůstek Y:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_ROWS" xml:space="preserve">
+		<value>Počet řádků:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_COLUMNS" xml:space="preserve">
+		<value>Počet sloupců:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_X" xml:space="preserve">
+		<value>X:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_Y" xml:space="preserve">
+		<value>Y:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_ADD" xml:space="preserve">
+		<value>Přidat</value>
+	</data>
+	<data name="MODEL_MODES_CAMERA_ID" xml:space="preserve">
+		<value>ID kamery:</value>
+	</data>
+	<data name="MODEL_DESIGNS_TIF_EXISTS" xml:space="preserve">
+		<value>Soubor tiff již na cestě existuje.</value>
+	</data>
+	<data name="MODEL_EDIT_ABORT_RENDER" xml:space="preserve">
+		<value>Ukončit renderování</value>
+	</data>
+	<data name="M_EDIT_CAMERA" xml:space="preserve">
+		<value>Kamera</value>
+	</data>
+	<data name="M_EDIT_RENDER" xml:space="preserve">
+		<value>Renderování</value>
+	</data>
+	<data name="M_EDIT_SLAVES" xml:space="preserve">
+		<value>Podřízená zařízení</value>
+	</data>
+	<data name="MODEL_IMG_STATE_OK" xml:space="preserve">
+		<value>Ok</value>
+	</data>
+	<data name="MODEL_IMG_STATE_QUEUE" xml:space="preserve">
+		<value>Ve frontě</value>
+	</data>
+	<data name="MODEL_IMG_STATE_PROCESSING" xml:space="preserve">
+		<value>Zpracování</value>
+	</data>
+	<data name="MODEL_IMG_STATE_NOMEMORY" xml:space="preserve">
+		<value>Nedostatek paměti</value>
+	</data>
+	<data name="MODEL_IMG_STATE_NOORIGINAL" xml:space="preserve">
+		<value>Originální snímek TIF nenalezen</value>
+	</data>
+	<data name="MODEL_IMG_STATE_NOPROCESSED" xml:space="preserve">
+		<value>Nezpracováno</value>
+	</data>
+	<data name="MODEL_IMG_STATE_NOPROCESSED_ERROR" xml:space="preserve">
+		<value>Chyba – nezpracováno</value>
+	</data>
+	<data name="MAIN_START_SELECTION" xml:space="preserve">
+		<value>Vybrat model k tisku</value>
+	</data>
+	<data name="MAIN_START_SELECT" xml:space="preserve">
+		<value>Vybrat</value>
+	</data>
+	<data name="MAIN_START_PRODUCTION" xml:space="preserve">
+		<value>Produkce</value>
+	</data>
+	<data name="MAIN_START_NUM_TILES" xml:space="preserve">
+		<value>Vyprodukovat určité množství a vrátit se</value>
+	</data>
+	<data name="MAIN_START_TILES" xml:space="preserve">
+		<value>Díly</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_MODE" xml:space="preserve">
+		<value>Režim tisku:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SIGNALDELAY" xml:space="preserve">
+		<value>Zpoždění signálu oprávnění:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_PCS_ON" xml:space="preserve">
+		<value>Zachovat PC zapnuté</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_LOGS" xml:space="preserve">
+		<value>Uložit soubory protokolu: </value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SECURITY" xml:space="preserve">
+		<value>Úroveň zabezpečení:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_INK_CONS" xml:space="preserve">
+		<value>Odhad spotřeby inkoustu</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SUCTION_MODE" xml:space="preserve">
+		<value>Režim sání:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SUCTION_LEN" xml:space="preserve">
+		<value>Délka sání:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_IMG_BUFFER" xml:space="preserve">
+		<value>Vyrovnávací paměť pro načítání snímků:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_BARCONF" xml:space="preserve">
+		<value>Konfigurace barů</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_BELT_GEAR" xml:space="preserve">
+		<value>Převodový poměr pásu:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_BLOCKS" xml:space="preserve">
+		<value>Počet bloků na bar:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_MASTER_PORT" xml:space="preserve">
+		<value>Hlavní port ModbusRTU:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_NUMBARS" xml:space="preserve">
+		<value>Počet barů:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_DIRECTION" xml:space="preserve">
+		<value>Směr stroje:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_ENCODER" xml:space="preserve">
+		<value>Odhad kodéru</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_DRIVE" xml:space="preserve">
+		<value>Hnací hřídel:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_ENCODER_P" xml:space="preserve">
+		<value>Kodér:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_ESTIMATE" xml:space="preserve">
+		<value>Odhad</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_RESULT" xml:space="preserve">
+		<value>Výsledek:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_PULSES" xml:space="preserve">
+		<value>Impulzy</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_LINE1" xml:space="preserve">
+		<value>1 linka</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_LINE2" xml:space="preserve">
+		<value>2 linky</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_LEFT" xml:space="preserve">
+		<value>Zleva</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_RIGHT" xml:space="preserve">
+		<value>Zprava</value>
+	</data>
+	<data name="MAIN_TILES_COUNT1" xml:space="preserve">
+		<value>Díly linky 1:</value>
+	</data>
+	<data name="MAIN_TILES_COUNT2" xml:space="preserve">
+		<value>Díly linky 2:</value>
+	</data>
+	<data name="MAIN_ALARMS" xml:space="preserve">
+		<value>Alarmy:</value>
+	</data>
+	<data name="MODEL_STATE_PRINTING_L1" xml:space="preserve">
+		<value>Tisk L1</value>
+	</data>
+	<data name="MODEL_STATE_PRINTING_L2" xml:space="preserve">
+		<value>Tisk L2</value>
+	</data>
+	<data name="MODEL_STATE_NOT_READY" xml:space="preserve">
+		<value>Model není připraven</value>
+	</data>
+	<data name="MODEL_STATE_PROCESSING" xml:space="preserve">
+		<value>Zpracování</value>
+	</data>
+	<data name="MAIN_PLC_OK" xml:space="preserve">
+		<value>Komunikace s PLC navázána</value>
+	</data>
+	<data name="MAIN_PLC_ERROR" xml:space="preserve">
+		<value>Chyba komunikace s PLC</value>
+	</data>
+	<data name="MAIN_NO_USERS" xml:space="preserve">
+		<value>Bez uživatele</value>
+	</data>
+	<data name="MAIN_USER" xml:space="preserve">
+		<value>Uživatel:</value>
+	</data>
+	<data name="MAIN_RENDER_SERVER_ON" xml:space="preserve">
+		<value>Renderovací server připojen</value>
+	</data>
+	<data name="MAIN_RENDER_SERVER_OFF" xml:space="preserve">
+		<value>Renderovací server odpojen</value>
+	</data>
+	<data name="MAIN_PRINT_SERVER_ON" xml:space="preserve">
+		<value>Tiskový server připojen</value>
+	</data>
+	<data name="MAIN_PRINT_SERVER_OFF" xml:space="preserve">
+		<value>Tiskový server odpojen</value>
+	</data>
+	<data name="MAIN_REMOTE_ASSISTANCE" xml:space="preserve">
+		<value>Vzdálená asistence:</value>
+	</data>
+	<data name="MAIN_CAMERA_CONNECTED" xml:space="preserve">
+		<value>Kamera 1 připojena</value>
+	</data>
+	<data name="MAIN_CAMERA_NOT_CONNECTED" xml:space="preserve">
+		<value>Kamera 1 nepřipojena</value>
+	</data>
+	<data name="MAIN_CAMERA_DISCONNECTING" xml:space="preserve">
+		<value>Kamera 1 se odpojuje</value>
+	</data>
+	<data name="MAIN_CAMERA_DISCONNECTED" xml:space="preserve">
+		<value>Kamera 1 odpojena</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_COLOR" xml:space="preserve">
+		<value>Barva baru:</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DROP_VOL" xml:space="preserve">
+		<value>Min. hmotnost kapky:</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DIS_L1" xml:space="preserve">
+		<value>Aktivovat bar linky 1 (Tisk)</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DIS_L2" xml:space="preserve">
+		<value>Aktivovat bar linky 2 (Tisk)</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_SENSOR_DIST" xml:space="preserve">
+		<value>Vzdálenost k senzoru detekce dílu:</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_PH_PMB" xml:space="preserve">
+		<value>Počet tiskových hlav:</value>
+	</data>
+	<data name="G_WAVEFORM" xml:space="preserve">
+		<value>Průběh křivky:</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DROPS" xml:space="preserve">
+		<value>Počet kapek:</value>
+	</data>
+	<data name="M_EDIT_DESC_PORT" xml:space="preserve">
+		<value>Port:</value>
+	</data>
+	<data name="M_EDIT_BAR_TYPE" xml:space="preserve">
+		<value>Typ baru:</value>
+	</data>
+	<data name="M_EDIT_BARTYPE_ESPESORADA" xml:space="preserve">
+		<value>Zesílení</value>
+	</data>
+	<data name="M_EDIT_BARTYPE_DECORATION" xml:space="preserve">
+		<value>Dekorace</value>
+	</data>
+	<data name="M_EDIT_BAR_NUM_PMB" xml:space="preserve">
+		<value>Počet PMB:</value>
+	</data>
+	<data name="G_PATH" xml:space="preserve">
+		<value>Cesta:</value>
+	</data>
+	<data name="G_ADDRESS" xml:space="preserve">
+		<value>Adresa:</value>
+	</data>
+	<data name="CLEAN_RUN_EVERY" xml:space="preserve">
+		<value>Spustit každý:</value>
+	</data>
+	<data name="CLEAN_CARRIER_MOV" xml:space="preserve">
+		<value>Doba pohybu vozíku (s)</value>
+	</data>
+	<data name="CLEAN_DRIP_TIME" xml:space="preserve">
+		<value>Doba kapání (s)</value>
+	</data>
+	<data name="CLEAN_OFFSET" xml:space="preserve">
+		<value>Odsazení</value>
+	</data>
+	<data name="CLEAN_SPITTING" xml:space="preserve">
+		<value>Doba Spit (s)</value>
+	</data>
+	<data name="CLEAN_TIME_BT_SPITS" xml:space="preserve">
+		<value>Doba (m) mezi Spit</value>
+	</data>
+	<data name="CLEAN_SPIT_FREQ" xml:space="preserve">
+		<value>Frekvence Spit (Hz)</value>
+	</data>
+	<data name="CLEAN_SPIT" xml:space="preserve">
+		<value>Spit</value>
+	</data>
+	<data name="CLEAN_BY_TILES" xml:space="preserve">
+		<value>Podle dílů</value>
+	</data>
+	<data name="CLEAN_BY_TIME" xml:space="preserve">
+		<value>Podle času</value>
+	</data>
+	<data name="CLEAN_CONTINOUS" xml:space="preserve">
+		<value>Kontinuální</value>
+	</data>
+	<data name="CLEAN_MANUAL_FORCED" xml:space="preserve">
+		<value>Ruční síla</value>
+	</data>
+	<data name="G_MINUTES" xml:space="preserve">
+		<value>Minuty</value>
+	</data>
+	<data name="G_SECONDS" xml:space="preserve">
+		<value>Sekundy</value>
+	</data>
+	<data name="CLEAN_BELT" xml:space="preserve">
+		<value>Pás</value>
+	</data>
+	<data name="CLEAN_CYCLE_LENGTH" xml:space="preserve">
+		<value>Délka cyklu</value>
+	</data>
+	<data name="CLEAN_HEADS_STOPPED" xml:space="preserve">
+		<value>Systém čištění hlav během zastavení stroje</value>
+	</data>
+	<data name="CLEAN_MORE_OPTIONS" xml:space="preserve">
+		<value>Více možností</value>
+	</data>
+	<data name="CLEAN_L1_DELAY" xml:space="preserve">
+		<value>Zpoždění linky 1:</value>
+	</data>
+	<data name="CLEAN_L2_DELAY" xml:space="preserve">
+		<value>Zpoždění linky 2:</value>
+	</data>
+	<data name="CLEAN_GAP_TIME" xml:space="preserve">
+		<value>Doba přestávky:</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_GLOBAL" xml:space="preserve">
+		<value>Globální pozice</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_GLOBAL_L1" xml:space="preserve">
+		<value>Globální pozice linky 1</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_GLOBAL_L2" xml:space="preserve">
+		<value>Globální pozice linky 2</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_FROM0" xml:space="preserve">
+		<value>Od 0</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_FROMCENTER" xml:space="preserve">
+		<value>Ze středu</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_XOFFSET" xml:space="preserve">
+		<value>Odsazení X (mm):</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_YOFFSET" xml:space="preserve">
+		<value>Odsazení Y (mm):</value>
+	</data>
+	<data name="CLEAN_ERROR_AUTO" xml:space="preserve">
+		<value>Tiskárna musí být v automatickém režimu.</value>
+	</data>
+	<data name="CLEAN_ERROR_NO_IMG" xml:space="preserve">
+		<value>Na výrobní lince nesmí být zavedeny žádné vzory.</value>
+	</data>
+	<data name="CLEAN_ERROR_BARS_TENSION" xml:space="preserve">
+		<value>Bary musí být pod napětím.</value>
+	</data>
+	<data name="CLEAN_ERROR_INK_ON" xml:space="preserve">
+		<value>Inkoustové systémy musí pracovat.</value>
+	</data>
+	<data name="CLEAN_OK" xml:space="preserve">
+		<value>Režim Spit je připraven k použití.</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_YMODE" xml:space="preserve">
+		<value>Režim Y</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL0" xml:space="preserve">
+		<value>Kanál 0</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL1" xml:space="preserve">
+		<value>Kanál 1</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL2" xml:space="preserve">
+		<value>Kanál 2</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL3" xml:space="preserve">
+		<value>Kanál 3</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL4" xml:space="preserve">
+		<value>Kanál 4</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL5" xml:space="preserve">
+		<value>Kanál 5</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL6" xml:space="preserve">
+		<value>Kanál 6</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL7" xml:space="preserve">
+		<value>Kanál 7</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP1" xml:space="preserve">
+		<value>Kapka 1</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP2" xml:space="preserve">
+		<value>Kapka 2</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP3" xml:space="preserve">
+		<value>Kapka 3</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP4" xml:space="preserve">
+		<value>Kapka 4</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP5" xml:space="preserve">
+		<value>Kapka 5</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP6" xml:space="preserve">
+		<value>Kapka 6</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP7" xml:space="preserve">
+		<value>Kapka 7</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP8" xml:space="preserve">
+		<value>Kapka 8</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP9" xml:space="preserve">
+		<value>Kapka 9</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP10" xml:space="preserve">
+		<value>Kapka 10</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP11" xml:space="preserve">
+		<value>Kapka 11</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP12" xml:space="preserve">
+		<value>Kapka 12</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP13" xml:space="preserve">
+		<value>Kapka 13</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP14" xml:space="preserve">
+		<value>Kapka 14</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP15" xml:space="preserve">
+		<value>Kapka 15</value>
+	</data>
+	<data name="M_EDIT_QUALITY_FACTOR" xml:space="preserve">
+		<value>Faktor:</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DENSITY" xml:space="preserve">
+		<value>Hustota</value>
+	</data>
+	<data name="M_EDIT_QUALITY_OVERLAP" xml:space="preserve">
+		<value>Překrytí</value>
+	</data>
+	<data name="M_EDIT_QUALITY_LEVELS" xml:space="preserve">
+		<value>Úrovně:</value>
+	</data>
+	<data name="G_OPEN" xml:space="preserve">
+		<value>Otevřít</value>
+	</data>
+	<data name="M_EDIT_QUALITY_SAVE" xml:space="preserve">
+		<value>Chceš uložit informace o aktuální vlastnosti?</value>
+	</data>
+	<data name="M_EDIT_QUALITY_SAVE_ERROR" xml:space="preserve">
+		<value>Informace o vlastnosti nelze uložit</value>
+	</data>
+	<data name="M_EDIT_QUALITY_NEWNAME" xml:space="preserve">
+		<value>Název nové vlastnosti:</value>
+	</data>
+	<data name="M_EDIT_QUALITY_EXISTS" xml:space="preserve">
+		<value>Název souboru vlastnosti již existuje</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DELETE" xml:space="preserve">
+		<value>Chcete vymazat vybrané informace o vlastnosti?</value>
+	</data>
+	<data name="M_EDIT_QUALITY_OPEN_ERROR" xml:space="preserve">
+		<value>Soubor vlastnosti nelze otevřít</value>
+	</data>
+	<data name="M_EDIT_QUALITY_SAVECHANGES" xml:space="preserve">
+		<value>Chcete uložit všechny změny?</value>
+	</data>
+	<data name="G_YES" xml:space="preserve">
+		<value>Ano</value>
+	</data>
+	<data name="G_NO" xml:space="preserve">
+		<value>Ne</value>
+	</data>
+	<data name="CLEAN_SPIT_BT_TILES" xml:space="preserve">
+		<value>Spit mezi díly</value>
+	</data>
+	<data name="MAIN_RESET_TILE_COUNTER" xml:space="preserve">
+		<value>Chcete vynulovat počítadlo?</value>
+	</data>
+	<data name="MAIN_CONTINUOUS_TIME" xml:space="preserve">
+		<value>Doba opakování</value>
+	</data>
+	<data name="MAIN_START_LOAD_ERROR" xml:space="preserve">
+		<value>Chyba načítání. Zkontrolujte stav tiskového serveru.</value>
+	</data>
+	<data name="MAIN_HELP_OSK" xml:space="preserve">
+		<value>Tlačítko klávesnice na obrazovce</value>
+	</data>
+	<data name="G_SHOW" xml:space="preserve">
+		<value>Ukázat</value>
+	</data>
+	<data name="G_HIDE" xml:space="preserve">
+		<value>Skrýt</value>
+	</data>
+	<data name="G_DATE_FROM" xml:space="preserve">
+		<value>Od:</value>
+	</data>
+	<data name="G_DATE_TO" xml:space="preserve">
+		<value>Do:</value>
+	</data>
+	<data name="G_UPDATE" xml:space="preserve">
+		<value>Aktualizovat</value>
+	</data>
+	<data name="M_ALARMS_TIMEEND" xml:space="preserve">
+		<value>Čas dokončení</value>
+	</data>
+	<data name="MAIN_KERNEL_ERROR" xml:space="preserve">
+		<value>Chyba komunikace s jádrem</value>
+	</data>
+	<data name="MAIN_KERNEL_OK" xml:space="preserve">
+		<value>Komunikace s jádrem umožněna</value>
+	</data>
+	<data name="MAIN_USER_PASSWORD" xml:space="preserve">
+		<value>Heslo:</value>
+	</data>
+	<data name="MAIN_USER_LIST" xml:space="preserve">
+		<value>Seznam uživatelů</value>
+	</data>
+	<data name="MAIN_USER_ENABLE" xml:space="preserve">
+		<value>Aktivovat</value>
+	</data>
+	<data name="MAIN_USER_CONFIRMATION" xml:space="preserve">
+		<value>Potvrzení:</value>
+	</data>
+	<data name="MAIN_USER_LANGUAGE" xml:space="preserve">
+		<value>Jazyk:</value>
+	</data>
+	<data name="MAIN_USER_LEVEL" xml:space="preserve">
+		<value>Úroveň:</value>
+	</data>
+	<data name="MAIN_USER_PASSWORD_REPEAT" xml:space="preserve">
+		<value>Opakovat heslo:</value>
+	</data>
+	<data name="MAIN_USER_CONFIRM_ERROR" xml:space="preserve">
+		<value>Heslo a potvrzení musí být stejné</value>
+	</data>
+	<data name="MAIN_USER_USB" xml:space="preserve">
+		<value>Připravit pendrive</value>
+	</data>
+	<data name="M_USER_LEVEL_LOW" xml:space="preserve">
+		<value>Normální</value>
+	</data>
+	<data name="M_USER_LEVEL_MED" xml:space="preserve">
+		<value>Tovární technik</value>
+	</data>
+	<data name="M_USER_LEVEL_HIGH" xml:space="preserve">
+		<value>Technik CretaPrint</value>
+	</data>
+	<data name="M_USER_LEVEL_ADMIN" xml:space="preserve">
+		<value>Administrátor</value>
+	</data>
+	<data name="M_WANT_EXIT" xml:space="preserve">
+		<value>Opravdu chcete zavřít aplikaci?</value>
+	</data>
+	<data name="G_METERS" xml:space="preserve">
+		<value>Metry:</value>
+	</data>
+	<data name="FILE_PRODUCTION_REPORT_TOTAL" xml:space="preserve">
+		<value>Celkem</value>
+	</data>
+	<data name="FILE_PRODUCTION_REPORT_L1" xml:space="preserve">
+		<value>Dílčí počítadlo 1</value>
+	</data>
+	<data name="FILE_PRODUCTION_REPORT_L2" xml:space="preserve">
+		<value>Dílčí počítadlo 2</value>
+	</data>
+	<data name="FILE_CANOPEN" xml:space="preserve">
+		<value>Stav CANopen</value>
+	</data>
+	<data name="SIMULATION_IMG_MODE_EDIT" xml:space="preserve">
+		<value>Editovat</value>
+	</data>
+	<data name="SIMULATION_IMG_MODE_ONE" xml:space="preserve">
+		<value>Simulovat jeden</value>
+	</data>
+	<data name="SIMULATION_IMG_MODE_ALL" xml:space="preserve">
+		<value>Simulovat všechny</value>
+	</data>
+	<data name="M_FILE_PRINTSERVER_PRINTING" xml:space="preserve">
+		<value>Tisk</value>
+	</data>
+	<data name="MODEL_IMAGES" xml:space="preserve">
+		<value>Snímky</value>
+	</data>
+	<data name="M_EDIT_QUALITY_COPY_DROPS" xml:space="preserve">
+		<value>Kopírovat na všechny kanály</value>
+	</data>
+	<data name="MAIN_USER_LOGIN_ERROR" xml:space="preserve">
+		<value>Nesprávné uživatelské jméno nebo heslo</value>
+	</data>
+	<data name="MAIN_USER_DELETE" xml:space="preserve">
+		<value>Chcete vymazat vybraného uživatele?</value>
+	</data>
+	<data name="M_EDIT_DESC_SLAVES_POS" xml:space="preserve">
+		<value>Pozice podřízených zařízení:</value>
+	</data>
+	<data name="G_NAME_COLON" xml:space="preserve">
+		<value>Název:</value>
+	</data>
+	<data name="TAS_TONE_AUTO" xml:space="preserve">
+		<value>Automatický</value>
+	</data>
+	<data name="TAS_TONE_MANUAL" xml:space="preserve">
+		<value>Ruční síla</value>
+	</data>
+	<data name="TAS_SAMPLES" xml:space="preserve">
+		<value>Vzorky celkem:</value>
+	</data>
+	<data name="TAS_TILE_DIM" xml:space="preserve">
+		<value>Rozměry dílu</value>
+	</data>
+	<data name="TAS_SAMPLE_DIST" xml:space="preserve">
+		<value>Distribuce vzorků</value>
+	</data>
+	<data name="TAS_SAMPLE_SELECT_IMG" xml:space="preserve">
+		<value>Vybrat vzorový snímek</value>
+	</data>
+	<data name="TAS_SAMPLE_SECTION" xml:space="preserve">
+		<value>Vybrat sekci (vzorek)</value>
+	</data>
+	<data name="TAS_SAMPLE_SIZE" xml:space="preserve">
+		<value>Velikost vzorku:</value>
+	</data>
+	<data name="TAS_SAMPLE_ROWS" xml:space="preserve">
+		<value>Počet řádků na díl: </value>
+	</data>
+	<data name="TAS_SAMPLE_COLS" xml:space="preserve">
+		<value>Počet sloupců na díl:</value>
+	</data>
+	<data name="TAS_SAMPLES_PER_TILE" xml:space="preserve">
+		<value>Počet vzorků na díl:</value>
+	</data>
+	<data name="TAS_SAMPLES_TOTAL_TILES" xml:space="preserve">
+		<value>Díly celkem:</value>
+	</data>
+	<data name="TAS_INTEN_GENERAR" xml:space="preserve">
+		<value>Generovat</value>
+	</data>
+	<data name="TAS_INTEN_VARIATION" xml:space="preserve">
+		<value>Variace:</value>
+	</data>
+	<data name="TAS_INTEN_LIMIT" xml:space="preserve">
+		<value>Maximální variace: </value>
+	</data>
+	<data name="TAS_INTEN_NEGATIVE" xml:space="preserve">
+		<value>Zahrnout negativní hodnoty</value>
+	</data>
+	<data name="TAS_TONE_DEVIATION" xml:space="preserve">
+		<value>Odchylky (%):</value>
+	</data>
+	<data name="TAS_TONE_CH_COMB" xml:space="preserve">
+		<value>Specifikujte kanály snímku, které budou změněny:</value>
+	</data>
+	<data name="TAS_TONE_CH_COMB_1" xml:space="preserve">
+		<value>(1) Kombinace jednoho kanálu na každém vzorku</value>
+	</data>
+	<data name="TAS_TONE_CH_COMB_2" xml:space="preserve">
+		<value>(2) Kombinace dvou kanálů na každém vzorku</value>
+	</data>
+	<data name="TAS_TONE_CH_CH_MODIFY" xml:space="preserve">
+		<value>Specifikujte kanály snímku, které budou změněny:</value>
+	</data>
+	<data name="TAS_NEXT" xml:space="preserve">
+		<value>Další</value>
+	</data>
+	<data name="TAS_BACK" xml:space="preserve">
+		<value>Zpět</value>
+	</data>
+	<data name="TAS_PROCESS" xml:space="preserve">
+		<value>Proces</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL8" xml:space="preserve">
+		<value>Kanál 8</value>
+	</data>
+	<data name="TAS_TAG" xml:space="preserve">
+		<value>Etiketa</value>
+	</data>
+	<data name="QR_CODE" xml:space="preserve">
+		<value>QR kód:</value>
+	</data>
+	<data name="HELP_INFO_SYSTEM_MEM" xml:space="preserve">
+		<value>Paměť systému</value>
+	</data>
+	<data name="HELP_INFO_SLAVES" xml:space="preserve">
+		<value>Využití pevného disku podřízeného počítače:</value>
+	</data>
+	<data name="HELP_INFO_MASTER" xml:space="preserve">
+		<value>Využití pevného disku hlavního počítače:</value>
+	</data>
+	<data name="HELP_INFO_VERSIONS" xml:space="preserve">
+		<value>Verze</value>
+	</data>
+	<data name="MODELS_NOQUALITIES" xml:space="preserve">
+		<value>Nejsou žádné vlastnosti; chcete vytvořit výchozí vlastnosti?</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_CONNECT_1" xml:space="preserve">
+		<value>Spojit s kamerou 1</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_CONNECT_2" xml:space="preserve">
+		<value>Spojit s kamerou 2</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_IP_1" xml:space="preserve">
+		<value>IP adresa kamery:</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_USR_1" xml:space="preserve">
+		<value>Uživatel kamery:</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_PAS_1" xml:space="preserve">
+		<value>Heslo kamery:</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_1" xml:space="preserve">
+		<value>Kamera 1</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_2" xml:space="preserve">
+		<value>Kamera 2</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_PORT1_1" xml:space="preserve">
+		<value>Port 1:</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_PORT2_1" xml:space="preserve">
+		<value>Port 2:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CAM_IDS" xml:space="preserve">
+		<value>ID kamery:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CAM_ORIGIN" xml:space="preserve">
+		<value>Původ detekce:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CAM_IN_CAM" xml:space="preserve">
+		<value>Kamera (Cognex)</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CAM_IN_PLC1" xml:space="preserve">
+		<value>Vstupy PLC1</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_MATRICULA" xml:space="preserve">
+		<value>Registrace:</value>
+	</data>
+	<data name="G_QUESTION_DELETE" xml:space="preserve">
+		<value>Chcete vymazat vybraný prvek?</value>
+	</data>
+	<data name="TAS_SELECT_SAMPLE" xml:space="preserve">
+		<value>Vybrat požadovaný vzorek:</value>
+	</data>
+	<data name="TAS_SAMPLE_VALIDATE" xml:space="preserve">
+		<value>Ověřit vzorek</value>
+	</data>
+	<data name="TAS_SAMPLE_VALIDATE_INFO" xml:space="preserve">
+		<value>Použít tyto parametry k vytvoření nové TAS produkce (variace aplikována na každý soubor TIFF)</value>
+	</data>
+	<data name="TAS_NUM_SAMPLES" xml:space="preserve">
+		<value>Vzorky</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_AUTOALIGN_QUESTION" xml:space="preserve">
+		<value>Opravdu chcete resetovat vyrovnání hlav?  
+Ztratíte aktuální vyrovnání</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_AUTOALIGN_LEFT" xml:space="preserve">
+		<value>Nachází se hlava číslo jedna na levé straně?</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_AUTOALIGN" xml:space="preserve">
+		<value>Automatické vyrovnání</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_INTERROW_DESV" xml:space="preserve">
+		<value>Odchylka mezi řádky:</value>
+	</data>
+	<data name="G_ERROR_COMMAND" xml:space="preserve">
+		<value>Nelze zpracovat příkaz</value>
+	</data>
+	<data name="MODEL_STATE_INK_CONS" xml:space="preserve">
+		<value>Výpočet spotřeby inkoustu</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SIDE_TABLE" xml:space="preserve">
+		<value>Pomocné stoly:</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_NONE" xml:space="preserve">
+		<value>Žádné</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DIS_ALLBAR" xml:space="preserve">
+		<value>Bar aktivován (elektricky)</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_BENT_TILE" xml:space="preserve">
+		<value>Oddělení ohnutého dílu:</value>
+	</data>
+	<data name="BAR_VALIDATE_AUTO" xml:space="preserve">
+		<value>Validovat automatický</value>
+	</data>
+	<data name="MAIN_CAMERA_NOT_CONNECTED2" xml:space="preserve">
+		<value>Kamera 2 nepřipojena</value>
+	</data>
+	<data name="G_SELECT_ALL" xml:space="preserve">
+		<value>Vybrat všechny</value>
+	</data>
+	<data name="M_FILE_BACKUP_RESTORE" xml:space="preserve">
+		<value>Obnovit</value>
+	</data>
+	<data name="M_FILE_BACKUP_DIFF" xml:space="preserve">
+		<value>Existují rozdíly mezi verzemi:</value>
+	</data>
+	<data name="G_WISH_TO_CONTINUE" xml:space="preserve">
+		<value>Přejete si pokračovat? </value>
+	</data>
+	<data name="G_APPLY_CHANGES" xml:space="preserve">
+		<value>Opravdu chcete obnovit data?</value>
+	</data>
+	<data name="M_EDIT_DSEC_BAR_ELECTRONICS" xml:space="preserve">
+		<value>Elektronika</value>
+	</data>
+	<data name="G_ENABLE_ALL" xml:space="preserve">
+		<value>Aktivovat všechny</value>
+	</data>
+	<data name="G_DISABLE_ALL" xml:space="preserve">
+		<value>Deaktivovat všechny</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_MOUNT_TILE" xml:space="preserve">
+		<value>Výška upevněného dílu:</value>
+	</data>
+	<data name="EDIT_LASER_HOMING_INFO" xml:space="preserve">
+		<value>Volič musí být 0</value>
+	</data>
+	<data name="BAR_RECIRCULATION_PUMP" xml:space="preserve">
+		<value>Pozitivní čerpadlo:</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_NUM_BARS_CLEAN" xml:space="preserve">
+		<value>Simultánní čištění barů:</value>
+	</data>
+	<data name="BAR_RECIRCULATION" xml:space="preserve">
+		<value>Recirkulace inkoustu:</value>
+	</data>
+	<data name="ENABLED_NOZZLES" xml:space="preserve">
+		<value>Aktivované trysky</value>
+	</data>
+	<data name="DISABLED_NOZZLES" xml:space="preserve">
+		<value>Deaktivované trysky</value>
+	</data>
+	<data name="ENABLE_NOZZLE" xml:space="preserve">
+		<value>Aktivovat trysku</value>
+	</data>
+	<data name="DISABLE_NOZZLE" xml:space="preserve">
+		<value>Deaktivovat trysku</value>
+	</data>
+	<data name="PLOT_MOTOR_GAIN" xml:space="preserve">
+		<value>Posílení motoru:</value>
+	</data>
+	<data name="PLOT_PASSES" xml:space="preserve">
+		<value>Průchody</value>
+	</data>
+	<data name="PLOT_DSEC_GNR_WITH_BELT" xml:space="preserve">
+		<value>S pásem</value>
+	</data>
+	<data name="PLOT_DSEC_GNR_VALIDATE" xml:space="preserve">
+		<value>Validovat po spuštění</value>
+	</data>
+	<data name="M_EDIT_DIAGNOSTICS" xml:space="preserve">
+		<value>Efi Diagnostics</value>
+	</data>
+	<data name="M_EDIT_DESC_MOTOR_HOMING_EDIT" xml:space="preserve">
+		<value>Opravdu chcete editovat navádění motoru?</value>
+	</data>
+	<data name="M_ALR_ACTIONS_DATE" xml:space="preserve">
+		<value>Datum</value>
+	</data>
+	<data name="M_ALR_ACTIONS_USER" xml:space="preserve">
+		<value>Uživatel</value>
+	</data>
+	<data name="M_ALR_ACTIONS_MESSAGE" xml:space="preserve">
+		<value>Zpráva</value>
+	</data>
+	<data name="INKS_CLEAN_BELT" xml:space="preserve">
+		<value>Vyčistit pás</value>
+	</data>
+	<data name="M_HELP_LICENSE_TIME_LEFT" xml:space="preserve">
+		<value>Čas zbývající k aktivaci licence:</value>
+	</data>
+	<data name="G_DAYS" xml:space="preserve">
+		<value>dny</value>
+	</data>
+	<data name="M_HELP_LICENSE_ACTIVATE" xml:space="preserve">
+		<value>Aktivovat</value>
+	</data>
+	<data name="M_HELP_LICENSE" xml:space="preserve">
+		<value>Licence</value>
+	</data>
+	<data name="M_HELP_LICENSE_ACT_CODE" xml:space="preserve">
+		<value>Aktivační kód</value>
+	</data>
+	<data name="M_HELP_LICENSE_IS_ACTIVE" xml:space="preserve">
+		<value>Licence je aktivní</value>
+	</data>
+	<data name="M_HELP_LICENSE_INVALID" xml:space="preserve">
+		<value>Licence je neplatná</value>
+	</data>
+	<data name="RENDER_WARNING_NO_IMG_ORIG" xml:space="preserve">
+		<value>Jeden nebo více originálních snímků nebylo nalezeno</value>
+	</data>
+	<data name="M_FILE_BACKUP_RESTORE_POINT" xml:space="preserve">
+		<value>Otevřít bod obnovy</value>
+	</data>
+	<data name="PLOTTER_ZERO_VACUUM" xml:space="preserve">
+		<value>K provedení 0 Vakuum je nezbytné odebrat trubici. 
+Opravdu chcete pokračovat?</value>
+	</data>
+	<data name="WARNING_BAR_NOT_TO_PRINT" xml:space="preserve">
+		<value>Bar číslo # nebude tisknout.</value>
+	</data>
+	<data name="WARNING_BAR_NOT_TO_PRINT_PRINTING" xml:space="preserve">
+		<value>Bar není v poloze pro tisk</value>
+	</data>
+	<data name="WARNING_BAR_NOT_TO_PRINT_DISABLED" xml:space="preserve">
+		<value>Bar není aktivní</value>
+	</data>
+	<data name="WARNING_TRIMS_DIFFERENCE" xml:space="preserve">
+		<value>Rozdíl mezi minimálním a maximálním trimem by měl být menší než 2.0v</value>
+	</data>
+	<data name="M_MAIN_CONSENT" xml:space="preserve">
+		<value>Souhlas</value>
+	</data>
+	<data name="M_WANT_SAVE" xml:space="preserve">
+		<value>Tato změna vyžaduje restartování aplikace. Opravdu chcete aplikaci uložit a zavřít?</value>
+	</data>
+	<data name="RETURN_SPEED" xml:space="preserve">
+		<value>Rychlost návratu:</value>
+	</data>
+	<data name="M_EDIT_CARRIER_ADJUST" xml:space="preserve">
+		<value>Seřídit čisticí vozík</value>
+	</data>
+	<data name="M_EDIT_BAR_NUM_PMB_LINE1" xml:space="preserve">
+		<value>PMB na lince 1:</value>
+	</data>
+	<data name="CLEANING_SPEED" xml:space="preserve">
+		<value>Rychlost čištění:</value>
+	</data>
+	<data name="BAR_INK_ADVANCED" xml:space="preserve">
+		<value>Pokročilé</value>
+	</data>
+	<data name="BAR_INK_CLEAN_MANIFOLD" xml:space="preserve">
+		<value>Vyčistit komoru</value>
+	</data>
+	<data name="BAR_INK_EMPTY_DEPOSIT" xml:space="preserve">
+		<value>Vyprázdnit nádrž</value>
+	</data>
+	<data name="BAR_INK_EMPTY_EXCHANGER" xml:space="preserve">
+		<value>Vyprázdnit výměník</value>
+	</data>
+	<data name="BAR_INK_LOAD" xml:space="preserve">
+		<value>Načíst</value>
+	</data>
+	<data name="BAR_INK_MAN_REVERSE" xml:space="preserve">
+		<value>Ruční zpětný tok</value>
+	</data>
+	<data name="BAR_INK_TEST_MODE" xml:space="preserve">
+		<value>Režim testu:</value>
+	</data>
+	<data name="BAR_MESSAGE_CLEAN_MANIFOLD_1" xml:space="preserve">
+		<value>Vyčistit komoru (1/3): Připravit nádrž na vyčištění komory</value>
+	</data>
+	<data name="BAR_MESSAGE_CLEAN_MANIFOLD_2" xml:space="preserve">
+		<value>Vyčistit komoru (2/3): Čištění komory...</value>
+	</data>
+	<data name="BAR_MESSAGE_CLEAN_MANIFOLD_3" xml:space="preserve">
+		<value>Vyčistit komoru (3/3): Připravit na normální funkci</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_DEPOSIT_1" xml:space="preserve">
+		<value>Vyprázdnit nádrž na inkoust (1/3): Připravit kontejner a otevřít ventil nádrže</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_DEPOSIT_2" xml:space="preserve">
+		<value>Vyprázdnit nádrž na inkoust (2/3): Vyprazdňování nádrže...</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_DEPOSIT_3" xml:space="preserve">
+		<value>Vyprázdnit nádrž na inkoust (3/3): Zavřít ventil nádrže</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_EXCHANGER_1" xml:space="preserve">
+		<value>Vyprázdnit výměník inkoustu (1/3): Otevřít ventil pod výměníkem</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_EXCHANGER_2" xml:space="preserve">
+		<value>Vyprázdnit výměník inkoustu (2/3): Vyprazdňování výměníku...</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_EXCHANGER_3" xml:space="preserve">
+		<value>Vyprázdnit výměník inkoustu(3/3): Zavřít ventil pod výměníkem</value>
+	</data>
+	<data name="BAR_MESSAGE_LOAD_INK_1" xml:space="preserve">
+		<value>Naplnit nádrž na inkoust (1/2): Zajistit, aby byly ventily v recirkulační poloze, a naplnit nádrž inkoustem</value>
+	</data>
+	<data name="BAR_MESSAGE_LOAD_INK_2" xml:space="preserve">
+		<value>Naplnit nádrž na inkoust (2/2): Počáteční recirkulace inkoustu ...</value>
+	</data>
+	<data name="BAR_VACUUM_DIFF" xml:space="preserve">
+		<value>Rozdíl ve vakuu:</value>
+	</data>
+	<data name="BAR_VACUUM_ENTRY" xml:space="preserve">
+		<value>Tlak na vstupu:</value>
+	</data>
+	<data name="BAR_VACUUM_EXIT" xml:space="preserve">
+		<value>Tlak na výstupu:</value>
+	</data>
+	<data name="G_DONE" xml:space="preserve">
+		<value>Hotovo</value>
+	</data>
+	<data name="ADV_INK_COLD_MENISCUS" xml:space="preserve">
+		<value>Studený meniskus</value>
+	</data>
+	<data name="ADV_INK_DESHAB_PID" xml:space="preserve">
+		<value>Deshab PID:</value>
+	</data>
+	<data name="ADV_INK_DRIP_SETPOINT" xml:space="preserve">
+		<value>Setpoint kapání:</value>
+	</data>
+	<data name="ADV_INK_EMPTYING_PARAMETERS" xml:space="preserve">
+		<value>Parametry vyprazdňování</value>
+	</data>
+	<data name="ADV_INK_EMPTYING_SETPOINT" xml:space="preserve">
+		<value>Setpoint prázdný:</value>
+	</data>
+	<data name="ADV_INK_LOADING" xml:space="preserve">
+		<value>Načítání</value>
+	</data>
+	<data name="ADV_INK_LOADING_TIME" xml:space="preserve">
+		<value>Doba recirkulace:</value>
+	</data>
+	<data name="ADV_INK_MANUAL_REVERSE_PARAMETERS" xml:space="preserve">
+		<value>Ruční zpětný tok</value>
+	</data>
+	<data name="ADV_INK_MANUAL_REVERSE_TIME" xml:space="preserve">
+		<value>Doba ručního zpětného toku:</value>
+	</data>
+	<data name="ADV_INK_PARAM" xml:space="preserve">
+		<value>Pokročilé parametry inkoustu</value>
+	</data>
+	<data name="ADV_INK_REVERSE_SETPOINT" xml:space="preserve">
+		<value>Setpoint zpětného toku:</value>
+	</data>
+	<data name="ADV_INK_STAB_SOLENOIDS" xml:space="preserve">
+		<value>Stab. solenoidy:</value>
+	</data>
+	<data name="ADV_INK_TIME_AFTER_MINIMUM_LEVEL" xml:space="preserve">
+		<value>Čas čerpadla po minimální hladině:</value>
+	</data>
+	<data name="TAS_TONE" xml:space="preserve">
+		<value>Tón</value>
+	</data>
+	<data name="TAS_INTENSITY" xml:space="preserve">
+		<value>Intenzita</value>
+	</data>
+	<data name="TAS_EXTRACT_TIFF" xml:space="preserve">
+		<value>Extrahovat TIFF</value>
+	</data>
+	<data name="G_REFRESH" xml:space="preserve">
+		<value>Obnovit</value>
+	</data>
+	<data name="BAR_INK_COPY_ADVANCED_PARAMETERS" xml:space="preserve">
+		<value>Kopírovat hodnoty ve všech barech</value>
+	</data>
+	<data name="MAIN_START_CANT_LOAD" xml:space="preserve">
+		<value>Snímek nelze načíst, když je tiskárna zastavena nebo v režimu bypass</value>
+	</data>
+	<data name="BAR_INK_TEMP" xml:space="preserve">
+		<value>Teplota:</value>
+	</data>
+	<data name="BAR_MENISCUS" xml:space="preserve">
+		<value>Meniskus:</value>
+	</data>
+	<data name="BAR_MENISCUS_SETPOINT" xml:space="preserve">
+		<value>Meniskus setpoint:</value>
+	</data>
+	<data name="G_NOZZLE" xml:space="preserve">
+		<value> trysky</value>
+	</data>
+	<data name="ADV_INK_TIME_EMPTYING_MANIFOLD" xml:space="preserve">
+		<value>Doba vyprazdňování výměníku:</value>
+	</data>
+	<data name="M_EDIT_INCREMENT" xml:space="preserve">
+		<value>Přírůstek</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_DIGITALSIGNALS" xml:space="preserve">
+		<value>Synchronizace</value>
+	</data>
+	<data name="M_EDIT_NOZZLE_OUT" xml:space="preserve">
+		<value>Korekce výpadku trysky</value>
+	</data>
+	<data name="M_WANT_COPY_ADVANCED_INK_PARAMETERS" xml:space="preserve">
+		<value>Chcete tuto konfiguraci zkopírovat do všech barů?</value>
+	</data>
+	<data name="M_EDIT_BAR_INK_COM_PORT" xml:space="preserve">
+		<value>COM Port pro zásobník inkoustu</value>
+	</data>
+	<data name="BAR_SP_SENSOR_POSITIVO" xml:space="preserve">
+		<value>Sp tlaku na vstupu:</value>
+	</data>
+	<data name="BAR_SP_BOMBA_NEGATIVO" xml:space="preserve">
+		<value>Vratné čerpadlo:</value>
+	</data>
+	<data name="BAR_SP_LLENADO" xml:space="preserve">
+		<value>Plnicí čerpadlo:</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_EXCEEDS_WIDTH" xml:space="preserve">
+		<value>Odsazení na Y přesahuje šířku tisku, část obsahu nelze vytisknout.</value>
+	</data>
+	<data name="SECURITY_OFF" xml:space="preserve">
+		<value>Zabezpečení je vypnuto</value>
+	</data>
+	<data name="CLEANING_BARS_INK_STOP" xml:space="preserve">
+		<value>Nejméně jeden inkoustový systém je zastavený. Měli byste bar(y) řádně připravit k čištění</value>
+	</data>
+	<data name="ERROR_SAVING_PARAMS" xml:space="preserve">
+		<value>Nastavení nebylo správně uloženo</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_USEROFFSET" xml:space="preserve">
+		<value>Odsazení barů:</value>
+	</data>
+	<data name="MODEL_NOT_RIPPED_DOUBLE_Y" xml:space="preserve">
+		<value>Plotr je nastaven na dvojnásobnou pozici na Y, model však se však nerenderoval správně</value>
+	</data>
+	<data name="PLOTTER_MOVEMENTS_INCORRECT" xml:space="preserve">
+		<value>Pohyb plotru není správný, neboť se úloha renderuje ve dvojnásobném rozměru Y</value>
+	</data>
+	<data name="MODEL_DESINGS_TIFFRES" xml:space="preserve">
+		<value>Rozlišení obrazu</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_REPEATED_COLORPLANES" xml:space="preserve">
+		<value>Změny nebudou uloženy: Tyto bary mají přiřazený stejný kanál.</value>
+	</data>
+	<data name="MAIN_MARCHA_PAUSE" xml:space="preserve">
+		<value>PAUSE</value>
+	</data>
+	<data name="M_EDIT_DESC_SUBPORT" xml:space="preserve">
+		<value>SubPort:</value>
+	</data>
+	<data name="M_EDIT_DESC_HEAD_ID" xml:space="preserve">
+		<value>Head Id:</value>
+	</data>
+</root>

@@ -1,0 +1,79 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<ControlTemplate x:Key="CretaRadioButtonControlC4" TargetType="{x:Type RadioButton}">
+		<Grid Cursor="Hand">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="auto"/>
+				<ColumnDefinition />
+			</Grid.ColumnDefinitions>
+			<Ellipse x:Name="GRIS" Width="32" Height="32" >
+				<Ellipse.Fill>
+					<LinearGradientBrush EndPoint="0.509,0.991" StartPoint="0.458,0.217">
+						<GradientStop Color="#FFB1B1B1" Offset="0"/>
+						<GradientStop Color="#FFdddddd" Offset="1"/>
+					</LinearGradientBrush>
+				</Ellipse.Fill>
+			</Ellipse>
+			<Ellipse x:Name="VERDE" Width="32" Height="32" Visibility="Collapsed">
+				<Ellipse.Fill>
+					<LinearGradientBrush EndPoint="0.041,-0.037" StartPoint="0.61,0.595">
+						<GradientStop Color="#378900" Offset="0"/>
+						<GradientStop Color="White" Offset="1"/>
+					</LinearGradientBrush>
+				</Ellipse.Fill>
+			</Ellipse>
+			<TextBlock Text="{TemplateBinding Content}" x:Name="Texto" HorizontalAlignment="Left" Grid.Column="1" FontFamily="Arial" Margin="5" VerticalAlignment="Center" Foreground="{DynamicResource CretaprintC4_GrisClaro_Trazos_br}" FontSize="14"/>
+		</Grid>
+		<ControlTemplate.Triggers>
+			<Trigger Property="IsMouseOver" Value="true"/>
+			<Trigger Property="IsMouseOver" Value="false"/>
+			<Trigger Property="IsChecked" Value="true">
+				<Setter Property="Visibility" TargetName="VERDE" Value="Visible"/>
+				<Setter Property="Foreground" TargetName="Texto" Value="#378900"/>
+				<Setter Property="Visibility" TargetName="GRIS" Value="Collapsed"/>
+			</Trigger>
+			<Trigger Property="IsEnabled" Value="false">
+				<Setter Property="Opacity" Value="0.25"/>
+			</Trigger>	
+		</ControlTemplate.Triggers>
+	</ControlTemplate>
+	<ControlTemplate x:Key="CretaRadioButtonControlSmC4" TargetType="{x:Type RadioButton}">
+		<Grid Cursor="Hand">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="auto"/>
+				<ColumnDefinition />
+			</Grid.ColumnDefinitions>
+			<Ellipse x:Name="GRIS" Width="24" Height="24" >
+				<Ellipse.Fill>
+					<LinearGradientBrush EndPoint="0.509,0.991" StartPoint="0.458,0.217">
+						<GradientStop Color="#FFB1B1B1" Offset="0"/>
+						<GradientStop Color="#FFdddddd" Offset="1"/>
+					</LinearGradientBrush>
+				</Ellipse.Fill>
+			</Ellipse>
+			<Ellipse x:Name="VERDE" Width="24" Height="24" Visibility="Collapsed">
+				<Ellipse.Fill>
+					<LinearGradientBrush EndPoint="0.041,-0.037" StartPoint="0.61,0.595">
+						<GradientStop Color="#378900" Offset="0"/>
+						<GradientStop Color="White" Offset="1"/>
+					</LinearGradientBrush>
+				</Ellipse.Fill>
+			</Ellipse>
+			<TextBlock Text="{TemplateBinding Content}" x:Name="Texto" HorizontalAlignment="Left" Grid.Column="1" FontFamily="Arial" Margin="5" VerticalAlignment="Center" Foreground="{DynamicResource CretaprintC4_GrisClaro_Trazos_br}" FontSize="14"/>
+		</Grid>
+		<ControlTemplate.Triggers>
+			<Trigger Property="IsMouseOver" Value="true"/>
+			<Trigger Property="IsMouseOver" Value="false"/>
+			<Trigger Property="IsChecked" Value="true">
+				<Setter Property="Visibility" TargetName="VERDE" Value="Visible"/>
+				<Setter Property="Foreground" TargetName="Texto" Value="#378900"/>
+				<Setter Property="Visibility" TargetName="GRIS" Value="Collapsed"/>
+			</Trigger>
+			<Trigger Property="IsEnabled" Value="false">
+				<Setter Property="Opacity" Value="0.25"/>
+			</Trigger>	
+		</ControlTemplate.Triggers>
+	</ControlTemplate>
+	<!-- Resource dictionary entries should be defined here. -->
+</ResourceDictionary>

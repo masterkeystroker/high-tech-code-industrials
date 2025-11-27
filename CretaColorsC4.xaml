@@ -1,0 +1,68 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+		<Color x:Key="CretaprintC4_GrisOscuro_Seleccion">#FF333333</Color>
+		<SolidColorBrush x:Key="CretaprintC4_GrisOscuro_Seleccion_br" Color="{DynamicResource CretaprintC4_GrisOscuro_Seleccion}"/>
+    
+		<Color x:Key="CretaprintC4_GrisOscuro_Fondo">#FF4d4d4d</Color>
+    <SolidColorBrush x:Key="CretaprintC4_GrisOscuro_Fondo_br" Color="{DynamicResource CretaprintC4_GrisOscuro_Fondo}"/>
+	    
+        <Color x:Key="CretaprintC4_GrisMedio">#FFCCCCCC</Color>
+    <SolidColorBrush x:Key="CretaprintC4_GrisMedio_br" Color="{DynamicResource CretaprintC4_GrisMedio}"/>
+           
+        <Color x:Key="CretaprintC4_GrisClaro_Trazos">#FF707070</Color>
+    <SolidColorBrush x:Key="CretaprintC4_GrisClaro_Trazos_br" Color="{DynamicResource CretaprintC4_GrisClaro_Trazos}"/>
+    
+		<Color x:Key="CretaprintC4_GrisClaro_Barras">#FFe6e6e6</Color>
+    <SolidColorBrush x:Key="CretaprintC4_GrisClaro_Barras_br" Color="{DynamicResource CretaprintC4_GrisClaro_Barras}"/>
+    
+		<Color x:Key="CretaprintC4_Gris_Fondo">#FFf2f2f2</Color>
+    <SolidColorBrush x:Key="CretaprintC4_Gris_Fondo_br" Color="{DynamicResource CretaprintC4_Gris_Fondo}"/>
+	
+		<Color x:Key="CretaprintC4_Gris_FondoClaro">#FFfafafa</Color>
+    <SolidColorBrush x:Key="CretaprintC4_Gris_FondoClaro_br" Color="{DynamicResource CretaprintC4_Gris_FondoClaro}"/>
+        
+		<Color x:Key="CretaprintC4_Verde">#FF378900</Color>
+    <SolidColorBrush x:Key="CretaprintC4_Verde_br" Color="{DynamicResource CretaprintC4_Verde}"/>
+		<Color x:Key="CretaprintC4_Verde_Claro">#FF49b700</Color>
+    <SolidColorBrush x:Key="CretaprintC4_Verde_Claro_br" Color="{DynamicResource CretaprintC4_Verde_Claro}"/>
+		<Color x:Key="CretaprintC4_Verde_Light">#FF73B249</Color>
+    <SolidColorBrush x:Key="CretaprintC4_Verde_Light_br" Color="{DynamicResource CretaprintC4_Verde_Light}"/>
+        <Color x:Key="CretaprintC4_Rojo">#FF82272d</Color>
+    <SolidColorBrush x:Key="CretaprintC4_Rojo_br" Color="{DynamicResource CretaprintC4_Rojo}"/>
+		<Color x:Key="CretaprintC4_Rojo_Claro">#FFc1272d</Color>
+    <SolidColorBrush x:Key="CretaprintC4_Rojo_Claro_br" Color="{DynamicResource CretaprintC4_Rojo_Claro}"/>
+	<Color x:Key="CretaprintC4_Rojo_Light">#FFC64B4F</Color>
+    <SolidColorBrush x:Key="CretaprintC4_Rojo_Light_br" Color="{DynamicResource CretaprintC4_Rojo_Light}"/>
+		<Color x:Key="CretaprintC4_Amarillo">#FFffa600</Color>
+    <SolidColorBrush x:Key="CretaprintC4_Amarillo_br" Color="{DynamicResource CretaprintC4_Amarillo}"/>
+		<Color x:Key="CretaprintC4_Naranja">#FFf07500</Color>
+    <SolidColorBrush x:Key="CretaprintC4_Naranja_br" Color="{DynamicResource CretaprintC4_Naranja}"/>
+		
+	    <Color x:Key="CretaprintC4_efi_azul">#FF084D90</Color>
+    <SolidColorBrush x:Key="CretaprintC4_efi_azul_br" Color="{DynamicResource CretaprintC4_efi_azul}" />
+	<Color x:Key="CretaprintC4_efi_azul_light">#FF7194C4</Color>
+    <SolidColorBrush x:Key="CretaprintC4_efi_azul_light_br" Color="{DynamicResource CretaprintC4_efi_azul_light}" />
+	    <Color x:Key="CretaprintC4_Negro">Black</Color>
+    <SolidColorBrush x:Key="CretaprintC4_Negro_br" Color="{DynamicResource CretaprintC4_Negro}" />
+	    <Color x:Key="CretaprintC4_Blanco">White</Color>
+    <SolidColorBrush x:Key="CretaprintC4_Blanco_br" Color="{DynamicResource CretaprintC4_Blanco}" />
+		
+		<RadialGradientBrush x:Key="BotonDegradadoGris" RadiusY="1.042" RadiusX="0.972" Center="-0.287,-0.239" GradientOrigin="-0.551,-0.42">
+			<GradientStop Color="{DynamicResource CretaprintC4_GrisClaro_Trazos}" Offset="1"/>
+			<GradientStop Color="White"/>
+		</RadialGradientBrush>
+		<LinearGradientBrush x:Key="BotonDegradadoGris2" EndPoint="0.5,1" StartPoint="0.5,0">
+			<GradientStop Color="#FFB1B1B1" Offset="0"/>
+			<GradientStop Color="White" Offset="1"/>
+		</LinearGradientBrush>
+		<RadialGradientBrush x:Key="BotonDegradadoVerde" RadiusY="1.042" RadiusX="0.972" Center="-0.287,-0.239" GradientOrigin="-0.551,-0.42">
+			<GradientStop Color="{DynamicResource CretaprintC4_Verde}" Offset="1"/>
+			<GradientStop Color="White"/>
+		</RadialGradientBrush>
+		<RadialGradientBrush x:Key="BotonDegradadoRojo" RadiusY="1.042" RadiusX="0.972" Center="-0.287,-0.239" GradientOrigin="-0.551,-0.42">
+			<GradientStop Color="{DynamicResource CretaprintC4_Rojo_Claro}" Offset="1"/>
+			<GradientStop Color="White"/>
+		</RadialGradientBrush>
+</ResourceDictionary>

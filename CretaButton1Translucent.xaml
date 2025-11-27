@@ -1,0 +1,258 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+    <!-- Resource dictionary entries should be defined here. -->
+    <LinearGradientBrush x:Key="ButtonNormalBackground" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#F3F3F3" Offset="0"/>
+        <GradientStop Color="#EBEBEB" Offset="0.5"/>
+        <GradientStop Color="#DDDDDD" Offset="0.5"/>
+        <GradientStop Color="#CDCDCD" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="ButtonNormalBorder" Color="#FF707070"/>
+    <Style x:Key="CretaButton1Translucent" TargetType="{x:Type Button}">
+        <!-- Propiedades de los tooltips asociados a este tipo de botón -->
+        <Setter Property="ToolTipService.ShowOnDisabled" Value="True" />
+        <Setter Property="ToolTipService.InitialShowDelay" Value="500" />
+        <Setter Property="ToolTipService.BetweenShowDelay" Value="0" />
+        <Setter Property="ToolTipService.VerticalOffset" Value="-80" />
+        <!-- Fin de las propiedades de tooltip -->
+        <!-- <Setter Property="FocusVisualStyle" Value="{x:Null}" /> -->
+        <!-- <Setter Property="FocusVisualStyle" Value="{DynamicResource CretaFocusVisualStyle}" /> -->
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="grid" Cursor="Hand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                            		<Storyboard>
+                            			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                            				<EasingDoubleKeyFrame KeyTime="0" Value="0.5"/>
+                            			</DoubleAnimationUsingKeyFrames>
+                            		</Storyboard>
+                            	</VisualState>
+                                <VisualState x:Name="MouseOver">
+                                    <Storyboard>
+                                        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Effect).(DropShadowEffect.Color)" Storyboard.TargetName="Rect_ext">
+                                            <EasingColorKeyFrame KeyTime="0" Value="#FFFF6000"/>
+                                        </ColorAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Rect_ext">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Rect_ext_border">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)" Storyboard.TargetName="Rect_ext_border">
+                                            <EasingColorKeyFrame KeyTime="0" Value="Black"/>
+                                        </ColorAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)" Storyboard.TargetName="Rect_ext">
+                                            <EasingColorKeyFrame KeyTime="0" Value="{StaticResource Cretaprint_Naranja}"/>
+                                        </ColorAnimationUsingKeyFrames>
+                                        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)" Storyboard.TargetName="Rect_ext">
+                                            <EasingColorKeyFrame KeyTime="0" Value="{StaticResource Cretaprint_Negro}"/>
+                                        </ColorAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Rect_ext_border">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)" Storyboard.TargetName="Rect_ext_border">
+                                            <EasingColorKeyFrame KeyTime="0" Value="{StaticResource Cretaprint_Naranja}"/>
+                                        </ColorAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeThickness)" Storyboard.TargetName="Rect_ext_border">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="2"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="Rect_ext_border">
+                                            <EasingThicknessKeyFrame KeyTime="0" Value="2"/>
+                                        </ThicknessAnimationUsingKeyFrames>
+                                        <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="Rect_ext">
+                                            <EasingThicknessKeyFrame KeyTime="0" Value="2"/>
+                                        </ThicknessAnimationUsingKeyFrames>
+                                        <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="contentPresenter">
+                                            <EasingThicknessKeyFrame KeyTime="0" Value="0,5,0,0"/>
+                                        </ThicknessAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="grid1">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(TextElement.FontSize)" Storyboard.TargetName="textBlock">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="10.667"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="contentPresenter">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="0.95"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="contentPresenter">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="0.95"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="textBlock">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="0.98"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="textBlock">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="0.98"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)" Storyboard.TargetName="Rect_ext">
+                                            <EasingColorKeyFrame KeyTime="0" Value="#FF707070"/>
+                                        </ColorAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Effect).(DropShadowEffect.Opacity)" Storyboard.TargetName="Rect_ext">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Unfocused"/>
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Rect_ext_border">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeThickness)" Storyboard.TargetName="Rect_ext">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="2"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Rectangle x:Name="Rect_ext" RadiusY="10" RadiusX="10" StrokeThickness="2" Fill="Black" Grid.RowSpan="1">
+                            <Rectangle.Stroke>
+                                <SolidColorBrush Color="{DynamicResource Cretaprint_Naranja}"/>
+                            </Rectangle.Stroke>
+                            <Rectangle.Effect>
+                                <DropShadowEffect Direction="0" ShadowDepth="0" BlurRadius="15"/>
+                            </Rectangle.Effect>
+                        </Rectangle>
+                        <Rectangle x:Name="Rect_ext_border" RadiusY="10" RadiusX="10" StrokeThickness="2" Opacity="0" Fill="Black" Grid.RowSpan="1">
+                            <Rectangle.Stroke>
+                                <SolidColorBrush Color="{DynamicResource Cretaprint_Naranja}"/>
+                            </Rectangle.Stroke>
+                            <Rectangle.Effect>
+                                <DropShadowEffect Direction="0" ShadowDepth="0" BlurRadius="15" Color="{DynamicResource Cretaprint_Naranja}"/>
+                            </Rectangle.Effect>
+                        </Rectangle>
+                        <Rectangle x:Name="Rect_int" Fill="{x:Null}" RadiusY="10" RadiusX="10" Margin="1.75" Opacity="0.745" StrokeThickness="2" d:IsHidden="True" Visibility="Collapsed" Grid.RowSpan="1">
+                            <Rectangle.Stroke>
+                                <SolidColorBrush Color="{DynamicResource Cretaprint_Naranja}"/>
+                            </Rectangle.Stroke>
+                        </Rectangle>
+                        <Rectangle x:Name="Rect_int_deg" Margin="1.084,8,0.666,8" RadiusY="0" RadiusX="0" Stroke="{x:Null}" Opacity="0.8" Visibility="Collapsed" Grid.RowSpan="1">
+                            <Rectangle.Fill>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#00000000" Offset="0"/>
+                                    <GradientStop Color="#E6000000" Offset="0.401"/>
+                                    <GradientStop Color="#00000000" Offset="1"/>
+                                    <GradientStop Color="#E6000000" Offset="0.634"/>
+                                </LinearGradientBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <ContentPresenter x:Name="contentPresenter" HorizontalAlignment="Center" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="Top" Margin="0,5,0,0" OpacityMask="{x:Null}" RenderTransformOrigin="0.5,0.5">
+                            <ContentPresenter.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </ContentPresenter.RenderTransform>
+                        </ContentPresenter>
+                        <Rectangle x:Name="Rect_ext_Brillo_bajo" Stroke="{x:Null}" RadiusY="10" RadiusX="10" Opacity="0.5" Visibility="Collapsed" Grid.RowSpan="1" d:IsHidden="True">
+                            <Rectangle.Fill>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#00000000" Offset="0.707"/>
+                                    <GradientStop Color="#5FFFFFFF" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle x:Name="Rect_ext_Brillo_alto" Stroke="{x:Null}" RadiusY="10" RadiusX="10" RenderTransformOrigin="0.5,0.5" Opacity="0.6" Visibility="Collapsed" Grid.RowSpan="1" d:IsHidden="True">
+                            <Rectangle.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleY="-1" ScaleX="1"/>
+                                    <SkewTransform AngleY="0" AngleX="0"/>
+                                    <RotateTransform Angle="0"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Rectangle.RenderTransform>
+                            <Rectangle.Fill>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#00000000" Offset="0.707"/>
+                                    <GradientStop Color="#5FFFFFFF" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle x:Name="BrilloSuperior" Stroke="{x:Null}" RadiusY="10" RadiusX="10" RenderTransformOrigin="0.5,0.5" Opacity="0.25" Visibility="Collapsed" Grid.RowSpan="1" d:IsHidden="True">
+                            <Rectangle.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleY="-1" ScaleX="1"/>
+                                    <SkewTransform AngleY="0" AngleX="0"/>
+                                    <RotateTransform Angle="0"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Rectangle.RenderTransform>
+                            <Rectangle.Fill>
+                                <RadialGradientBrush GradientOrigin="0.493,3.51" RadiusY="0.556" RadiusX="1.106">
+                                    <GradientStop Color="#33FFFFFF"/>
+                                    <GradientStop Offset="1"/>
+                                    <GradientStop Color="#33FFFFFF" Offset="0.841"/>
+                                    <GradientStop Color="#01FFFFFF" Offset="0.841"/>
+                                </RadialGradientBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Grid x:Name="grid1" Height="32" Margin="0" VerticalAlignment="Bottom" RenderTransformOrigin="0.499,0.02">
+                            <Grid.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Grid.RenderTransform>
+                            <TextBlock x:Name="textBlock" Height="Auto" Margin="0" TextWrapping="Wrap" Text="{TemplateBinding Tag}" TextAlignment="Center"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="10.667" Grid.Row="1" RenderTransformOrigin="0.485,0.5">
+										<TextBlock.RenderTransform>
+											<TransformGroup>
+												<ScaleTransform/>
+												<SkewTransform/>
+												<RotateTransform/>
+												<TranslateTransform/>
+											</TransformGroup>
+										</TextBlock.RenderTransform>
+										<TextBlock.Foreground>
+											<SolidColorBrush Color="{DynamicResource Cretaprint_Naranja}"/>
+										</TextBlock.Foreground>
+                            </TextBlock>
+                        </Grid>
+                        <Rectangle x:Name="BrilloArribaCuadrado" RadiusY="10" RadiusX="10" StrokeThickness="2" Grid.RowSpan="1" Stroke="{x:Null}" Opacity="0.05">
+                            <Rectangle.Fill>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop/>
+                                    <GradientStop Offset="0.5"/>
+                                    <GradientStop Color="White" Offset="0.499"/>
+                                </LinearGradientBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsCancel" Value="False"/>
+                        <EventTrigger RoutedEvent="FrameworkElement.Loaded"/>
+                        <Trigger Property="IsCancel" Value="False"/>
+                        <Trigger Property="IsFocused" Value="True"/>
+                        <Trigger Property="IsDefaulted" Value="True"/>
+                        <Trigger Property="IsMouseOver" Value="True"/>
+                        <EventTrigger RoutedEvent="FrameworkElement.Loaded"/>
+                        <Trigger Property="IsPressed" Value="True"/>
+                        <Trigger Property="IsEnabled" Value="False"/>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

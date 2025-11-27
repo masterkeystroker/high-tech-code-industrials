@@ -1,0 +1,2050 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="G_OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="M_FILE" xml:space="preserve">
+		<value>文件</value>
+	</data>
+	<data name="M_FILE_START" xml:space="preserve">
+		<value>开始</value>
+	</data>
+	<data name="M_FILE_SLAVES" xml:space="preserve">
+		<value>附属计算机控制</value>
+	</data>
+	<data name="M_EDIT" xml:space="preserve">
+		<value>编辑用户</value>
+	</data>
+	<data name="M_ALARMS" xml:space="preserve">
+		<value>报警</value>
+	</data>
+	<data name="M_USERS" xml:space="preserve">
+		<value>用户</value>
+	</data>
+	<data name="M_HELP" xml:space="preserve">
+		<value>帮助</value>
+	</data>
+	<data name="M_FILE_MODELS" xml:space="preserve">
+		<value>模型</value>
+	</data>
+	<data name="M_FILE_PRODUCTION" xml:space="preserve">
+		<value>生产报告</value>
+	</data>
+	<data name="M_FILE_PREVIEW" xml:space="preserve">
+		<value>创建预览</value>
+	</data>
+	<data name="M_FILE_CONTINUOUS" xml:space="preserve">
+		<value>第1生产线连续打印</value>
+	</data>
+	<data name="M_FILE_SAVE" xml:space="preserve">
+		<value>保存打印服务器配置</value>
+	</data>
+	<data name="M_FILE_RESTART" xml:space="preserve">
+		<value>重启附属电脑通讯</value>
+	</data>
+	<data name="M_FILE_CONSOLE" xml:space="preserve">
+		<value>控制台</value>
+	</data>
+	<data name="M_FILE_BACKUP" xml:space="preserve">
+		<value>备份配置文件</value>
+	</data>
+	<data name="M_FILE_STATUS" xml:space="preserve">
+		<value>打印服务器状态</value>
+	</data>
+	<data name="M_FILE_CLEANUP" xml:space="preserve">
+		<value>清屏</value>
+	</data>
+	<data name="M_FILE_MAXIMISE" xml:space="preserve">
+		<value>最大化</value>
+	</data>
+	<data name="M_FILE_MINIMISE" xml:space="preserve">
+		<value>最小化</value>
+	</data>
+	<data name="M_FILE_CLOSE" xml:space="preserve">
+		<value>关闭应用程序</value>
+	</data>
+	<data name="M_FILE_CONTINUOUS2" xml:space="preserve">
+		<value>第2生产线连续打印</value>
+	</data>
+	<data name="M_EDIT_HEADS" xml:space="preserve">
+		<value>打印头电源 开/关</value>
+	</data>
+	<data name="M_EDIT_CANCEL1" xml:space="preserve">
+		<value>第1生产线 开/关</value>
+	</data>
+	<data name="M_EDIT_CANCEL2" xml:space="preserve">
+		<value>第2生产线 开/关</value>
+	</data>
+	<data name="M_EDIT_ADJUST" xml:space="preserve">
+		<value>调整打印位置</value>
+	</data>
+	<data name="M_EDIT_ALIGNMENT" xml:space="preserve">
+		<value>打印头校正</value>
+	</data>
+	<data name="M_EDIT_DESCRIPTION" xml:space="preserve">
+		<value>喷墨机设置</value>
+	</data>
+	<data name="M_EDIT_QUALITIES" xml:space="preserve">
+		<value>打印质量</value>
+	</data>
+	<data name="M_EDIT_PHOTOCELL" xml:space="preserve">
+		<value>进砖感应器</value>
+	</data>
+	<data name="M_EDIT_MOTORBAR" xml:space="preserve">
+		<value>调整打印模块马达位置</value>
+	</data>
+	<data name="M_EDIT_BELTSTART" xml:space="preserve">
+		<value>手动开启皮带</value>
+	</data>
+	<data name="M_EDIT_BELTSTOP" xml:space="preserve">
+		<value>手动关闭皮带</value>
+	</data>
+	<data name="G_BAR" xml:space="preserve">
+		<value>打印模块</value>
+	</data>
+	<data name="G_BARS" xml:space="preserve">
+		<value>打印模块</value>
+	</data>
+	<data name="G_BAR1" xml:space="preserve">
+		<value>打印模块1</value>
+	</data>
+	<data name="G_BAR2" xml:space="preserve">
+		<value>打印模块2</value>
+	</data>
+	<data name="G_BAR3" xml:space="preserve">
+		<value>打印模块3</value>
+	</data>
+	<data name="G_BAR4" xml:space="preserve">
+		<value>打印模块4</value>
+	</data>
+	<data name="G_BAR5" xml:space="preserve">
+		<value>打印模块5</value>
+	</data>
+	<data name="G_BAR6" xml:space="preserve">
+		<value>打印模块6</value>
+	</data>
+	<data name="G_BAR7" xml:space="preserve">
+		<value>打印模块7</value>
+	</data>
+	<data name="G_BAR8" xml:space="preserve">
+		<value>打印模块8</value>
+	</data>
+	<data name="M_ALARMS_CHECK" xml:space="preserve">
+		<value>检测报警</value>
+	</data>
+	<data name="M_ALARMS_RESET" xml:space="preserve">
+		<value>重置报警</value>
+	</data>
+	<data name="M_ALARMS_REPORT" xml:space="preserve">
+		<value>报警记录</value>
+	</data>
+	<data name="M_ALARMS_ACTIONS" xml:space="preserve">
+		<value>动作记录</value>
+	</data>
+	<data name="M_ALARMS_REGISTRY" xml:space="preserve">
+		<value>登录记录</value>
+	</data>
+	<data name="M_USERS_LOGIN" xml:space="preserve">
+		<value>登入</value>
+	</data>
+	<data name="M_USERS_LOGOUT" xml:space="preserve">
+		<value>退出</value>
+	</data>
+	<data name="M_USERS_LANGUAGES" xml:space="preserve">
+		<value>语言</value>
+	</data>
+	<data name="M_USERS_EDIT" xml:space="preserve">
+		<value>编辑用户</value>
+	</data>
+	<data name="M_HELP_INFO" xml:space="preserve">
+		<value>信息</value>
+	</data>
+	<data name="M_HELP_HELP" xml:space="preserve">
+		<value>帮助</value>
+	</data>
+	<data name="M_HELP_REMOTE" xml:space="preserve">
+		<value>远程连接</value>
+	</data>
+	<data name="M_HELP_CHAT" xml:space="preserve">
+		<value>开始聊天</value>
+	</data>
+	<data name="G_CLOSE" xml:space="preserve">
+		<value>关闭</value>
+	</data>
+	<data name="MAIN_MODEL_COLON" xml:space="preserve">
+		<value>模型</value>
+	</data>
+	<data name="G_LINE1" xml:space="preserve">
+		<value>第1生产线</value>
+	</data>
+	<data name="MAIN_LENGTH" xml:space="preserve">
+		<value>长度</value>
+	</data>
+	<data name="MAIN_WIDTH" xml:space="preserve">
+		<value>宽度</value>
+	</data>
+	<data name="MAIN_RESOLUTION" xml:space="preserve">
+		<value>分辨率</value>
+	</data>
+	<data name="MAIN_QUALITY" xml:space="preserve">
+		<value>质量</value>
+	</data>
+	<data name="MAIN_MODE_COLON" xml:space="preserve">
+		<value>模式</value>
+	</data>
+	<data name="MAIN_START" xml:space="preserve">
+		<value>开始</value>
+	</data>
+	<data name="MAIN_STOP" xml:space="preserve">
+		<value>停止</value>
+	</data>
+	<data name="MAIN_INSTANT_PRINT" xml:space="preserve">
+		<value>触发打印</value>
+	</data>
+	<data name="MAIN_PRINT_CHANNELS" xml:space="preserve">
+		<value>分通道打印</value>
+	</data>
+	<data name="MAIN_GENERAL" xml:space="preserve">
+		<value>总览</value>
+	</data>
+	<data name="MAIN_SPEED" xml:space="preserve">
+		<value>皮带速度：</value>
+	</data>
+	<data name="MAIN_THICKNESS" xml:space="preserve">
+		<value>瓷砖厚度：</value>
+	</data>
+	<data name="MAIN_JETTING" xml:space="preserve">
+		<value>喷射间隔：</value>
+	</data>
+	<data name="MAIN_MANUAL" xml:space="preserve">
+		<value>手动</value>
+	</data>
+	<data name="MAIN_STOPPED" xml:space="preserve">
+		<value>停止</value>
+	</data>
+	<data name="MAIN_AUTOMATIC" xml:space="preserve">
+		<value>自动</value>
+	</data>
+	<data name="G_LINE2" xml:space="preserve">
+		<value>第2生产线</value>
+	</data>
+	<data name="MAIN_MODE" xml:space="preserve">
+		<value>模式</value>
+	</data>
+	<data name="MAIN_MODEL" xml:space="preserve">
+		<value>模型</value>
+	</data>
+	<data name="MAIN_TAS" xml:space="preserve">
+		<value>色调调整系统</value>
+	</data>
+	<data name="MAIN_BAR_CLEAN" xml:space="preserve">
+		<value>清洗</value>
+	</data>
+	<data name="MAIN_INIT_INK" xml:space="preserve">
+		<value>开启墨水系统</value>
+	</data>
+	<data name="MAIN_SILENCE" xml:space="preserve">
+		<value>静音</value>
+	</data>
+	<data name="MAIN_CLEANING" xml:space="preserve">
+		<value>清洁菜单</value>
+	</data>
+	<data name="MAIN_BAR_CAPPED" xml:space="preserve">
+		<value>托盘保护</value>
+	</data>
+	<data name="MAIN_BAR_MAINTENANCE" xml:space="preserve">
+		<value>维护</value>
+	</data>
+	<data name="MAIN_BAR_PAINT" xml:space="preserve">
+		<value>打印</value>
+	</data>
+	<data name="MAIN_MARCHA_START" xml:space="preserve">
+		<value>开始</value>
+	</data>
+	<data name="MAIN_MARCHA_LAB" xml:space="preserve">
+		<value>实验室</value>
+	</data>
+	<data name="MAIN_MARCHA_BYPASS" xml:space="preserve">
+		<value>旁路</value>
+	</data>
+	<data name="MAIN_MARCHA_STOP" xml:space="preserve">
+		<value>停止</value>
+	</data>
+	<data name="MAIN_LINEMODE_NORMAL" xml:space="preserve">
+		<value>正常</value>
+	</data>
+	<data name="MAIN_LINEMODE_STOPPED" xml:space="preserve">
+		<value>停止</value>
+	</data>
+	<data name="MAIN_LINEMODE" xml:space="preserve">
+		<value>生产线模式</value>
+	</data>
+	<data name="MAIN_SCREEN_CLEAN" xml:space="preserve">
+		<value>请点击屏幕两个角落退出</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE1" xml:space="preserve">
+		<value>附属电脑1</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE2" xml:space="preserve">
+		<value>附属电脑2</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE3" xml:space="preserve">
+		<value>附属电脑3</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE4" xml:space="preserve">
+		<value>附属电脑4</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE5" xml:space="preserve">
+		<value>附属电脑5</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE6" xml:space="preserve">
+		<value>附属电脑6</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE7" xml:space="preserve">
+		<value>附属电脑7</value>
+	</data>
+	<data name="M_FILE_SLAVES_SLAVE8" xml:space="preserve">
+		<value>附属电脑8</value>
+	</data>
+	<data name="M_FILE_SLAVES_RESTART" xml:space="preserve">
+		<value>重启</value>
+	</data>
+	<data name="M_FILE_SLAVES_RESTARTALL" xml:space="preserve">
+		<value>重启所有附属电脑</value>
+	</data>
+	<data name="M_FILE_SLAVES_SHUTDOWN" xml:space="preserve">
+		<value>光比</value>
+	</data>
+	<data name="M_FILE_SLAVES_CONNECTED" xml:space="preserve">
+		<value>已连接</value>
+	</data>
+	<data name="M_FILE_SLAVES_TIME" xml:space="preserve">
+		<value>开启时间：</value>
+	</data>
+	<data name="M_FILE_SLAVES_FREESPACE" xml:space="preserve">
+		<value>可用空间</value>
+	</data>
+	<data name="M_ALARMS_NAME" xml:space="preserve">
+		<value>报警编号</value>
+	</data>
+	<data name="M_ALARMS_MESSAGE" xml:space="preserve">
+		<value>报警信息</value>
+	</data>
+	<data name="M_ALARMS_TIMESTART" xml:space="preserve">
+		<value>开始时间</value>
+	</data>
+	<data name="M_ALARMS_TIMECONFIRMED" xml:space="preserve">
+		<value>确认报警时间</value>
+	</data>
+	<data name="G_SAVE" xml:space="preserve">
+		<value>保存</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_INFO_HEAD" xml:space="preserve">
+		<value>所选打印头信息</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_WAVEFORM" xml:space="preserve">
+		<value>当前Waveform</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_DIS_NOZZLES_BEG" xml:space="preserve">
+		<value>打印头开始端关闭喷嘴：</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_DIS_NOZZLES_END" xml:space="preserve">
+		<value>打印头结束端关闭喷嘴：</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_SERIAL" xml:space="preserve">
+		<value>打印头序列号</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_ENABLE" xml:space="preserve">
+		<value>开关</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_PTRIMS" xml:space="preserve">
+		<value>区间电压</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_OFFSET" xml:space="preserve">
+		<value>所选打印头偏移</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_TYPE" xml:space="preserve">
+		<value>打印头类型</value>
+	</data>
+	<data name="G_CANCEL" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_TRIMS_LOCK" xml:space="preserve">
+		<value>锁定</value>
+	</data>
+	<data name="G_PRINTHEAD" xml:space="preserve">
+		<value>打印头</value>
+	</data>
+	<data name="BAR_INKS" xml:space="preserve">
+		<value>墨水</value>
+	</data>
+	<data name="BAR_DOWN_FAST" xml:space="preserve">
+		<value>快速下降</value>
+	</data>
+	<data name="BAR_DOWN" xml:space="preserve">
+		<value>下降</value>
+	</data>
+	<data name="BAR_UP" xml:space="preserve">
+		<value>上升</value>
+	</data>
+	<data name="BAR_UP_FAST" xml:space="preserve">
+		<value>快速上升</value>
+	</data>
+	<data name="BAR_FORWARD" xml:space="preserve">
+		<value>前移</value>
+	</data>
+	<data name="BAR_BACKWARD" xml:space="preserve">
+		<value>后移</value>
+	</data>
+	<data name="BAR_IN" xml:space="preserve">
+		<value>移进</value>
+	</data>
+	<data name="BAR_OUT" xml:space="preserve">
+		<value>移出</value>
+	</data>
+	<data name="BAR_TRAY" xml:space="preserve">
+		<value>托盘</value>
+	</data>
+	<data name="BAR_CLEANING_CARRIER" xml:space="preserve">
+		<value>清洗模块</value>
+	</data>
+	<data name="BAR_CLEANING_VENTURI" xml:space="preserve">
+		<value>清洗吸盘</value>
+	</data>
+	<data name="BAR_VENTURI_ON" xml:space="preserve">
+		<value>吸嘴开</value>
+	</data>
+	<data name="BAR_VENTURI_OFF" xml:space="preserve">
+		<value>吸嘴关</value>
+	</data>
+	<data name="BAR_HEATER_ON" xml:space="preserve">
+		<value>打印模块加热 开</value>
+	</data>
+	<data name="BAR_HEATER_OFF" xml:space="preserve">
+		<value>打印模块加热 关</value>
+	</data>
+	<data name="BAR_TANK_HEATER_ON" xml:space="preserve">
+		<value>墨桶加热 开</value>
+	</data>
+	<data name="BAR_TANK_HEATER_OFF" xml:space="preserve">
+		<value>墨桶加热 关</value>
+	</data>
+	<data name="BAR_STIRRER_ON" xml:space="preserve">
+		<value>搅拌器 开</value>
+	</data>
+	<data name="BAR_STIRRER_OFF" xml:space="preserve">
+		<value>搅拌器 关</value>
+	</data>
+	<data name="BAR_TEMP" xml:space="preserve">
+		<value>打印模块温度</value>
+	</data>
+	<data name="BAR_INK_SYSTEM" xml:space="preserve">
+		<value>墨水系统在线状态：</value>
+	</data>
+	<data name="BAR_INK_TEMP_IN" xml:space="preserve">
+		<value>输入温度：</value>
+	</data>
+	<data name="BAR_INK_TEMP_OUT" xml:space="preserve">
+		<value>输出温度：</value>
+	</data>
+	<data name="BAR_VACUUM_SETPOINT" xml:space="preserve">
+		<value>真空度设定值：</value>
+	</data>
+	<data name="BAR_VACUUM" xml:space="preserve">
+		<value>真空度：</value>
+	</data>
+	<data name="BAR_DUTY_CICLE" xml:space="preserve">
+		<value>工作比：</value>
+	</data>
+	<data name="BAR_WEIR_BUMP" xml:space="preserve">
+		<value>供墨泵：</value>
+	</data>
+	<data name="BAR_DEAIR_PUMP" xml:space="preserve">
+		<value>回流泵：</value>
+	</data>
+	<data name="BAR_FIRMWARE_VER" xml:space="preserve">
+		<value>固件版本：</value>
+	</data>
+	<data name="BAR_TANK_TEMP" xml:space="preserve">
+		<value>墨桶温度：</value>
+	</data>
+	<data name="BAR_EXTRACTION" xml:space="preserve">
+		<value>弹出</value>
+	</data>
+	<data name="BAR_USER_OFFSET" xml:space="preserve">
+		<value>用户偏置：</value>
+	</data>
+	<data name="BAR_MOTOR_POS" xml:space="preserve">
+		<value>马达位置：</value>
+	</data>
+	<data name="BAR_MOTOR_ERROR" xml:space="preserve">
+		<value>马达错误：</value>
+	</data>
+	<data name="BAR_MOTOR_HOMING" xml:space="preserve">
+		<value>马达对零：</value>
+	</data>
+	<data name="BAR_MOTOR" xml:space="preserve">
+		<value>马达：</value>
+	</data>
+	<data name="BAR_PRINT_CHANNELS_L1" xml:space="preserve">
+		<value>第1生产线分通道打印</value>
+	</data>
+	<data name="BAR_PRINT_CHANNELS_L2" xml:space="preserve">
+		<value>第2生产线分通道打印</value>
+	</data>
+	<data name="BAR_CLEANING" xml:space="preserve">
+		<value>清洗</value>
+	</data>
+	<data name="BAR_VENTURI_DRAIN" xml:space="preserve">
+		<value>真空管</value>
+	</data>
+	<data name="BAR_VENTURI_DRAIN_ON" xml:space="preserve">
+		<value>真空管 打开</value>
+	</data>
+	<data name="BAR_VENTURI_DRAIN_OFF" xml:space="preserve">
+		<value>真空管 关闭</value>
+	</data>
+	<data name="BAR_VACUUM_2" xml:space="preserve">
+		<value>真空度 2：</value>
+	</data>
+	<data name="BAR_INK_SYSTEM_TEMP_SP" xml:space="preserve">
+		<value>墨水系统温度：</value>
+	</data>
+	<data name="EDIT_LASER_HEIGHT_TILE" xml:space="preserve">
+		<value>瓷砖高度</value>
+	</data>
+	<data name="EDIT_LASER_GAUGE_THICKNESS" xml:space="preserve">
+		<value>标准厚度</value>
+	</data>
+	<data name="EDIT_LASER_STOP_SENSOR" xml:space="preserve">
+		<value>叠砖感应器</value>
+	</data>
+	<data name="EDIT_LASER_DETECT_SENSOR" xml:space="preserve">
+		<value>触发感应器</value>
+	</data>
+	<data name="EDIT_LASER_HOMING" xml:space="preserve">
+		<value>对零</value>
+	</data>
+	<data name="MODEL_MAIN_QUEUE" xml:space="preserve">
+		<value>保存模型队列</value>
+	</data>
+	<data name="MODEL_MAIN_NEW" xml:space="preserve">
+		<value>新建</value>
+	</data>
+	<data name="MODEL_MAIN_EDIT" xml:space="preserve">
+		<value>编辑</value>
+	</data>
+	<data name="MODEL_MAIN_COPY" xml:space="preserve">
+		<value>复制</value>
+	</data>
+	<data name="MODEL_MAIN_DELETE" xml:space="preserve">
+		<value>删除</value>
+	</data>
+	<data name="MODEL_MAIN_RENDER" xml:space="preserve">
+		<value>渲染</value>
+	</data>
+	<data name="MODEL_MAIN_INK_CONSUM" xml:space="preserve">
+		<value>墨水用量</value>
+	</data>
+	<data name="MODEL_LIST_NAME" xml:space="preserve">
+		<value>文件名</value>
+	</data>
+	<data name="MODEL_LIST_STATE" xml:space="preserve">
+		<value>状态</value>
+	</data>
+	<data name="MODEL_LIST_DIMENSIONS" xml:space="preserve">
+		<value>尺寸</value>
+	</data>
+	<data name="MODEL_LIST_MODE" xml:space="preserve">
+		<value>模式</value>
+	</data>
+	<data name="MODEL_LIST_QUALITY" xml:space="preserve">
+		<value>打印质量</value>
+	</data>
+	<data name="MODEL_LIST_DATE_CRE" xml:space="preserve">
+		<value>创建日期</value>
+	</data>
+	<data name="MODEL_LIST_DATE_IMP" xml:space="preserve">
+		<value>打印日期</value>
+	</data>
+	<data name="MODEL_MAIN_FAVORITES" xml:space="preserve">
+		<value>收藏夹</value>
+	</data>
+	<data name="MODEL_MAIN_PREVIEW" xml:space="preserve">
+		<value>预览</value>
+	</data>
+	<data name="MODEL_MAIN_RENDERING" xml:space="preserve">
+		<value>渲染中</value>
+	</data>
+	<data name="MODEL_MAIN_USED_SPACE" xml:space="preserve">
+		<value>附属计算机硬盘使用：</value>
+	</data>
+	<data name="MODEL_MAIN_USED_SPACE_MASTER" xml:space="preserve">
+		<value>主计算机硬盘使用：</value>
+	</data>
+	<data name="MODEL_GENERAL_NAME" xml:space="preserve">
+		<value>模型名</value>
+	</data>
+	<data name="MODEL_GENERAL_DESCRIPTION" xml:space="preserve">
+		<value>描述</value>
+	</data>
+	<data name="MODEL_PRINTING_QUALITY" xml:space="preserve">
+		<value>打印质量</value>
+	</data>
+	<data name="MODEL_GENERAL_FAVORITE" xml:space="preserve">
+		<value>收藏夹</value>
+	</data>
+	<data name="MODEL_NEW" xml:space="preserve">
+		<value>新建模型</value>
+	</data>
+	<data name="MODEL_NEW_EXISTS" xml:space="preserve">
+		<value>命名已存在，请重新选择</value>
+	</data>
+	<data name="MODEL_EDIT_DESIGNS" xml:space="preserve">
+		<value>设计</value>
+	</data>
+	<data name="MODEL_EDIT_MODIFIEDS" xml:space="preserve">
+		<value>修改</value>
+	</data>
+	<data name="MODEL_EDIT_RENDER_ALL" xml:space="preserve">
+		<value>全部渲染</value>
+	</data>
+	<data name="MODEL_EDIT_NO_RENDER" xml:space="preserve">
+		<value>停止渲染</value>
+	</data>
+	<data name="MODEL_EDIT_DELETE_RENDER" xml:space="preserve">
+		<value>删除已完成的渲染</value>
+	</data>
+	<data name="MODEL_EDIT_ADD_IMAGE" xml:space="preserve">
+		<value>增加图片</value>
+	</data>
+	<data name="MODEL_EDIT_DELETE_IMAGE" xml:space="preserve">
+		<value>删除图片</value>
+	</data>
+	<data name="MODEL_EDIT_COPY_IMAGES" xml:space="preserve">
+		<value>复制已完成渲染的图片</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_ESTIMATION" xml:space="preserve">
+		<value>估测值</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_PRODUCTION" xml:space="preserve">
+		<value>实际生产</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR1" xml:space="preserve">
+		<value>打印模块1墨水用量</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR2" xml:space="preserve">
+		<value>打印模块2墨水用量</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR3" xml:space="preserve">
+		<value>打印模块3墨水用量</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR4" xml:space="preserve">
+		<value>打印模块4墨水用量</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR5" xml:space="preserve">
+		<value>打印模块5墨水用量</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR6" xml:space="preserve">
+		<value>打印模块6墨水用量</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR7" xml:space="preserve">
+		<value>打印模块7墨水用量</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_BAR8" xml:space="preserve">
+		<value>打印模块8墨水用量</value>
+	</data>
+	<data name="MODEL_INK_CONSUM_TOTAL" xml:space="preserve">
+		<value>合计</value>
+	</data>
+	<data name="MODEL_DELETE" xml:space="preserve">
+		<value>是否删除所选模型？</value>
+	</data>
+	<data name="MODEL_DELETE_RENDERED" xml:space="preserve">
+		<value>是否删除已渲染的模型？</value>
+	</data>
+	<data name="MODEL_DESIGNS_USE" xml:space="preserve">
+		<value>使用</value>
+	</data>
+	<data name="MODEL_DESIGNS_ORDER" xml:space="preserve">
+		<value>排序</value>
+	</data>
+	<data name="MODEL_DESIGNS_SOURCE" xml:space="preserve">
+		<value>源文件</value>
+	</data>
+	<data name="MODEL_DESIGNS_DESCRIPTION" xml:space="preserve">
+		<value>描述</value>
+	</data>
+	<data name="MODEL_MODES_NORMAL" xml:space="preserve">
+		<value>正常</value>
+	</data>
+	<data name="MODEL_MODES_INCREMENTAL" xml:space="preserve">
+		<value>增量</value>
+	</data>
+	<data name="MODEL_MODES_RANDOM" xml:space="preserve">
+		<value>随机</value>
+	</data>
+	<data name="MODEL_MODES_TILING" xml:space="preserve">
+		<value>拼图</value>
+	</data>
+	<data name="MODEL_MODES_MANUAL" xml:space="preserve">
+		<value>手动</value>
+	</data>
+	<data name="MODEL_MODES_CRETAVISION" xml:space="preserve">
+		<value>视觉识别系统</value>
+	</data>
+	<data name="MODELS_MODES_IMAGE_INFO" xml:space="preserve">
+		<value>图片信息</value>
+	</data>
+	<data name="MODEL_MODES_WIDTH" xml:space="preserve">
+		<value>宽度（Y）：</value>
+	</data>
+	<data name="MODEL_MODES_HEIGHT" xml:space="preserve">
+		<value>长度（X)：</value>
+	</data>
+	<data name="M_ALARMS_CONFIRM" xml:space="preserve">
+		<value>确认</value>
+	</data>
+	<data name="M_EDIT_QUALITY_NOISE" xml:space="preserve">
+		<value>噪点水平：</value>
+	</data>
+	<data name="MODEL_MODES_CFG_MODE_IMGS" xml:space="preserve">
+		<value>图片间转换模式</value>
+	</data>
+	<data name="MODEL_MODES_CFG_OFFSET_X" xml:space="preserve">
+		<value>X偏移：</value>
+	</data>
+	<data name="MODEL_MODES_CFG_OFFSET_Y" xml:space="preserve">
+		<value>Y偏移：</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CONT_HORIZ" xml:space="preserve">
+		<value>水平连续模式</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CONT_VERT" xml:space="preserve">
+		<value>竖直连续模式</value>
+	</data>
+	<data name="MODEL_MODES_CFG_TILES_IMG" xml:space="preserve">
+		<value>每张图片打印数量：</value>
+	</data>
+	<data name="MODEL_MODES_CFG_SIMULATION" xml:space="preserve">
+		<value>模拟：</value>
+	</data>
+	<data name="MODEL_MODES_CFG_INCR_X" xml:space="preserve">
+		<value>X方向增量：</value>
+	</data>
+	<data name="MODEL_MODES_CFG_INCR_Y" xml:space="preserve">
+		<value>Y方向增量：</value>
+	</data>
+	<data name="MODEL_MODES_CFG_ROWS" xml:space="preserve">
+		<value>行数：</value>
+	</data>
+	<data name="MODEL_MODES_CFG_COLUMNS" xml:space="preserve">
+		<value>列数：</value>
+	</data>
+	<data name="MODEL_MODES_CFG_X" xml:space="preserve">
+		<value>X:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_Y" xml:space="preserve">
+		<value>Y:</value>
+	</data>
+	<data name="MODEL_MODES_CFG_ADD" xml:space="preserve">
+		<value>增加</value>
+	</data>
+	<data name="MODEL_MODES_CAMERA_ID" xml:space="preserve">
+		<value>摄像机ID：</value>
+	</data>
+	<data name="MODEL_DESIGNS_TIF_EXISTS" xml:space="preserve">
+		<value>该路径已存在相同TIFF文件</value>
+	</data>
+	<data name="MODEL_EDIT_ABORT_RENDER" xml:space="preserve">
+		<value>放弃渲染</value>
+	</data>
+	<data name="M_EDIT_CAMERA" xml:space="preserve">
+		<value>摄像机：</value>
+	</data>
+	<data name="M_EDIT_RENDER" xml:space="preserve">
+		<value>渲染中</value>
+	</data>
+	<data name="M_EDIT_SLAVES" xml:space="preserve">
+		<value>附属电脑</value>
+	</data>
+	<data name="MODEL_IMG_STATE_OK" xml:space="preserve">
+		<value>确定</value>
+	</data>
+	<data name="MODEL_IMG_STATE_QUEUE" xml:space="preserve">
+		<value>队列中</value>
+	</data>
+	<data name="MODEL_IMG_STATE_PROCESSING" xml:space="preserve">
+		<value>处理中</value>
+	</data>
+	<data name="MODEL_IMG_STATE_NOMEMORY" xml:space="preserve">
+		<value>系统没有足够容量</value>
+	</data>
+	<data name="MODEL_IMG_STATE_NOORIGINAL" xml:space="preserve">
+		<value>没有找到TIFF源文件</value>
+	</data>
+	<data name="MODEL_IMG_STATE_NOPROCESSED" xml:space="preserve">
+		<value>未经处理</value>
+	</data>
+	<data name="MODEL_IMG_STATE_NOPROCESSED_ERROR" xml:space="preserve">
+		<value>错误-未经处理</value>
+	</data>
+	<data name="MAIN_START_SELECTION" xml:space="preserve">
+		<value>请选择要打印的模型</value>
+	</data>
+	<data name="MAIN_START_SELECT" xml:space="preserve">
+		<value>选择</value>
+	</data>
+	<data name="MAIN_START_PRODUCTION" xml:space="preserve">
+		<value>生产</value>
+	</data>
+	<data name="MAIN_START_NUM_TILES" xml:space="preserve">
+		<value>打印一定数量后恢复到当前生产</value>
+	</data>
+	<data name="MAIN_START_TILES" xml:space="preserve">
+		<value>瓷砖数</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_MODE" xml:space="preserve">
+		<value>打印模式：</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SIGNALDELAY" xml:space="preserve">
+		<value>连锁信号延时：</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_PCS_ON" xml:space="preserve">
+		<value>电脑关闭后自动打开</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_LOGS" xml:space="preserve">
+		<value>保存LOG文件</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SECURITY" xml:space="preserve">
+		<value>安全等级</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_INK_CONS" xml:space="preserve">
+		<value>墨水用量模拟</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SUCTION_MODE" xml:space="preserve">
+		<value>抽吸模式</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SUCTION_LEN" xml:space="preserve">
+		<value>抽吸长度</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_IMG_BUFFER" xml:space="preserve">
+		<value>读取图片缓存</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_BARCONF" xml:space="preserve">
+		<value>打印模块配置</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_BELT_GEAR" xml:space="preserve">
+		<value>皮带减速箱速比</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_BLOCKS" xml:space="preserve">
+		<value>每个打印模块分区数量：</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_MASTER_PORT" xml:space="preserve">
+		<value>主电脑ModbusRTU接口：</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_NUMBARS" xml:space="preserve">
+		<value>打印模块数量</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_DIRECTION" xml:space="preserve">
+		<value>机器进砖方向</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_ENCODER" xml:space="preserve">
+		<value>编码器配置</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_DRIVE" xml:space="preserve">
+		<value>主轴周长</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_ENCODER_P" xml:space="preserve">
+		<value>编码器</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_ESTIMATE" xml:space="preserve">
+		<value>计算</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_RESULT" xml:space="preserve">
+		<value>结果</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_PULSES" xml:space="preserve">
+		<value>脉冲数</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_LINE1" xml:space="preserve">
+		<value>单排打印</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_LINE2" xml:space="preserve">
+		<value>双排打印</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_LEFT" xml:space="preserve">
+		<value>左进</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_RIGHT" xml:space="preserve">
+		<value>右进</value>
+	</data>
+	<data name="MAIN_TILES_COUNT1" xml:space="preserve">
+		<value>第1生产线瓷砖</value>
+	</data>
+	<data name="MAIN_TILES_COUNT2" xml:space="preserve">
+		<value>第2生产线瓷砖</value>
+	</data>
+	<data name="MAIN_ALARMS" xml:space="preserve">
+		<value>报警</value>
+	</data>
+	<data name="MODEL_STATE_PRINTING_L1" xml:space="preserve">
+		<value>第1生产线打印中</value>
+	</data>
+	<data name="MODEL_STATE_PRINTING_L2" xml:space="preserve">
+		<value>第2生产线打印中</value>
+	</data>
+	<data name="MODEL_STATE_NOT_READY" xml:space="preserve">
+		<value>模型还没有准备好</value>
+	</data>
+	<data name="MODEL_STATE_PROCESSING" xml:space="preserve">
+		<value>处理中</value>
+	</data>
+	<data name="MAIN_PLC_OK" xml:space="preserve">
+		<value>与PLC通讯打开</value>
+	</data>
+	<data name="MAIN_PLC_ERROR" xml:space="preserve">
+		<value>无法于PLC通讯</value>
+	</data>
+	<data name="MAIN_NO_USERS" xml:space="preserve">
+		<value>没有用户</value>
+	</data>
+	<data name="MAIN_USER" xml:space="preserve">
+		<value>用户：</value>
+	</data>
+	<data name="MAIN_RENDER_SERVER_ON" xml:space="preserve">
+		<value>渲染服务器已连接</value>
+	</data>
+	<data name="MAIN_RENDER_SERVER_OFF" xml:space="preserve">
+		<value>渲染服务器未连接</value>
+	</data>
+	<data name="MAIN_PRINT_SERVER_ON" xml:space="preserve">
+		<value>打印服务器已连接</value>
+	</data>
+	<data name="MAIN_PRINT_SERVER_OFF" xml:space="preserve">
+		<value>打印服务器未连接</value>
+	</data>
+	<data name="MAIN_REMOTE_ASSISTANCE" xml:space="preserve">
+		<value>远程协助</value>
+	</data>
+	<data name="MAIN_CAMERA_CONNECTED" xml:space="preserve">
+		<value>摄像机1已连接</value>
+	</data>
+	<data name="MAIN_CAMERA_NOT_CONNECTED" xml:space="preserve">
+		<value>摄像机1未连接</value>
+	</data>
+	<data name="MAIN_CAMERA_DISCONNECTING" xml:space="preserve">
+		<value>摄像机1断开连接中</value>
+	</data>
+	<data name="MAIN_CAMERA_DISCONNECTED" xml:space="preserve">
+		<value>摄像机1已断开连接</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_COLOR" xml:space="preserve">
+		<value>打印模块颜色</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DIS_L1" xml:space="preserve">
+		<value>打开第1生产线</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DIS_L2" xml:space="preserve">
+		<value>打开第2生产线</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_SENSOR_DIST" xml:space="preserve">
+		<value>进砖感应器距离</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_PH_PMB" xml:space="preserve">
+		<value>打印头数量</value>
+	</data>
+	<data name="G_WAVEFORM" xml:space="preserve">
+		<value>Waveform</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DROPS" xml:space="preserve">
+		<value>墨滴数量</value>
+	</data>
+	<data name="M_EDIT_DESC_PORT" xml:space="preserve">
+		<value>接口</value>
+	</data>
+	<data name="M_EDIT_BAR_TYPE" xml:space="preserve">
+		<value>打印模块类型</value>
+	</data>
+	<data name="M_EDIT_BARTYPE_ESPESORADA" xml:space="preserve">
+		<value>变厚</value>
+	</data>
+	<data name="M_EDIT_BARTYPE_DECORATION" xml:space="preserve">
+		<value>装饰</value>
+	</data>
+	<data name="M_EDIT_BAR_NUM_PMB" xml:space="preserve">
+		<value>PMB数量</value>
+	</data>
+	<data name="G_PATH" xml:space="preserve">
+		<value>路径</value>
+	</data>
+	<data name="G_ADDRESS" xml:space="preserve">
+		<value>地址</value>
+	</data>
+	<data name="CLEAN_RUN_EVERY" xml:space="preserve">
+		<value>运行间隔：</value>
+	</data>
+	<data name="CLEAN_CARRIER_MOV" xml:space="preserve">
+		<value>托盘移动时间</value>
+	</data>
+	<data name="CLEAN_DRIP_TIME" xml:space="preserve">
+		<value>滴墨时间</value>
+	</data>
+	<data name="CLEAN_OFFSET" xml:space="preserve">
+		<value>偏置</value>
+	</data>
+	<data name="CLEAN_SPITTING" xml:space="preserve">
+		<value>闪喷时间（s）</value>
+	</data>
+	<data name="CLEAN_TIME_BT_SPITS" xml:space="preserve">
+		<value>闪喷间隔（m）</value>
+	</data>
+	<data name="CLEAN_SPIT_FREQ" xml:space="preserve">
+		<value>闪喷频率（Hz）</value>
+	</data>
+	<data name="CLEAN_SPIT" xml:space="preserve">
+		<value>闪喷</value>
+	</data>
+	<data name="CLEAN_BY_TILES" xml:space="preserve">
+		<value>按瓷砖数</value>
+	</data>
+	<data name="CLEAN_BY_TIME" xml:space="preserve">
+		<value>按时间</value>
+	</data>
+	<data name="CLEAN_CONTINOUS" xml:space="preserve">
+		<value>连续</value>
+	</data>
+	<data name="CLEAN_MANUAL_FORCED" xml:space="preserve">
+		<value>手动</value>
+	</data>
+	<data name="G_MINUTES" xml:space="preserve">
+		<value>分钟</value>
+	</data>
+	<data name="G_SECONDS" xml:space="preserve">
+		<value>秒</value>
+	</data>
+	<data name="CLEAN_BELT" xml:space="preserve">
+		<value>皮带</value>
+	</data>
+	<data name="CLEAN_CYCLE_LENGTH" xml:space="preserve">
+		<value>周期</value>
+	</data>
+	<data name="CLEAN_HEADS_STOPPED" xml:space="preserve">
+		<value>机器停止时自动清洗系统</value>
+	</data>
+	<data name="CLEAN_MORE_OPTIONS" xml:space="preserve">
+		<value>更多</value>
+	</data>
+	<data name="CLEAN_L1_DELAY" xml:space="preserve">
+		<value>L1 延时</value>
+	</data>
+	<data name="CLEAN_L2_DELAY" xml:space="preserve">
+		<value>L2 延时</value>
+	</data>
+	<data name="CLEAN_GAP_TIME" xml:space="preserve">
+		<value>间隔时间：</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_GLOBAL" xml:space="preserve">
+		<value>通道位置</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_GLOBAL_L1" xml:space="preserve">
+		<value>第1生产线总体位置</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_GLOBAL_L2" xml:space="preserve">
+		<value>第2生产线总体位置</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_FROM0" xml:space="preserve">
+		<value>从0开始</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_FROMCENTER" xml:space="preserve">
+		<value>从中间开始</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_XOFFSET" xml:space="preserve">
+		<value>X偏移(mm)：</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_YOFFSET" xml:space="preserve">
+		<value>Y偏移(mm)：</value>
+	</data>
+	<data name="CLEAN_ERROR_AUTO" xml:space="preserve">
+		<value>机器必须处于自动状态</value>
+	</data>
+	<data name="CLEAN_ERROR_NO_IMG" xml:space="preserve">
+		<value>线上必须没有处于已读取状态</value>
+	</data>
+	<data name="CLEAN_ERROR_BARS_TENSION" xml:space="preserve">
+		<value>打印模块必须通电</value>
+	</data>
+	<data name="CLEAN_ERROR_INK_ON" xml:space="preserve">
+		<value>供墨系统必须开启</value>
+	</data>
+	<data name="CLEAN_OK" xml:space="preserve">
+		<value>闪喷模式可用</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_YMODE" xml:space="preserve">
+		<value>Y模式</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL0" xml:space="preserve">
+		<value>通道0</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL1" xml:space="preserve">
+		<value>通道1</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL2" xml:space="preserve">
+		<value>通道2</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL3" xml:space="preserve">
+		<value>通道3</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL4" xml:space="preserve">
+		<value>通道4</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL5" xml:space="preserve">
+		<value>通道5</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL6" xml:space="preserve">
+		<value>通道6</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL7" xml:space="preserve">
+		<value>通道7</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP1" xml:space="preserve">
+		<value>墨滴1</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP2" xml:space="preserve">
+		<value>墨滴2</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP3" xml:space="preserve">
+		<value>墨滴3</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP4" xml:space="preserve">
+		<value>墨滴4</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP5" xml:space="preserve">
+		<value>墨滴5</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP6" xml:space="preserve">
+		<value>墨滴6</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP7" xml:space="preserve">
+		<value>墨滴7</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP8" xml:space="preserve">
+		<value>墨滴8</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP9" xml:space="preserve">
+		<value>墨滴9</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP10" xml:space="preserve">
+		<value>墨滴10</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP11" xml:space="preserve">
+		<value>墨滴11</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP12" xml:space="preserve">
+		<value>墨滴12</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP13" xml:space="preserve">
+		<value>墨滴13</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP14" xml:space="preserve">
+		<value>墨滴14</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DROP15" xml:space="preserve">
+		<value>墨滴15</value>
+	</data>
+	<data name="M_EDIT_QUALITY_FACTOR" xml:space="preserve">
+		<value>因数</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DENSITY" xml:space="preserve">
+		<value>密度</value>
+	</data>
+	<data name="M_EDIT_QUALITY_OVERLAP" xml:space="preserve">
+		<value>重叠</value>
+	</data>
+	<data name="M_EDIT_QUALITY_LEVELS" xml:space="preserve">
+		<value>等级</value>
+	</data>
+	<data name="G_OPEN" xml:space="preserve">
+		<value>打开</value>
+	</data>
+	<data name="M_EDIT_QUALITY_SAVE" xml:space="preserve">
+		<value>是否保存当前打印质量？</value>
+	</data>
+	<data name="M_EDIT_QUALITY_SAVE_ERROR" xml:space="preserve">
+		<value>无法保存打印质量</value>
+	</data>
+	<data name="M_EDIT_QUALITY_NEWNAME" xml:space="preserve">
+		<value>新打印质量名：</value>
+	</data>
+	<data name="M_EDIT_QUALITY_EXISTS" xml:space="preserve">
+		<value>该命名已存在</value>
+	</data>
+	<data name="M_EDIT_QUALITY_DELETE" xml:space="preserve">
+		<value>是否删除所选打印质量？</value>
+	</data>
+	<data name="M_EDIT_QUALITY_OPEN_ERROR" xml:space="preserve">
+		<value>无法打开打印质量文档</value>
+	</data>
+	<data name="M_EDIT_QUALITY_SAVECHANGES" xml:space="preserve">
+		<value>是否保存设置？</value>
+	</data>
+	<data name="G_YES" xml:space="preserve">
+		<value>确定</value>
+	</data>
+	<data name="G_NO" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="CLEAN_SPIT_BT_TILES" xml:space="preserve">
+		<value>瓷砖间闪喷</value>
+	</data>
+	<data name="MAIN_RESET_TILE_COUNTER" xml:space="preserve">
+		<value>是否重置计数器？</value>
+	</data>
+	<data name="MAIN_CONTINUOUS_TIME" xml:space="preserve">
+		<value>重复间隔时间</value>
+	</data>
+	<data name="MAIN_START_LOAD_ERROR" xml:space="preserve">
+		<value>读取错误，请检查打印服务器状态</value>
+	</data>
+	<data name="MAIN_HELP_OSK" xml:space="preserve">
+		<value>屏幕键盘</value>
+	</data>
+	<data name="G_SHOW" xml:space="preserve">
+		<value>显示</value>
+	</data>
+	<data name="G_HIDE" xml:space="preserve">
+		<value>隐藏</value>
+	</data>
+	<data name="G_DATE_FROM" xml:space="preserve">
+		<value>从：</value>
+	</data>
+	<data name="G_DATE_TO" xml:space="preserve">
+		<value>到：</value>
+	</data>
+	<data name="G_UPDATE" xml:space="preserve">
+		<value>更新</value>
+	</data>
+	<data name="M_ALARMS_TIMEEND" xml:space="preserve">
+		<value>恢复时间</value>
+	</data>
+	<data name="MAIN_KERNEL_ERROR" xml:space="preserve">
+		<value>无法与内核通讯</value>
+	</data>
+	<data name="MAIN_KERNEL_OK" xml:space="preserve">
+		<value>与内核通讯连接成功</value>
+	</data>
+	<data name="MAIN_USER_PASSWORD" xml:space="preserve">
+		<value>密码：</value>
+	</data>
+	<data name="MAIN_USER_LIST" xml:space="preserve">
+		<value>用户列表</value>
+	</data>
+	<data name="MAIN_USER_ENABLE" xml:space="preserve">
+		<value>打开</value>
+	</data>
+	<data name="MAIN_USER_CONFIRMATION" xml:space="preserve">
+		<value>确认：</value>
+	</data>
+	<data name="MAIN_USER_LANGUAGE" xml:space="preserve">
+		<value>语言：</value>
+	</data>
+	<data name="MAIN_USER_LEVEL" xml:space="preserve">
+		<value>等级：</value>
+	</data>
+	<data name="MAIN_USER_PASSWORD_REPEAT" xml:space="preserve">
+		<value>重复密码：</value>
+	</data>
+	<data name="MAIN_USER_CONFIRM_ERROR" xml:space="preserve">
+		<value>密码和确认必须相同</value>
+	</data>
+	<data name="MAIN_USER_USB" xml:space="preserve">
+		<value>生成USB帐号</value>
+	</data>
+	<data name="M_USER_LEVEL_LOW" xml:space="preserve">
+		<value>操作员</value>
+	</data>
+	<data name="M_USER_LEVEL_MED" xml:space="preserve">
+		<value>工厂技术员</value>
+	</data>
+	<data name="M_USER_LEVEL_HIGH" xml:space="preserve">
+		<value>CRETAPRINT技术员</value>
+	</data>
+	<data name="M_USER_LEVEL_ADMIN" xml:space="preserve">
+		<value>管理员</value>
+	</data>
+	<data name="M_WANT_EXIT" xml:space="preserve">
+		<value>是否退出应用软件？</value>
+	</data>
+	<data name="G_METERS" xml:space="preserve">
+		<value>米</value>
+	</data>
+	<data name="FILE_PRODUCTION_REPORT_TOTAL" xml:space="preserve">
+		<value>总共</value>
+	</data>
+	<data name="FILE_PRODUCTION_REPORT_L1" xml:space="preserve">
+		<value>第1生产线计数器：</value>
+	</data>
+	<data name="FILE_PRODUCTION_REPORT_L2" xml:space="preserve">
+		<value>第2生产线计数器：</value>
+	</data>
+	<data name="FILE_CANOPEN" xml:space="preserve">
+		<value>CANopen状态</value>
+	</data>
+	<data name="SIMULATION_IMG_MODE_EDIT" xml:space="preserve">
+		<value>编辑</value>
+	</data>
+	<data name="SIMULATION_IMG_MODE_ONE" xml:space="preserve">
+		<value>模拟单个</value>
+	</data>
+	<data name="SIMULATION_IMG_MODE_ALL" xml:space="preserve">
+		<value>模拟全部</value>
+	</data>
+	<data name="M_FILE_PRINTSERVER_PRINTING" xml:space="preserve">
+		<value>打印中</value>
+	</data>
+	<data name="MODEL_IMAGES" xml:space="preserve">
+		<value>图像</value>
+	</data>
+	<data name="M_EDIT_QUALITY_COPY_DROPS" xml:space="preserve">
+		<value>复制全部通道</value>
+	</data>
+	<data name="MAIN_USER_LOGIN_ERROR" xml:space="preserve">
+		<value>用户名和密码不正确</value>
+	</data>
+	<data name="MAIN_USER_DELETE" xml:space="preserve">
+		<value>是否删除所选用户</value>
+	</data>
+	<data name="M_EDIT_DESC_SLAVES_POS" xml:space="preserve">
+		<value>附属电脑位置：</value>
+	</data>
+	<data name="G_NAME_COLON" xml:space="preserve">
+		<value>名字：</value>
+	</data>
+	<data name="TAS_TONE_AUTO" xml:space="preserve">
+		<value>自动</value>
+	</data>
+	<data name="TAS_TONE_MANUAL" xml:space="preserve">
+		<value>手动</value>
+	</data>
+	<data name="TAS_SAMPLES" xml:space="preserve">
+		<value>样本总数：</value>
+	</data>
+	<data name="TAS_TILE_DIM" xml:space="preserve">
+		<value>瓷砖尺寸</value>
+	</data>
+	<data name="TAS_SAMPLE_DIST" xml:space="preserve">
+		<value>样本分布</value>
+	</data>
+	<data name="TAS_SAMPLE_SELECT_IMG" xml:space="preserve">
+		<value>选择样本图像</value>
+	</data>
+	<data name="TAS_SAMPLE_SECTION" xml:space="preserve">
+		<value>选择区域（样本）图像</value>
+	</data>
+	<data name="TAS_SAMPLE_SIZE" xml:space="preserve">
+		<value>样本尺寸：</value>
+	</data>
+	<data name="TAS_SAMPLE_ROWS" xml:space="preserve">
+		<value>每块砖上的行数</value>
+	</data>
+	<data name="TAS_SAMPLE_COLS" xml:space="preserve">
+		<value>每块砖上的列数</value>
+	</data>
+	<data name="TAS_SAMPLES_PER_TILE" xml:space="preserve">
+		<value>每块砖上的样本数</value>
+	</data>
+	<data name="TAS_SAMPLES_TOTAL_TILES" xml:space="preserve">
+		<value>瓷砖总数</value>
+	</data>
+	<data name="TAS_INTEN_GENERAR" xml:space="preserve">
+		<value>生成</value>
+	</data>
+	<data name="TAS_INTEN_VARIATION" xml:space="preserve">
+		<value>差异数</value>
+	</data>
+	<data name="TAS_INTEN_LIMIT" xml:space="preserve">
+		<value>最大差异数</value>
+	</data>
+	<data name="TAS_INTEN_NEGATIVE" xml:space="preserve">
+		<value>包含负值</value>
+	</data>
+	<data name="TAS_TONE_DEVIATION" xml:space="preserve">
+		<value>变量</value>
+	</data>
+	<data name="TAS_TONE_CH_COMB" xml:space="preserve">
+		<value>选取要更改的图像通道</value>
+	</data>
+	<data name="TAS_TONE_CH_COMB_1" xml:space="preserve">
+		<value>（1）样本上单通道混合</value>
+	</data>
+	<data name="TAS_TONE_CH_COMB_2" xml:space="preserve">
+		<value>（2）样本上双通道混合</value>
+	</data>
+	<data name="TAS_TONE_CH_CH_MODIFY" xml:space="preserve">
+		<value>选取要更改的图像通道</value>
+	</data>
+	<data name="TAS_NEXT" xml:space="preserve">
+		<value>下一步</value>
+	</data>
+	<data name="TAS_BACK" xml:space="preserve">
+		<value>上一步</value>
+	</data>
+	<data name="TAS_PROCESS" xml:space="preserve">
+		<value>处理</value>
+	</data>
+	<data name="M_EDIT_QUALITY_CANAL8" xml:space="preserve">
+		<value>通道8</value>
+	</data>
+	<data name="TAS_TAG" xml:space="preserve">
+		<value>标签</value>
+	</data>
+	<data name="QR_CODE" xml:space="preserve">
+		<value>二维码：</value>
+	</data>
+	<data name="HELP_INFO_SYSTEM_MEM" xml:space="preserve">
+		<value>系统容量</value>
+	</data>
+	<data name="HELP_INFO_SLAVES" xml:space="preserve">
+		<value>附属电脑硬盘已使用空间：</value>
+	</data>
+	<data name="HELP_INFO_MASTER" xml:space="preserve">
+		<value>主电脑硬盘已使用空间：</value>
+	</data>
+	<data name="HELP_INFO_VERSIONS" xml:space="preserve">
+		<value>版本</value>
+	</data>
+	<data name="MODELS_NOQUALITIES" xml:space="preserve">
+		<value>没有可用质量，你是否想创建默认质量？</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_CONNECT_1" xml:space="preserve">
+		<value>连接摄像机1</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_CONNECT_2" xml:space="preserve">
+		<value>连接摄像机2</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_IP_1" xml:space="preserve">
+		<value>摄像机IP地址：</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_USR_1" xml:space="preserve">
+		<value>摄像机用户：</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_PAS_1" xml:space="preserve">
+		<value>摄像机密码：</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_1" xml:space="preserve">
+		<value>摄像机1</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_2" xml:space="preserve">
+		<value>摄像机2</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_PORT1_1" xml:space="preserve">
+		<value>接口1：</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_PORT2_1" xml:space="preserve">
+		<value>接口2：</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CAM_IDS" xml:space="preserve">
+		<value>摄像机ID：</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CAM_ORIGIN" xml:space="preserve">
+		<value>检测原点</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CAM_IN_CAM" xml:space="preserve">
+		<value>摄像机（康耐视）</value>
+	</data>
+	<data name="MODEL_MODES_CFG_CAM_IN_PLC1" xml:space="preserve">
+		<value>PLC1 输入</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_MATRICULA" xml:space="preserve">
+		<value>机器编号:</value>
+	</data>
+	<data name="G_QUESTION_DELETE" xml:space="preserve">
+		<value>是否删除所选部分？</value>
+	</data>
+	<data name="TAS_SELECT_SAMPLE" xml:space="preserve">
+		<value>请选择所需样本</value>
+	</data>
+	<data name="TAS_SAMPLE_VALIDATE" xml:space="preserve">
+		<value>启用该样本</value>
+	</data>
+	<data name="TAS_SAMPLE_VALIDATE_INFO" xml:space="preserve">
+		<value>使用当前参数去创建新TAS模型（所作更改将应用在TIFF上）</value>
+	</data>
+	<data name="TAS_NUM_SAMPLES" xml:space="preserve">
+		<value>样本</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_AUTOALIGN_QUESTION" xml:space="preserve">
+		<value>重置打印头校准将会丢失当前更改，是否继续？</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_AUTOALIGN_LEFT" xml:space="preserve">
+		<value>第一个打印头是否处于机器左侧？</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_AUTOALIGN" xml:space="preserve">
+		<value>自动校正</value>
+	</data>
+	<data name="M_EDIT_PRINTHEADS_INTERROW_DESV" xml:space="preserve">
+		<value>单行差异</value>
+	</data>
+	<data name="G_ERROR_COMMAND" xml:space="preserve">
+		<value>无法执行命令</value>
+	</data>
+	<data name="MODEL_STATE_INK_CONS" xml:space="preserve">
+		<value>计算墨水用量</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_SIDE_TABLE" xml:space="preserve">
+		<value>分类</value>
+	</data>
+	<data name="M_ALR_ACTIONS_USER" xml:space="preserve">
+		<value>用户</value>
+	</data>
+	<data name="MAIN_BAR_CLEAN_ASK" xml:space="preserve">
+		<value>你确定要清洗每个打印模块吗？</value>
+	</data>
+	<data name="TAS_TONE" xml:space="preserve">
+		<value>色调</value>
+	</data>
+	<data name="TAS_INTENSITY" xml:space="preserve">
+		<value>密度</value>
+	</data>
+	<data name="TAS_EXTRACT_TIFF" xml:space="preserve">
+		<value>提取TIFF</value>
+	</data>
+	<data name="G_REFRESH" xml:space="preserve">
+		<value>刷新</value>
+	</data>
+	<data name="M_EDIT_INCREMENT" xml:space="preserve">
+		<value>方向增量</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DROP_VOL" xml:space="preserve">
+		<value>最小墨滴重量：</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_NONE" xml:space="preserve">
+		<value>无</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_DIS_ALLBAR" xml:space="preserve">
+		<value>打印模块已启用（电动）</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_BENT_TILE" xml:space="preserve">
+		<value>自动抬高高度:</value>
+	</data>
+	<data name="BAR_VALIDATE_AUTO" xml:space="preserve">
+		<value>自动验证</value>
+	</data>
+	<data name="MAIN_CAMERA_NOT_CONNECTED2" xml:space="preserve">
+		<value>相机 2 未连接</value>
+	</data>
+	<data name="G_SELECT_ALL" xml:space="preserve">
+		<value>全选</value>
+	</data>
+	<data name="M_FILE_BACKUP_RESTORE" xml:space="preserve">
+		<value>恢复</value>
+	</data>
+	<data name="M_FILE_BACKUP_DIFF" xml:space="preserve">
+		<value>版本之间有差别：</value>
+	</data>
+	<data name="G_WISH_TO_CONTINUE" xml:space="preserve">
+		<value>是否要继续？</value>
+	</data>
+	<data name="G_APPLY_CHANGES" xml:space="preserve">
+		<value>是否确定要恢复数据？</value>
+	</data>
+	<data name="M_EDIT_DSEC_BAR_ELECTRONICS" xml:space="preserve">
+		<value>电子</value>
+	</data>
+	<data name="G_ENABLE_ALL" xml:space="preserve">
+		<value>启用全部</value>
+	</data>
+	<data name="G_DISABLE_ALL" xml:space="preserve">
+		<value>禁用全部</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_MOUNT_TILE" xml:space="preserve">
+		<value>叠砖限制高度:</value>
+	</data>
+	<data name="EDIT_LASER_HOMING_INFO" xml:space="preserve">
+		<value>机器模式必须处于0位</value>
+	</data>
+	<data name="BAR_RECIRCULATION_PUMP" xml:space="preserve">
+		<value>正压泵：</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_NUM_BARS_CLEAN" xml:space="preserve">
+		<value>同步清洁打印模块：</value>
+	</data>
+	<data name="BAR_RECIRCULATION" xml:space="preserve">
+		<value>墨水再循环：</value>
+	</data>
+	<data name="ENABLED_NOZZLES" xml:space="preserve">
+		<value>喷嘴已启用</value>
+	</data>
+	<data name="DISABLED_NOZZLES" xml:space="preserve">
+		<value>喷嘴已禁用</value>
+	</data>
+	<data name="ENABLE_NOZZLE" xml:space="preserve">
+		<value>启用喷嘴</value>
+	</data>
+	<data name="DISABLE_NOZZLE" xml:space="preserve">
+		<value>禁用喷嘴</value>
+	</data>
+	<data name="PLOT_MOTOR_GAIN" xml:space="preserve">
+		<value>电动机增益：</value>
+	</data>
+	<data name="PLOT_PASSES" xml:space="preserve">
+		<value>通道</value>
+	</data>
+	<data name="PLOT_DSEC_GNR_WITH_BELT" xml:space="preserve">
+		<value>和皮带</value>
+	</data>
+	<data name="PLOT_DSEC_GNR_VALIDATE" xml:space="preserve">
+		<value>启动后验证</value>
+	</data>
+	<data name="M_EDIT_DIAGNOSTICS" xml:space="preserve">
+		<value>EFI 诊断</value>
+	</data>
+	<data name="M_EDIT_DESC_MOTOR_HOMING_EDIT" xml:space="preserve">
+		<value>是否确定要编辑电动机归位？</value>
+	</data>
+	<data name="M_ALR_ACTIONS_DATE" xml:space="preserve">
+		<value>日期</value>
+	</data>
+	<data name="M_ALR_ACTIONS_MESSAGE" xml:space="preserve">
+		<value>消息</value>
+	</data>
+	<data name="INKS_CLEAN_BELT" xml:space="preserve">
+		<value>清洁皮带</value>
+	</data>
+	<data name="M_HELP_LICENSE_TIME_LEFT" xml:space="preserve">
+		<value>激活证书剩余时间：</value>
+	</data>
+	<data name="G_DAYS" xml:space="preserve">
+		<value>天</value>
+	</data>
+	<data name="M_HELP_LICENSE_ACTIVATE" xml:space="preserve">
+		<value>激活</value>
+	</data>
+	<data name="M_HELP_LICENSE" xml:space="preserve">
+		<value>证书</value>
+	</data>
+	<data name="M_HELP_LICENSE_ACT_CODE" xml:space="preserve">
+		<value>激活代码</value>
+	</data>
+	<data name="M_HELP_LICENSE_IS_ACTIVE" xml:space="preserve">
+		<value>证书已激活</value>
+	</data>
+	<data name="M_HELP_LICENSE_INVALID" xml:space="preserve">
+		<value>证书无效</value>
+	</data>
+	<data name="RENDER_WARNING_NO_IMG_ORIG" xml:space="preserve">
+		<value>未找到一个或多个原始图像</value>
+	</data>
+	<data name="M_FILE_BACKUP_RESTORE_POINT" xml:space="preserve">
+		<value>打开恢复点</value>
+	</data>
+	<data name="PLOTTER_ZERO_VACUUM" xml:space="preserve">
+		<value>若要实现 0 真空，必须移除管子。 
+是否确定要继续？</value>
+	</data>
+	<data name="WARNING_BAR_NOT_TO_PRINT" xml:space="preserve">
+		<value>编号为 # 的打印模块将不会打印。</value>
+	</data>
+	<data name="WARNING_BAR_NOT_TO_PRINT_PRINTING" xml:space="preserve">
+		<value>打印模块不在打印位置</value>
+	</data>
+	<data name="WARNING_BAR_NOT_TO_PRINT_DISABLED" xml:space="preserve">
+		<value>打印模块未启用</value>
+	</data>
+	<data name="WARNING_TRIMS_DIFFERENCE" xml:space="preserve">
+		<value>区域电压的最小和最大值之差应小于 2.0v</value>
+	</data>
+	<data name="M_MAIN_CONSENT" xml:space="preserve">
+		<value>同意</value>
+	</data>
+	<data name="M_WANT_SAVE" xml:space="preserve">
+		<value>此修改需要重新启动应用程序。是否确定要保存并关闭应用程序？</value>
+	</data>
+	<data name="RETURN_SPEED" xml:space="preserve">
+		<value>回程速度：</value>
+	</data>
+	<data name="M_EDIT_CARRIER_ADJUST" xml:space="preserve">
+		<value>调整清洁架</value>
+	</data>
+	<data name="M_EDIT_BAR_NUM_PMB_LINE1" xml:space="preserve">
+		<value>第 1 行 PMB：</value>
+	</data>
+	<data name="CLEANING_SPEED" xml:space="preserve">
+		<value>清洁速度：</value>
+	</data>
+	<data name="BAR_INK_ADVANCED" xml:space="preserve">
+		<value>高级</value>
+	</data>
+	<data name="BAR_INK_CLEAN_MANIFOLD" xml:space="preserve">
+		<value>清洁岐管</value>
+	</data>
+	<data name="BAR_INK_EMPTY_DEPOSIT" xml:space="preserve">
+		<value>清空墨盒</value>
+	</data>
+	<data name="BAR_INK_EMPTY_EXCHANGER" xml:space="preserve">
+		<value>清空交换器</value>
+	</data>
+	<data name="BAR_INK_LOAD" xml:space="preserve">
+		<value>加载</value>
+	</data>
+	<data name="BAR_INK_MAN_REVERSE" xml:space="preserve">
+		<value>手动回流</value>
+	</data>
+	<data name="BAR_INK_TEST_MODE" xml:space="preserve">
+		<value>测试模式：</value>
+	</data>
+	<data name="BAR_MESSAGE_CLEAN_MANIFOLD_1" xml:space="preserve">
+		<value>清洁岐管 (1/3)：准备墨盒以清洁岐管</value>
+	</data>
+	<data name="BAR_MESSAGE_CLEAN_MANIFOLD_2" xml:space="preserve">
+		<value>清洁岐管 (2/3)：正在清洁岐管...</value>
+	</data>
+	<data name="BAR_MESSAGE_CLEAN_MANIFOLD_3" xml:space="preserve">
+		<value>清洁岐管 (3/3)：准备正常工作</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_DEPOSIT_1" xml:space="preserve">
+		<value>清空墨盒 (1/3)：准备容器并打开墨盒阀门</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_DEPOSIT_2" xml:space="preserve">
+		<value>清空墨盒 (2/3)：正在清空墨盒...</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_DEPOSIT_3" xml:space="preserve">
+		<value>清空墨盒 (3/3)：关闭墨盒阀门</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_EXCHANGER_1" xml:space="preserve">
+		<value>清空墨水交换器 (1/3)：打开交换器下方的阀门</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_EXCHANGER_2" xml:space="preserve">
+		<value>清空墨水交换器 (2/3)：正在清空交换器...</value>
+	</data>
+	<data name="BAR_MESSAGE_EMPTY_EXCHANGER_3" xml:space="preserve">
+		<value>清空墨水交换器 (3/3)：关闭交换器下方的阀门</value>
+	</data>
+	<data name="BAR_MESSAGE_LOAD_INK_1" xml:space="preserve">
+		<value>加载墨盒 (1/2)：确保阀门处于再循环位置，然后在墨盒中加载墨水</value>
+	</data>
+	<data name="BAR_MESSAGE_LOAD_INK_2" xml:space="preserve">
+		<value>加载墨盒 (2/2)：墨水的初次再循环...</value>
+	</data>
+	<data name="BAR_VACUUM_DIFF" xml:space="preserve">
+		<value>真空差：</value>
+	</data>
+	<data name="BAR_VACUUM_ENTRY" xml:space="preserve">
+		<value>入口压力：</value>
+	</data>
+	<data name="BAR_VACUUM_EXIT" xml:space="preserve">
+		<value>出口压力：</value>
+	</data>
+	<data name="G_DONE" xml:space="preserve">
+		<value>完成</value>
+	</data>
+	<data name="ADV_INK_COLD_MENISCUS" xml:space="preserve">
+		<value>冷弯月面</value>
+	</data>
+	<data name="ADV_INK_DESHAB_PID" xml:space="preserve">
+		<value>禁用 PID：</value>
+	</data>
+	<data name="ADV_INK_DRIP_SETPOINT" xml:space="preserve">
+		<value>设定点滴墨：</value>
+	</data>
+	<data name="ADV_INK_EMPTYING_PARAMETERS" xml:space="preserve">
+		<value>正在清空参数</value>
+	</data>
+	<data name="ADV_INK_EMPTYING_SETPOINT" xml:space="preserve">
+		<value>设定点清空：</value>
+	</data>
+	<data name="ADV_INK_LOADING" xml:space="preserve">
+		<value>正在加载</value>
+	</data>
+	<data name="ADV_INK_LOADING_TIME" xml:space="preserve">
+		<value>再循环时间：</value>
+	</data>
+	<data name="ADV_INK_MANUAL_REVERSE_PARAMETERS" xml:space="preserve">
+		<value>手动回流</value>
+	</data>
+	<data name="ADV_INK_MANUAL_REVERSE_TIME" xml:space="preserve">
+		<value>手动回流时间：</value>
+	</data>
+	<data name="ADV_INK_PARAM" xml:space="preserve">
+		<value>高级墨水参数</value>
+	</data>
+	<data name="ADV_INK_REVERSE_SETPOINT" xml:space="preserve">
+		<value>设定点反转：</value>
+	</data>
+	<data name="ADV_INK_STAB_SOLENOIDS" xml:space="preserve">
+		<value>稳定螺线管：</value>
+	</data>
+	<data name="ADV_INK_TIME_AFTER_MINIMUM_LEVEL" xml:space="preserve">
+		<value>最低液位后的泵送时间：</value>
+	</data>
+	<data name="ADV_INK_TIME_EMPTYING_MANIFOLD" xml:space="preserve">
+		<value>清空交换器的时间：</value>
+	</data>
+	<data name="BAR_INK_COPY_ADVANCED_PARAMETERS" xml:space="preserve">
+		<value>在所有打印模块中复制值</value>
+	</data>
+	<data name="MAIN_START_CANT_LOAD" xml:space="preserve">
+		<value>打印机停止或处于旁路时无法加载图像</value>
+	</data>
+	<data name="BAR_INK_TEMP" xml:space="preserve">
+		<value>温度：</value>
+	</data>
+	<data name="BAR_MENISCUS" xml:space="preserve">
+		<value>弯月面</value>
+	</data>
+	<data name="BAR_MENISCUS_SETPOINT" xml:space="preserve">
+		<value>Sp 弯月面：</value>
+	</data>
+	<data name="M_EDIT_DESC_CAM_DIGITALSIGNALS" xml:space="preserve">
+		<value>同步</value>
+	</data>
+	<data name="M_EDIT_NOZZLE_OUT" xml:space="preserve">
+		<value>喷嘴未校正</value>
+	</data>
+	<data name="G_NOZZLE" xml:space="preserve">
+		<value>喷嘴</value>
+	</data>
+	<data name="M_WANT_COPY_ADVANCED_INK_PARAMETERS" xml:space="preserve">
+		<value>是否要将该配置复制到所有打印模块？</value>
+	</data>
+	<data name="M_EDIT_BAR_INK_COM_PORT" xml:space="preserve">
+		<value>墨盒 COM 端口</value>
+	</data>
+	<data name="BAR_SP_SENSOR_POSITIVO" xml:space="preserve">
+		<value>入口 Sp 压力：</value>
+	</data>
+	<data name="BAR_SP_BOMBA_NEGATIVO" xml:space="preserve">
+		<value>回程泵：</value>
+	</data>
+	<data name="BAR_SP_LLENADO" xml:space="preserve">
+		<value>填充泵：</value>
+	</data>
+	<data name="M_EDIT_ADJUST_TILE_EXCEEDS_WIDTH" xml:space="preserve">
+		<value>Y 偏差超过打印宽度，部分图像无法打印。</value>
+	</data>
+	<data name="SECURITY_OFF" xml:space="preserve">
+		<value>安全装置被关闭</value>
+	</data>
+	<data name="CLEANING_BARS_INK_STOP" xml:space="preserve">
+		<value>至少一个墨水系统已停止。应恰当准备打印模块以进行清洁</value>
+	</data>
+	<data name="ERROR_SAVING_PARAMS" xml:space="preserve">
+		<value>未正确保存设置</value>
+	</data>
+	<data name="M_EDIT_DESC_GRAL_USEROFFSET" xml:space="preserve">
+		<value>打印通道偏移:</value>
+	</data>
+	<data name="MODEL_NOT_RIPPED_DOUBLE_Y" xml:space="preserve">
+		<value>绘图仪设置成以双 Y 分辨率进行打印，但是未正确提供型号</value>
+	</data>
+	<data name="PLOTTER_MOVEMENTS_INCORRECT" xml:space="preserve">
+		<value>绘图仪移动不正确：该作业以双 Y 分辨率进行渲染</value>
+	</data>
+	<data name="MODEL_DESINGS_TIFFRES" xml:space="preserve">
+		<value>图像分辨率</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_REPEATED_COLORPLANES" xml:space="preserve">
+		<value>不会保存更改：具有相同指定通道的打印模块已存在。</value>
+	</data>
+	<data name="MAIN_MARCHA_PAUSE" xml:space="preserve">
+		<value>暂停</value>
+	</data>
+	<data name="M_FILE_PRINT_STATUS" xml:space="preserve">
+		<value>打印状态</value>
+	</data>
+	<data name="M_FILE_SYSTEM_STATUS" xml:space="preserve">
+		<value>系统状态</value>
+	</data>
+	<data name="MAIN_JETTING_GAP_CHANGED" xml:space="preserve">
+		<value>重新校准高度传感器</value>
+	</data>
+	<data name="M_EDIT_DESC_BAR_COLORPLANE" xml:space="preserve">
+		<value>对应通道:</value>
+	</data>
+	<data name="M_EDIT_DESC_SUBPORT" xml:space="preserve">
+		<value>子端口:</value>
+	</data>
+	<data name="M_EDIT_DESC_HEAD_ID" xml:space="preserve">
+		<value>打印头ID:</value>
+	</data>
+	<data name="M_EDIT_QUAL_LIN_OPENCURVE" xml:space="preserve">
+		<value>打开曲线</value>
+	</data>
+	<data name="M_EDIT_QUAL_LIN_RECALCURVE" xml:space="preserve">
+		<value>计算</value>
+	</data>
+	<data name="G_RESET" xml:space="preserve">
+		<value>重置</value>
+	</data>
+	<data name="MAIN_THICKNESS_READ" xml:space="preserve">
+		<value>砖胚厚度读数</value>
+	</data>
+	<data name="MODEL_DESIGNS_TIF_FORMAT_ERROR" xml:space="preserve">
+		<value>图片应该是CMYK格式，不支持RGB格式</value>
+	</data>
+	<data name="COMPENSER_L1" xml:space="preserve">
+		<value>储胚器1</value>
+	</data>
+	<data name="COMPENSER_L2" xml:space="preserve">
+		<value>储胚器2</value>
+	</data>
+	<data name="M_EDIT_DESC_NUM_CARR" xml:space="preserve">
+		<value>carriage board 序列号</value>
+	</data>
+	<data name="M_EDIT_DESC_THINKNESS" xml:space="preserve">
+		<value>砖胚厚度感应器</value>
+	</data>
+	<data name="M_EDIT_DIAG_RESET_CARRIAGE" xml:space="preserve">
+		<value>重置carriage</value>
+	</data>
+	<data name="M_EDIT_DIAG_RESET_SWITCH" xml:space="preserve">
+		<value>重置开关</value>
+	</data>
+	<data name="M_EDIT_DIAG_ENC_FW" xml:space="preserve">
+		<value>向前计数</value>
+	</data>
+	<data name="M_EDIT_DIAG_ENC_REV" xml:space="preserve">
+		<value>反向计数</value>
+	</data>
+	<data name="M_EDIT_DIAG_ENC_DIFF" xml:space="preserve">
+		<value>差异</value>
+	</data>
+	<data name="M_EDIT_DIAG_ENC_RES" xml:space="preserve">
+		<value>编码器分辨率</value>
+	</data>
+	<data name="M_EDIT_DIAG_ENC_BELT" xml:space="preserve">
+		<value>皮带速度</value>
+	</data>
+	<data name="M_EDIT_DIAG_ENC_PRDETECT" xml:space="preserve">
+		<value>产品监控计数</value>
+	</data>
+	<data name="G_VOLTAGE" xml:space="preserve">
+		<value>电压</value>
+	</data>
+	<data name="G_OFF" xml:space="preserve">
+		<value>关闭</value>
+	</data>
+	<data name="G_ON" xml:space="preserve">
+		<value>开启</value>
+	</data>
+	<data name="M_EDIT_QUAL_LIN_EXTRACTCURVE" xml:space="preserve">
+		<value>提取曲线</value>
+	</data>
+</root>

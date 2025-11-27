@@ -1,0 +1,24 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="CretaRectangleBackground" TargetType="{x:Type Rectangle}">
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="40" Direction="0"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="RadiusX" Value="10"/>
+        <Setter Property="RadiusY" Value="10"/>
+        <Setter Property="Stroke">
+            <Setter.Value>
+                <SolidColorBrush Color="#FF1B1B1B"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Fill">
+            <Setter.Value>
+                <SolidColorBrush Color="#FF333333"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!-- Resource dictionary entries should be defined here. -->
+</ResourceDictionary>
