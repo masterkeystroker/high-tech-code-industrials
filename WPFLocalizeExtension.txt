@@ -1,0 +1,1 @@
+Extensión para la localización de textos
